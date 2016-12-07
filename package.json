@@ -1,0 +1,30 @@
+{
+  "name": "metadata-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "dependencies": {
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "mongoose": "^4.7.1",
+    "servicebus": "^2.0.6",
+    "winston": "^2.3.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.11.1",
+    "mocha": "^3.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Webini/metadata-service.git"
+  },
+  "author": "GASPARINI Nicolas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Webini/metadata-service/issues"
+  },
+  "homepage": "https://github.com/Webini/metadata-service#readme"
+}
