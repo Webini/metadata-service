@@ -11,4 +11,4 @@ const PersonSchema = new Schema({
   biography: String
 });
 
-module.exports = PersonSchema;
+module.exports = mongoose.model('Person', PersonSchema);
