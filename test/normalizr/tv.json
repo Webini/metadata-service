@@ -1,0 +1,3527 @@
+{
+    "backdrop_path": "/7rov8m0a60YGHgP3GbF3I5zuTPX.jpg",
+    "episode_run_time": [
+        44,
+        42,
+        43
+    ],
+    "first_air_date": "2013-04-04",
+    "genres": [
+        {
+            "id": "18",
+            "name": "Drama"
+        }
+    ],
+    "homepage": "http://www.nbc.com/hannibal/",
+    "id": "40008",
+    "in_production": false,
+    "languages": [
+        "en"
+    ],
+    "last_air_date": "2015-08-27",
+    "name": "Hannibal",
+    "networks": [
+        {
+            "id": "6",
+            "name": "NBC"
+        }
+    ],
+    "number_of_episodes": 39,
+    "number_of_seasons": 3,
+    "origin_country": [
+        "US"
+    ],
+    "original_language": "en",
+    "original_name": "Hannibal",
+    "overview": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
+    "popularity": 6.475316,
+    "poster_path": "/kArcGHvTb7m1v6RFHdU40jpiGZD.jpg",
+    "production_companies": [],
+    "status": "Ended",
+    "type": "Scripted",
+    "vote_average": 7.5,
+    "vote_count": 295,
+    "videos": [
+        {
+            "id": "55713c4a9251416af7000eab",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "2HW9rtFYsEw",
+            "name": "Trailer",
+            "site": "YouTube",
+            "type": "TRAILER",
+            "size": 720
+        },
+        {
+            "id": "533c4a3492514176030000f0",
+            "iso_639_1": "en",
+            "iso_3166_1": "US",
+            "key": "g3roU23gs3s",
+            "name": "Opening Credits",
+            "site": "YouTube",
+            "type": "OPENING_CREDITS",
+            "size": 720
+        }
+    ],
+    "credits": {
+        "cast": [
+            {
+                "cast_id": null,
+                "character": "Will Graham",
+                "credit_id": "52595bb619c295731c0877cb",
+                "id": "12791",
+                "name": "Hugh Dancy",
+                "order": 0,
+                "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+            },
+            {
+                "cast_id": null,
+                "character": "Hannibal Lecter",
+                "credit_id": "52595bb619c295731c087823",
+                "id": "1019",
+                "name": "Mads Mikkelsen",
+                "order": 1,
+                "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+            },
+            {
+                "cast_id": null,
+                "character": "Jack Crawford",
+                "credit_id": "52595bb619c295731c087925",
+                "id": "2975",
+                "name": "Laurence Fishburne",
+                "order": 2,
+                "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+            },
+            {
+                "cast_id": null,
+                "character": "Dr. Bedelia Du Maurier",
+                "credit_id": "528510a9760ee30c140309cc",
+                "id": "12214",
+                "name": "Gillian Anderson",
+                "order": 14,
+                "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+            }
+        ],
+        "crew": [
+            {
+                "credit_id": "563d231bc3a3681b5e026b11",
+                "department": "Writing",
+                "id": "16786",
+                "job": "Characters",
+                "name": "Thomas Harris",
+                "profile_path": null
+            },
+            {
+                "credit_id": "563d22adc3a3681b5e026b04",
+                "department": "Sound",
+                "id": "40839",
+                "job": "Original Music Composer",
+                "name": "Brian Reitzell",
+                "profile_path": null
+            },
+            {
+                "credit_id": "563d237d92514178190052fa",
+                "department": "Production",
+                "id": "17311",
+                "job": "Executive Producer",
+                "name": "Bryan Fuller",
+                "profile_path": null
+            },
+            {
+                "credit_id": "563d23b9c3a3681b4d02eadd",
+                "department": "Production",
+                "id": "19051",
+                "job": "Executive Producer",
+                "name": "Martha De Laurentiis",
+                "profile_path": null
+            },
+            {
+                "credit_id": "563d24bbc3a3681b610295e6",
+                "department": "Costume & Make-Up",
+                "id": "23548",
+                "job": "Costume Design",
+                "name": "Christopher Hargadon",
+                "profile_path": null
+            }
+        ]
+    },
+    "images": {
+        "backdrops": [
+            {
+                "aspect_ratio": 1.777777777777778,
+                "file_path": "/3JAX56JBc7Bmw1wRhBrqf2adxL7.jpg",
+                "height": 1080,
+                "iso_639_1": "en",
+                "vote_average": 5.245535714285714,
+                "vote_count": 1,
+                "width": 1920
+            },
+            {
+                "aspect_ratio": 1.777777777777778,
+                "file_path": "/uzobSR3HpJHTYmurQELlJ1xfBsR.jpg",
+                "height": 1080,
+                "iso_639_1": "en",
+                "vote_average": 5.150183150183151,
+                "vote_count": 2,
+                "width": 1920
+            },
+            {
+                "aspect_ratio": 1.777777777777778,
+                "file_path": "/tKtROrWE4GV0v3Q4UY0XTKtVB5j.jpg",
+                "height": 1080,
+                "iso_639_1": "en",
+                "vote_average": 5.128205128205129,
+                "vote_count": 2,
+                "width": 1920
+            },
+            {
+                "aspect_ratio": 1.777251184834123,
+                "file_path": "/3nHvqguosSXNiAuCypnJVBRtTkD.jpg",
+                "height": 1688,
+                "iso_639_1": "en",
+                "vote_average": 0,
+                "vote_count": 0,
+                "width": 3000
+            }
+        ],
+        "posters": [
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/kArcGHvTb7m1v6RFHdU40jpiGZD.jpg",
+                "height": 2100,
+                "iso_639_1": "en",
+                "vote_average": 5.454,
+                "vote_count": 3,
+                "width": 1400
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/kdxCTcrM4DbH0prFlUrL4aF6F5F.jpg",
+                "height": 3000,
+                "iso_639_1": "en",
+                "vote_average": 5.387348969438522,
+                "vote_count": 4,
+                "width": 2000
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/7MGSd9OGlCiFloiLBvfoYL5hDpj.jpg",
+                "height": 3000,
+                "iso_639_1": "en",
+                "vote_average": 5.369220151828848,
+                "vote_count": 6,
+                "width": 2000
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/fGLfnAGlxrvWKleEpjDUXAGeBNO.jpg",
+                "height": 2100,
+                "iso_639_1": "en",
+                "vote_average": 5.33968253968254,
+                "vote_count": 12,
+                "width": 1400
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/cJUDw5KcHnGy0OmV3ChAWdW0L3t.jpg",
+                "height": 3000,
+                "iso_639_1": "en",
+                "vote_average": 5.317460317460317,
+                "vote_count": 3,
+                "width": 2000
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/7wKnJRbSuY2zu0Gv8F695DIqwnL.jpg",
+                "height": 2550,
+                "iso_639_1": "en",
+                "vote_average": 5.317460317460317,
+                "vote_count": 3,
+                "width": 1700
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/zM6TePVhRQaZTJyBZMkWMtEp7ei.jpg",
+                "height": 1500,
+                "iso_639_1": "en",
+                "vote_average": 5.317460317460317,
+                "vote_count": 3,
+                "width": 1000
+            },
+            {
+                "aspect_ratio": 0.7199004975124378,
+                "file_path": "/5A8490KbgbPGmzlMiZo4aKCjSvj.jpg",
+                "height": 2010,
+                "iso_639_1": "en",
+                "vote_average": 5.312,
+                "vote_count": 1,
+                "width": 1447
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/hArTrflnbffa4yNf69ZtEzJyfM0.jpg",
+                "height": 2700,
+                "iso_639_1": "en",
+                "vote_average": 5.25230987917555,
+                "vote_count": 4,
+                "width": 1800
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/u4IfRt9IKlTS8vd0NeZ180PxCza.jpg",
+                "height": 3000,
+                "iso_639_1": "en",
+                "vote_average": 5.245421245421245,
+                "vote_count": 2,
+                "width": 2000
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/nYeI3U6TqqDDGuHU4SY6HrtehEX.jpg",
+                "height": 2700,
+                "iso_639_1": "en",
+                "vote_average": 5.245421245421245,
+                "vote_count": 2,
+                "width": 1800
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/zTofl0HVrHSEosI7VTwT65ySu2V.jpg",
+                "height": 3000,
+                "iso_639_1": "en",
+                "vote_average": 5.238095238095238,
+                "vote_count": 4,
+                "width": 2000
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/dyZtvfauL5TjKh4vCl2nY5n1dzA.jpg",
+                "height": 2100,
+                "iso_639_1": "en",
+                "vote_average": 5.192433137638616,
+                "vote_count": 10,
+                "width": 1400
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/66mGa7BLsAbmNuDAYHplHV8WUS4.jpg",
+                "height": 3000,
+                "iso_639_1": "en",
+                "vote_average": 5.152807391613362,
+                "vote_count": 4,
+                "width": 2000
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/oZxAOkEBZzErGLXCJlmgspB6kkg.jpg",
+                "height": 2100,
+                "iso_639_1": "en",
+                "vote_average": 5.131485429992892,
+                "vote_count": 4,
+                "width": 1400
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/iPU5XrlXY8DPpfnRv4LVKGSGL9X.jpg",
+                "height": 2100,
+                "iso_639_1": "en",
+                "vote_average": 5.131485429992892,
+                "vote_count": 4,
+                "width": 1400
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/dsnhNHf5htmvuOnbPAq3DZmwYeg.jpg",
+                "height": 3000,
+                "iso_639_1": "en",
+                "vote_average": 5.120772946859903,
+                "vote_count": 6,
+                "width": 2000
+            },
+            {
+                "aspect_ratio": 0.6666666666666666,
+                "file_path": "/6Gi1e2d6UX9wJVgyA97llyHeltZ.jpg",
+                "height": 3000,
+                "iso_639_1": "en",
+                "vote_average": 5.11727078891258,
+                "vote_count": 4,
+                "width": 2000
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/7Th7mN0kPQ9A0buWJzYy9A4E0cU.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.911564625850341,
+                "vote_count": 7,
+                "width": 680
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/6mUnok4m29RTjgvxBdaR1cY8RSm.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.855801475519786,
+                "vote_count": 8,
+                "width": 680
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/2TrwypLYS3MftMCbLztlGW32GJT.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.843537414965986,
+                "vote_count": 7,
+                "width": 680
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/4gtrv90GpFCA0sRHG1Vvy3elYhT.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.816326530612245,
+                "vote_count": 7,
+                "width": 680
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/meAZ5lyjVLIU2p4oFCHVS8GjYOC.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.814814814814815,
+                "vote_count": 9,
+                "width": 680
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/d6ACTimdigwgT9yu3T1bqZknPr7.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.795918367346939,
+                "vote_count": 7,
+                "width": 680
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/9eE4jvlg7ftKpLZRPMmwtXXh1aE.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.795918367346939,
+                "vote_count": 7,
+                "width": 680
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/9mmyRGDnIrlTIfSgSvQ8y5mWKlT.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.795918367346939,
+                "vote_count": 7,
+                "width": 680
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/kn3anQE5fbbLVh30nNsvzn4tI9F.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.789115646258503,
+                "vote_count": 7,
+                "width": 680
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/k7uMcnGiJmWzMYfe6zTeCzqykHj.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.782312925170068,
+                "vote_count": 7,
+                "width": 680
+            },
+            {
+                "aspect_ratio": 0.68,
+                "file_path": "/fTiB7M47yLSeLzD3mAi2XE8CiQl.jpg",
+                "height": 1000,
+                "iso_639_1": "en",
+                "vote_average": 4.782312925170068,
+                "vote_count": 7,
+                "width": 680
+            }
+        ]
+    },
+    "keywords": [
+        {
+            "id": "1812",
+            "name": "fbi"
+        },
+        {
+            "id": "10714",
+            "name": "serial killer"
+        },
+        {
+            "id": "14895",
+            "name": "cannibal"
+        },
+        {
+            "id": "161982",
+            "name": "murder investigation"
+        },
+        {
+            "id": "212513",
+            "name": "criminal consultant"
+        }
+    ],
+    "external_ids": {
+        "imdb_id": "tt2243973",
+        "freebase_mid": "/m/0jkztmy",
+        "freebase_id": null,
+        "tvrage_id": "30909",
+        "id": null
+    },
+    "seasons": [
+        {
+            "air_date": "2013-04-24",
+            "name": "Specials",
+            "overview": "",
+            "id": "82137",
+            "poster_path": null,
+            "season_number": 0,
+            "credits": {
+                "cast": [
+                    {
+                        "cast_id": null,
+                        "character": "Will Graham",
+                        "credit_id": "52595bb619c295731c0877cb",
+                        "id": "12791",
+                        "name": "Hugh Dancy",
+                        "order": 0,
+                        "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Hannibal Lecter",
+                        "credit_id": "52595bb619c295731c087823",
+                        "id": "1019",
+                        "name": "Mads Mikkelsen",
+                        "order": 1,
+                        "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Jack Crawford",
+                        "credit_id": "52595bb619c295731c087925",
+                        "id": "2975",
+                        "name": "Laurence Fishburne",
+                        "order": 2,
+                        "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                    }
+                ],
+                "crew": []
+            },
+            "images": {
+                "backdrops": null,
+                "posters": []
+            },
+            "videos": [
+                {
+                    "id": "534921db0e0a266b3f0013bb",
+                    "iso_639_1": "en",
+                    "iso_3166_1": "US",
+                    "key": "9cqABojhqr4",
+                    "name": "Pledge Your Allegiance - House Stark",
+                    "site": "YouTube",
+                    "size": 720,
+                    "type": "Featurette"
+                }
+            ],
+            "episodes": [
+                {
+                    "id": "1241364",
+                    "air_date": "2013-04-24",
+                    "episode_number": 1,
+                    "guest_stars": [],
+                    "crew": [],
+                    "name": "Œuf (NBC Web Version)",
+                    "overview": "Two families are found murdered, with both mothers killed last. The only link between the families is that they both have sons who have been on the missing persons list for approximately a year. \n\nNBC decided not to air the full episode and instead offered this web only version that was approximately 20 minutes long.",
+                    "still_path": null,
+                    "vote_average": 0,
+                    "vote_count": 0
+                },
+                {
+                    "id": "1241365",
+                    "air_date": "2015-12-08",
+                    "episode_number": 2,
+                    "guest_stars": [],
+                    "crew": [],
+                    "name": "Avid Fannibals",
+                    "overview": "",
+                    "still_path": null,
+                    "vote_average": 0,
+                    "vote_count": 0
+                },
+                {
+                    "id": "1241366",
+                    "air_date": "2015-12-08",
+                    "episode_number": 3,
+                    "guest_stars": [],
+                    "crew": [],
+                    "name": "Getting the Old Scent Again: Reimagining Red Dragon",
+                    "overview": "",
+                    "still_path": null,
+                    "vote_average": 0,
+                    "vote_count": 0
+                },
+                {
+                    "id": "1241367",
+                    "air_date": "2015-12-08",
+                    "episode_number": 4,
+                    "guest_stars": [],
+                    "crew": [],
+                    "name": "Hannibal on the run",
+                    "overview": "",
+                    "still_path": null,
+                    "vote_average": 0,
+                    "vote_count": 0
+                },
+                {
+                    "id": "1241368",
+                    "air_date": "2015-12-08",
+                    "episode_number": 5,
+                    "guest_stars": [],
+                    "crew": [],
+                    "name": "Beyond the Mind Palace",
+                    "overview": "",
+                    "still_path": null,
+                    "vote_average": 0,
+                    "vote_count": 0
+                },
+                {
+                    "id": "1241369",
+                    "air_date": "2015-12-08",
+                    "episode_number": 6,
+                    "guest_stars": [],
+                    "crew": [],
+                    "name": "Killer Intentions (Season 3)",
+                    "overview": "",
+                    "still_path": null,
+                    "vote_average": 0,
+                    "vote_count": 0
+                }
+            ]
+        },
+        {
+            "air_date": "2013-04-04",
+            "name": "Season 1",
+            "overview": "After a particularly grueling case hunting a serial killer known as the Minnesota Shrike, Will Graham threatens to walk away. Jack Crawford, the head of the FBI's Behavioral Science Unit, desperately needs Will on his team to break the tough cases, so he enlists Dr. Hannibal Lecter, to ensure Will's mental well-being. Unbeknownst to Will, Hannibal also has a particular insight into these horrible crimes and the psychopaths who commit them. As Will hunts down brutal killers, he is unknowingly sitting across from the most gifted killer of them all.",
+            "id": "51121",
+            "poster_path": "/9aCWg7kU0865IPJmv8ui1kEQBNX.jpg",
+            "season_number": 1,
+            "credits": {
+                "cast": [
+                    {
+                        "cast_id": null,
+                        "character": "Will Graham",
+                        "credit_id": "52595bb619c295731c0877cb",
+                        "id": "12791",
+                        "name": "Hugh Dancy",
+                        "order": 0,
+                        "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Hannibal Lecter",
+                        "credit_id": "52595bb619c295731c087823",
+                        "id": "1019",
+                        "name": "Mads Mikkelsen",
+                        "order": 1,
+                        "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Jack Crawford",
+                        "credit_id": "52595bb619c295731c087925",
+                        "id": "2975",
+                        "name": "Laurence Fishburne",
+                        "order": 2,
+                        "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Dr. Alana Bloom",
+                        "credit_id": "52595bb619c295731c087867",
+                        "id": "31383",
+                        "name": "Caroline Dhavernas",
+                        "order": 3,
+                        "profile_path": "/iru7mIVFHGzGkd2XzCZBxjnq4t2.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Beverly",
+                        "credit_id": "52595bb619c295731c08787f",
+                        "id": "1218184",
+                        "name": "Hettienne Park",
+                        "order": 4,
+                        "profile_path": "/iQJMXqr5GeZogy1Ku6kPRtNl1mJ.jpg"
+                    }
+                ],
+                "crew": [
+                    {
+                        "credit_id": "563d24709251411867000443",
+                        "department": "Production",
+                        "id": "64506",
+                        "job": "Executive Producer",
+                        "name": "Chris Brancato",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "52595bbc19c295731c087b09",
+                        "department": "Production",
+                        "id": "34218",
+                        "job": "Producer",
+                        "name": "Jesse Alexander",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d231bc3a3681b5e026b11",
+                        "department": "Writing",
+                        "id": "16786",
+                        "job": "Characters",
+                        "name": "Thomas Harris",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d22adc3a3681b5e026b04",
+                        "department": "Sound",
+                        "id": "40839",
+                        "job": "Original Music Composer",
+                        "name": "Brian Reitzell",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d237d92514178190052fa",
+                        "department": "Production",
+                        "id": "17311",
+                        "job": "Executive Producer",
+                        "name": "Bryan Fuller",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d23b9c3a3681b4d02eadd",
+                        "department": "Production",
+                        "id": "19051",
+                        "job": "Executive Producer",
+                        "name": "Martha De Laurentiis",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d24bbc3a3681b610295e6",
+                        "department": "Costume & Make-Up",
+                        "id": "23548",
+                        "job": "Costume Design",
+                        "name": "Christopher Hargadon",
+                        "profile_path": null
+                    }
+                ]
+            },
+            "images": {
+                "backdrops": null,
+                "posters": [
+                    {
+                        "aspect_ratio": 0.6666666666666666,
+                        "file_path": "/9aCWg7kU0865IPJmv8ui1kEQBNX.jpg",
+                        "height": 3000,
+                        "iso_639_1": "en",
+                        "vote_average": 5.384615384615385,
+                        "vote_count": 2,
+                        "width": 2000
+                    },
+                    {
+                        "aspect_ratio": 0.68,
+                        "file_path": "/yBB6wPly5NZO0WQSnDyvMNO1oRV.jpg",
+                        "height": 1000,
+                        "iso_639_1": "en",
+                        "vote_average": 5.238095238095238,
+                        "vote_count": 2,
+                        "width": 680
+                    },
+                    {
+                        "aspect_ratio": 0.6920415224913494,
+                        "file_path": "/ooej2jSnMLZs7kY0WanswbfWAV4.jpg",
+                        "height": 578,
+                        "iso_639_1": "en",
+                        "vote_average": 5.230769230769231,
+                        "vote_count": 2,
+                        "width": 400
+                    },
+                    {
+                        "aspect_ratio": 0.6920415224913494,
+                        "file_path": "/2Uyo4u3zbdShEL7q9Et43y0od1n.jpg",
+                        "height": 578,
+                        "iso_639_1": "en",
+                        "vote_average": 5.171130952380953,
+                        "vote_count": 1,
+                        "width": 400
+                    },
+                    {
+                        "aspect_ratio": 0.6920415224913494,
+                        "file_path": "/fa40IC2ngoyHnGmLUh7h1STdHkV.jpg",
+                        "height": 578,
+                        "iso_639_1": "en",
+                        "vote_average": 5.171130952380953,
+                        "vote_count": 1,
+                        "width": 400
+                    },
+                    {
+                        "aspect_ratio": 0.6920415224913494,
+                        "file_path": "/zQ24kqr3cyYZn5agc3elICcgppH.jpg",
+                        "height": 578,
+                        "iso_639_1": "en",
+                        "vote_average": 5.171130952380953,
+                        "vote_count": 1,
+                        "width": 400
+                    },
+                    {
+                        "aspect_ratio": 0.6920415224913494,
+                        "file_path": "/386NKrmUFb1a7XQpfMgiyBuYji7.jpg",
+                        "height": 578,
+                        "iso_639_1": "en",
+                        "vote_average": 5.171130952380953,
+                        "vote_count": 1,
+                        "width": 400
+                    },
+                    {
+                        "aspect_ratio": 0.68,
+                        "file_path": "/tGKOwXX3jzQvg3obUB7cMOwBf94.jpg",
+                        "height": 1000,
+                        "iso_639_1": "en",
+                        "vote_average": 0,
+                        "vote_count": 0,
+                        "width": 680
+                    }
+                ]
+            },
+            "videos": [],
+            "episodes": [
+                {
+                    "id": "870670",
+                    "air_date": "2013-04-04",
+                    "episode_number": 1,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Franklin",
+                            "credit_id": "52850d5c760ee30c1402569d",
+                            "id": "58873",
+                            "name": "Dan Fogler",
+                            "order": 4,
+                            "profile_path": "/75hCIe6KHpHUlJDcyoxEp035BWz.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Abigail Hobbs",
+                            "credit_id": "52850d8a760ee30c14025eee",
+                            "id": "1038625",
+                            "name": "Kacey Rohl",
+                            "order": 14,
+                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243a770e0a263b7e003c88",
+                            "department": "Directing",
+                            "id": "27571",
+                            "job": "Director",
+                            "name": "David Slade",
+                            "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Apéritif",
+                    "overview": "When the FBI takes on a case of disappearing college girls, Jack Crawford recruits Will Graham, a gifted criminal profiler with a unique view into the psyche of serial killers, to consult. Jack also seeks the help of Dr. Hannibal Lecter, a brilliant psychiatrist. After a copycat strikes, Will and Hannibal join forces to track down the culprit.",
+                    "still_path": "/kXGE9Yv63ApoYZSYHcTMtoieqqb.jpg",
+                    "vote_average": 7.9,
+                    "vote_count": 10
+                },
+                {
+                    "id": "870663",
+                    "air_date": "2013-04-11",
+                    "episode_number": 2,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Freddie Lounds",
+                            "credit_id": "52850eaf760ee37bda24bf4a",
+                            "id": "1102260",
+                            "name": "Lara Jean Chorostecki",
+                            "order": 14,
+                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Abigail Hobbs",
+                            "credit_id": "52850d8a760ee30c14025eee",
+                            "id": "1038625",
+                            "name": "Kacey Rohl",
+                            "order": 14,
+                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243a97c3a368087a003bb0",
+                            "department": "Writing",
+                            "id": "1367585",
+                            "job": "Writer",
+                            "name": "Jim Danger Gray",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243aa3c3a368086e003a75",
+                            "department": "Directing",
+                            "id": "28741",
+                            "job": "Director",
+                            "name": "Michael Rymer",
+                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                        }
+                    ],
+                    "name": "Amuse-Bouche",
+                    "overview": "Will and Jack race to apprehend a serial killer using humans as fertilizer.",
+                    "still_path": "/mS6nGHdZTUmVSGn3S7FWJp7B2Je.jpg",
+                    "vote_average": 8.364,
+                    "vote_count": 11
+                },
+                {
+                    "id": "870665",
+                    "air_date": "2013-04-18",
+                    "episode_number": 3,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Freddie Lounds",
+                            "credit_id": "52850eaf760ee37bda24bf4a",
+                            "id": "1102260",
+                            "name": "Lara Jean Chorostecki",
+                            "order": 14,
+                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Abigail Hobbs",
+                            "credit_id": "52850d8a760ee30c14025eee",
+                            "id": "1038625",
+                            "name": "Kacey Rohl",
+                            "order": 14,
+                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Marissa Schurr",
+                            "credit_id": "57975478c3a3685556002957",
+                            "id": "1251993",
+                            "name": "Holly Deveaux",
+                            "order": 23,
+                            "profile_path": "/8KAfgcsmJpvB9ZxHO7VaB7VfT3.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243ad20e0a263b7e003c90",
+                            "department": "Writing",
+                            "id": "1213069",
+                            "job": "Writer",
+                            "name": "David Fury",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "57b47e18925141716a00069e",
+                            "department": "Writing",
+                            "id": "1213069",
+                            "job": "Teleplay",
+                            "name": "David Fury",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243a770e0a263b7e003c88",
+                            "department": "Directing",
+                            "id": "27571",
+                            "job": "Director",
+                            "name": "David Slade",
+                            "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                        },
+                        {
+                            "credit_id": "57b47e28c3a3684c760006ef",
+                            "department": "Writing",
+                            "id": "64506",
+                            "job": "Teleplay",
+                            "name": "Chris Brancato",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "57b476d7925141712f00046e",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Teleplay",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Potage",
+                    "overview": "Abigail Hobbs comes out of her coma with new information about her father.",
+                    "still_path": "/bIh7PBdIAsK0AlAZVaD6A6ivxgJ.jpg",
+                    "vote_average": 8.182,
+                    "vote_count": 11
+                },
+                {
+                    "id": "870661",
+                    "air_date": "2013-04-24",
+                    "episode_number": 4,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Abigail Hobbs",
+                            "credit_id": "52850d8a760ee30c14025eee",
+                            "id": "1038625",
+                            "name": "Kacey Rohl",
+                            "order": 14,
+                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Bella Crawford",
+                            "credit_id": "52850f76760ee37be627e990",
+                            "id": "9576",
+                            "name": "Gina Torres",
+                            "order": 8,
+                            "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243b020e0a263b71003cbf",
+                            "department": "Directing",
+                            "id": "21377",
+                            "job": "Director",
+                            "name": "Peter Medak",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243af50e0a263b71003cbb",
+                            "department": "Writing",
+                            "id": "1367586",
+                            "job": "Writer",
+                            "name": "Jennifer Schuur",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Œuf",
+                    "overview": "A series of family murders takes place.",
+                    "still_path": "/pEStyNQfX2wOHTqI4YaO6EdMxQ5.jpg",
+                    "vote_average": 8,
+                    "vote_count": 12
+                },
+                {
+                    "id": "870672",
+                    "air_date": "2013-04-25",
+                    "episode_number": 5,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Bella Crawford",
+                            "credit_id": "52850f76760ee37be627e990",
+                            "id": "9576",
+                            "name": "Gina Torres",
+                            "order": 8,
+                            "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243b020e0a263b71003cbf",
+                            "department": "Directing",
+                            "id": "21377",
+                            "job": "Director",
+                            "name": "Peter Medak",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243b8fc3a368086e003a95",
+                            "department": "Writing",
+                            "id": "1215611",
+                            "job": "Writer",
+                            "name": "Scott Nimerfro",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "57b47843c3a3680ca30011bb",
+                            "department": "Writing",
+                            "id": "1215611",
+                            "job": "Teleplay",
+                            "name": "Scott Nimerfro",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "57b476d7925141712f00046e",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Teleplay",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Coquilles",
+                    "overview": "Jack and Will search for a killer who turns his victims into angels.",
+                    "still_path": "/5qsUyprWONp8NnmCB1chpXZM0kr.jpg",
+                    "vote_average": 7.909,
+                    "vote_count": 11
+                },
+                {
+                    "id": "870674",
+                    "air_date": "2013-05-02",
+                    "episode_number": 6,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Frederick Chilton",
+                            "credit_id": "52850ffd760ee375ec16a1b6",
+                            "id": "107515",
+                            "name": "Raúl Esparza",
+                            "order": 14,
+                            "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Freddie Lounds",
+                            "credit_id": "52850eaf760ee37bda24bf4a",
+                            "id": "1102260",
+                            "name": "Lara Jean Chorostecki",
+                            "order": 14,
+                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Abel Gideon",
+                            "credit_id": "52851037760ee37bb6275987",
+                            "id": "1926",
+                            "name": "Eddie Izzard",
+                            "order": 14,
+                            "profile_path": "/j5hzBqmcyWG2GC754uACCoNgAvS.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Miriam Lass",
+                            "credit_id": "52851070760ee30c6a03773c",
+                            "id": "34612",
+                            "name": "Anna Chlumsky",
+                            "order": 10,
+                            "profile_path": "/wWuhDcOKU3t8WVPLNsP268GKvOU.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "57b47e99c3a3686c01000119",
+                            "department": "Writing",
+                            "id": "1367587",
+                            "job": "Teleplay",
+                            "name": "Kai Wu",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243bcac3a368087200417f",
+                            "department": "Writing",
+                            "id": "1367587",
+                            "job": "Writer",
+                            "name": "Kai Wu",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243aa3c3a368086e003a75",
+                            "department": "Directing",
+                            "id": "28741",
+                            "job": "Director",
+                            "name": "Michael Rymer",
+                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                        },
+                        {
+                            "credit_id": "57b476d7925141712f00046e",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Teleplay",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Entree",
+                    "overview": "The Chesapeake Ripper taunts Jack Crawford with guilt from the past.",
+                    "still_path": "/uyLwrAYbNgPCmwe46AlZqGICi2U.jpg",
+                    "vote_average": 8.091,
+                    "vote_count": 11
+                },
+                {
+                    "id": "870675",
+                    "air_date": "2013-05-09",
+                    "episode_number": 7,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Bedelia Du Maurier",
+                            "credit_id": "528510a9760ee30c140309cc",
+                            "id": "12214",
+                            "name": "Gillian Anderson",
+                            "order": 14,
+                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Abigail Hobbs",
+                            "credit_id": "52850d8a760ee30c14025eee",
+                            "id": "1038625",
+                            "name": "Kacey Rohl",
+                            "order": 14,
+                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Mrs. Komeda",
+                            "credit_id": "528511a9760ee30c140338c0",
+                            "id": "13420",
+                            "name": "Ellen Greene",
+                            "order": 12,
+                            "profile_path": "/1EHwrl4PzPJzVbheXoqW6uzhMos.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243bf7c3a3681eca0023f0",
+                            "department": "Writing",
+                            "id": "34218",
+                            "job": "Writer",
+                            "name": "Jesse Alexander",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243be5c3a368087a003bcf",
+                            "department": "Directing",
+                            "id": "15890",
+                            "job": "Director",
+                            "name": "James Foley",
+                            "profile_path": "/caO7yyC7C3YJdEvK1cb7gvJbWaY.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Sorbet",
+                    "overview": "Will races to stop a rogue surgeon extracting organs from his victims.",
+                    "still_path": "/Ae1XuoT1aonit4Vp2Rn5ReJY9Lc.jpg",
+                    "vote_average": 8.25,
+                    "vote_count": 12
+                },
+                {
+                    "id": "870676",
+                    "air_date": "2013-05-16",
+                    "episode_number": 8,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Bedelia Du Maurier",
+                            "credit_id": "528510a9760ee30c140309cc",
+                            "id": "12214",
+                            "name": "Gillian Anderson",
+                            "order": 14,
+                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243af50e0a263b71003cbb",
+                            "department": "Writing",
+                            "id": "1367586",
+                            "job": "Writer",
+                            "name": "Jennifer Schuur",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c1b0e0a263b77003bf8",
+                            "department": "Directing",
+                            "id": "15858",
+                            "job": "Director",
+                            "name": "Tim Hunter",
+                            "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Fromage",
+                    "overview": "A deadly symphony hall killing forces Will to hunt a defiant killer.",
+                    "still_path": "/ijfxNhofd31bEWN2ebuiDZh9xl1.jpg",
+                    "vote_average": 8.75,
+                    "vote_count": 12
+                },
+                {
+                    "id": "870659",
+                    "air_date": "2013-05-23",
+                    "episode_number": 9,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Lawrence Wells",
+                            "credit_id": "52851215760ee37d3f056ce2",
+                            "id": "2714",
+                            "name": "Lance Henriksen",
+                            "order": 13,
+                            "profile_path": "/wf4Pr9RxsHGd0O9fLPiB3Al8IVC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Freddie Lounds",
+                            "credit_id": "52850eaf760ee37bda24bf4a",
+                            "id": "1102260",
+                            "name": "Lara Jean Chorostecki",
+                            "order": 14,
+                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Abigail Hobbs",
+                            "credit_id": "52850d8a760ee30c14025eee",
+                            "id": "1038625",
+                            "name": "Kacey Rohl",
+                            "order": 14,
+                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243c7ec3a3680880003b58",
+                            "department": "Directing",
+                            "id": "3113",
+                            "job": "Director",
+                            "name": "Guillermo Navarro",
+                            "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Trou Normand",
+                    "overview": "Will, Jack and the BAU team hunt for a serial killer who creates a totem pole out of his victims' bodies.",
+                    "still_path": "/qf0E1EPeGL1I6W9SdNyhTcoOVac.jpg",
+                    "vote_average": 8.083,
+                    "vote_count": 12
+                },
+                {
+                    "id": "870677",
+                    "air_date": "2013-05-30",
+                    "episode_number": 10,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Georgia Madchen",
+                            "credit_id": "52851286760ee30c1403697c",
+                            "id": "1218072",
+                            "name": "Ellen Muth",
+                            "order": 14,
+                            "profile_path": "/1U1qdqyKCNbmi6r8HdN3ahur1zp.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "560331729251416f0f000d34",
+                            "department": "Writing",
+                            "id": "82623",
+                            "job": "Writer",
+                            "name": "Andrew Black",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c8f0e0a263b6e003c0d",
+                            "department": "Directing",
+                            "id": "21053",
+                            "job": "Director",
+                            "name": "John Dahl",
+                            "profile_path": "/klMxcB64Tu0sWCn3YDTMcGWPArQ.jpg"
+                        },
+                        {
+                            "credit_id": "54243ca9c3a3680872004196",
+                            "department": "Writing",
+                            "id": "64506",
+                            "job": "Writer",
+                            "name": "Chris Brancato",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Buffet Froid",
+                    "overview": "Will tracks a killer with mental instability similar to his own.",
+                    "still_path": "/xY8bmNYrhpx66ONQzCK8yKDTIMI.jpg",
+                    "vote_average": 8.091,
+                    "vote_count": 11
+                },
+                {
+                    "id": "870680",
+                    "air_date": "2013-06-06",
+                    "episode_number": 11,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Bedelia Du Maurier",
+                            "credit_id": "528510a9760ee30c140309cc",
+                            "id": "12214",
+                            "name": "Gillian Anderson",
+                            "order": 14,
+                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Frederick Chilton",
+                            "credit_id": "52850ffd760ee375ec16a1b6",
+                            "id": "107515",
+                            "name": "Raúl Esparza",
+                            "order": 14,
+                            "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Freddie Lounds",
+                            "credit_id": "52850eaf760ee37bda24bf4a",
+                            "id": "1102260",
+                            "name": "Lara Jean Chorostecki",
+                            "order": 14,
+                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Abel Gideon",
+                            "credit_id": "52851037760ee37bb6275987",
+                            "id": "1926",
+                            "name": "Eddie Izzard",
+                            "order": 14,
+                            "profile_path": "/j5hzBqmcyWG2GC754uACCoNgAvS.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243c7ec3a3680880003b58",
+                            "department": "Directing",
+                            "id": "3113",
+                            "job": "Director",
+                            "name": "Guillermo Navarro",
+                            "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                        },
+                        {
+                            "credit_id": "54243b8fc3a368086e003a95",
+                            "department": "Writing",
+                            "id": "1215611",
+                            "job": "Writer",
+                            "name": "Scott Nimerfro",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Rôti",
+                    "overview": "When Dr. Gideon escapes to terrorize Alana and Dr. Chilton, Hannibal and Will go on the hunt. Eddie Izzard guest stars.",
+                    "still_path": "/rtDoQXkyWekMSKRRucoIAJmkKwQ.jpg",
+                    "vote_average": 8.3,
+                    "vote_count": 10
+                },
+                {
+                    "id": "870668",
+                    "air_date": "2013-06-13",
+                    "episode_number": 12,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Bedelia Du Maurier",
+                            "credit_id": "528510a9760ee30c140309cc",
+                            "id": "12214",
+                            "name": "Gillian Anderson",
+                            "order": 14,
+                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Abigail Hobbs",
+                            "credit_id": "52850d8a760ee30c14025eee",
+                            "id": "1038625",
+                            "name": "Kacey Rohl",
+                            "order": 14,
+                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Freddie Lounds",
+                            "credit_id": "52850eaf760ee37bda24bf4a",
+                            "id": "1102260",
+                            "name": "Lara Jean Chorostecki",
+                            "order": 14,
+                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Georgia Madchen",
+                            "credit_id": "52851286760ee30c1403697c",
+                            "id": "1218072",
+                            "name": "Ellen Muth",
+                            "order": 14,
+                            "profile_path": "/1U1qdqyKCNbmi6r8HdN3ahur1zp.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243ca9c3a3680872004196",
+                            "department": "Writing",
+                            "id": "64506",
+                            "job": "Writer",
+                            "name": "Chris Brancato",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243aa3c3a368086e003a75",
+                            "department": "Directing",
+                            "id": "28741",
+                            "job": "Director",
+                            "name": "Michael Rymer",
+                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Relevés",
+                    "overview": "Hannibal convinces Jack and Alana that Will could be the copycat killer.",
+                    "still_path": "/93c7qV3CXIzx0kQOCPMQfwnRvTg.jpg",
+                    "vote_average": 8.5,
+                    "vote_count": 10
+                },
+                {
+                    "id": "870666",
+                    "air_date": "2013-06-20",
+                    "episode_number": 13,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Bedelia Du Maurier",
+                            "credit_id": "528510a9760ee30c140309cc",
+                            "id": "12214",
+                            "name": "Gillian Anderson",
+                            "order": 14,
+                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Abigail Hobbs",
+                            "credit_id": "52850d8a760ee30c14025eee",
+                            "id": "1038625",
+                            "name": "Kacey Rohl",
+                            "order": 14,
+                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Brian Zeller",
+                            "credit_id": "52850aec760ee37baf26f3d4",
+                            "id": "56262",
+                            "name": "Aaron Abrams",
+                            "order": 14,
+                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Jimmy Price",
+                            "credit_id": "52850ad6760ee375ec1577bf",
+                            "id": "78576",
+                            "name": "Scott Thompson",
+                            "order": 14,
+                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243a770e0a263b7e003c88",
+                            "department": "Directing",
+                            "id": "27571",
+                            "job": "Director",
+                            "name": "David Slade",
+                            "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                        },
+                        {
+                            "credit_id": "54243b8fc3a368086e003a95",
+                            "department": "Writing",
+                            "id": "1215611",
+                            "job": "Writer",
+                            "name": "Scott Nimerfro",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Savoureux",
+                    "overview": "Season finale! Hannibal frames Will, convincing Jack and Alana that Will's the copycat killer.",
+                    "still_path": "/py2Twvj32BrB4zzjMKmkHDGoFFn.jpg",
+                    "vote_average": 8.778,
+                    "vote_count": 9
+                }
+            ]
+        },
+        {
+            "air_date": "2014-02-28",
+            "name": "Season 2",
+            "overview": "After being sworn in by Jack Crawford, the head of the FBI Behavioral Science Unit, to help capture a serial killer who is on the rampage, Will finds himself increasingly struggling to control his thought processes that inform his uncanny ability to empathise with serial killers. When damning evidence shows up at the FBI that implicates Will in a string of grisly murders he is immediately placed under the care of the Baltimore State Hospital for the Criminally Insane. As Will tries to assure Jack of his innocence he also attempts to convince him of the identity of the real killer.",
+            "id": "51122",
+            "poster_path": "/fjSfJNUoFPigBngA1isQxPnzxrO.jpg",
+            "season_number": 2,
+            "credits": {
+                "cast": [
+                    {
+                        "cast_id": null,
+                        "character": "Will Graham",
+                        "credit_id": "52595bb619c295731c0877cb",
+                        "id": "12791",
+                        "name": "Hugh Dancy",
+                        "order": 0,
+                        "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Hannibal Lecter",
+                        "credit_id": "52595bb619c295731c087823",
+                        "id": "1019",
+                        "name": "Mads Mikkelsen",
+                        "order": 1,
+                        "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Jack Crawford",
+                        "credit_id": "52595bb619c295731c087925",
+                        "id": "2975",
+                        "name": "Laurence Fishburne",
+                        "order": 2,
+                        "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Dr. Alana Bloom",
+                        "credit_id": "52595bb619c295731c087867",
+                        "id": "31383",
+                        "name": "Caroline Dhavernas",
+                        "order": 3,
+                        "profile_path": "/iru7mIVFHGzGkd2XzCZBxjnq4t2.jpg"
+                    }
+                ],
+                "crew": [
+                    {
+                        "credit_id": "563d24709251411867000443",
+                        "department": "Production",
+                        "id": "64506",
+                        "job": "Executive Producer",
+                        "name": "Chris Brancato",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "52595bbc19c295731c087b09",
+                        "department": "Production",
+                        "id": "34218",
+                        "job": "Producer",
+                        "name": "Jesse Alexander",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d231bc3a3681b5e026b11",
+                        "department": "Writing",
+                        "id": "16786",
+                        "job": "Characters",
+                        "name": "Thomas Harris",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d22adc3a3681b5e026b04",
+                        "department": "Sound",
+                        "id": "40839",
+                        "job": "Original Music Composer",
+                        "name": "Brian Reitzell",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d237d92514178190052fa",
+                        "department": "Production",
+                        "id": "17311",
+                        "job": "Executive Producer",
+                        "name": "Bryan Fuller",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d23b9c3a3681b4d02eadd",
+                        "department": "Production",
+                        "id": "19051",
+                        "job": "Executive Producer",
+                        "name": "Martha De Laurentiis",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d24bbc3a3681b610295e6",
+                        "department": "Costume & Make-Up",
+                        "id": "23548",
+                        "job": "Costume Design",
+                        "name": "Christopher Hargadon",
+                        "profile_path": null
+                    }
+                ]
+            },
+            "images": {
+                "backdrops": null,
+                "posters": [
+                    {
+                        "aspect_ratio": 0.6666666666666666,
+                        "file_path": "/fjSfJNUoFPigBngA1isQxPnzxrO.jpg",
+                        "height": 3000,
+                        "iso_639_1": "en",
+                        "vote_average": 5.384615384615385,
+                        "vote_count": 2,
+                        "width": 2000
+                    },
+                    {
+                        "aspect_ratio": 0.6920415224913494,
+                        "file_path": "/6DJdMupgTfaxcNQboWX5IZT5ZMI.jpg",
+                        "height": 578,
+                        "iso_639_1": "en",
+                        "vote_average": 5.230769230769231,
+                        "vote_count": 2,
+                        "width": 400
+                    },
+                    {
+                        "aspect_ratio": 0.6920415224913494,
+                        "file_path": "/kSRkPNVMMnSNBi90FuVdPf4cEmh.jpg",
+                        "height": 578,
+                        "iso_639_1": "en",
+                        "vote_average": 5.171130952380953,
+                        "vote_count": 1,
+                        "width": 400
+                    },
+                    {
+                        "aspect_ratio": 0.6920415224913494,
+                        "file_path": "/7rC3MJRE56uVLtJjiZMD6hvj9Hy.jpg",
+                        "height": 578,
+                        "iso_639_1": "en",
+                        "vote_average": 5.171130952380953,
+                        "vote_count": 1,
+                        "width": 400
+                    },
+                    {
+                        "aspect_ratio": 0.6920415224913494,
+                        "file_path": "/6tTKS5h4AKlAbEMzq4raSpub9QZ.jpg",
+                        "height": 578,
+                        "iso_639_1": "en",
+                        "vote_average": 5.171130952380953,
+                        "vote_count": 1,
+                        "width": 400
+                    },
+                    {
+                        "aspect_ratio": 0.6666666666666666,
+                        "file_path": "/leWalW6WNAtqa3IAdpJHEy3pMWS.jpg",
+                        "height": 3000,
+                        "iso_639_1": "en",
+                        "vote_average": 5.171130952380953,
+                        "vote_count": 1,
+                        "width": 2000
+                    },
+                    {
+                        "aspect_ratio": 0.68,
+                        "file_path": "/14AlQ1vuv7u32xzzJXnoruXgYJr.jpg",
+                        "height": 1000,
+                        "iso_639_1": "en",
+                        "vote_average": 0,
+                        "vote_count": 0,
+                        "width": 680
+                    }
+                ]
+            },
+            "videos": [],
+            "episodes": [
+                {
+                    "id": "971819",
+                    "air_date": "2014-02-28",
+                    "episode_number": 1,
+                    "guest_stars": [],
+                    "crew": [
+                        {
+                            "credit_id": "54243c1b0e0a263b77003bf8",
+                            "department": "Directing",
+                            "id": "15858",
+                            "job": "Director",
+                            "name": "Tim Hunter",
+                            "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Kaiseki",
+                    "overview": "With Will Graham in prison, the FBI investigates his claims against Hannibal. A new serial killer emerges.",
+                    "still_path": "/l93D1l3ju3rENJYkWBWxIE7xw4w.jpg",
+                    "vote_average": 9,
+                    "vote_count": 9
+                },
+                {
+                    "id": "972578",
+                    "air_date": "2014-03-07",
+                    "episode_number": 2,
+                    "guest_stars": [],
+                    "crew": [
+                        {
+                            "credit_id": "54243c1b0e0a263b77003bf8",
+                            "department": "Directing",
+                            "id": "15858",
+                            "job": "Director",
+                            "name": "Tim Hunter",
+                            "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                        },
+                        {
+                            "credit_id": "56019c28c3a3685614001ee1",
+                            "department": "Writing",
+                            "id": "1218781",
+                            "job": "Writer",
+                            "name": "Jeff Vlaming",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Sakizuke",
+                    "overview": "As the FBI seeks Will's help in tracking a killer who turns his victims' bodies into art, Will plots to reveal the truth about Hannibal.",
+                    "still_path": "/tZlZtyzbhpZyZLrx0u8zuBcnvsI.jpg",
+                    "vote_average": 8.778,
+                    "vote_count": 9
+                },
+                {
+                    "id": "972331",
+                    "air_date": "2014-03-14",
+                    "episode_number": 3,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Wendy Vega",
+                            "credit_id": "5780c2ebc3a368659f000164",
+                            "id": "44097",
+                            "name": "Maria del Mar",
+                            "order": 22,
+                            "profile_path": "/jD3FXAuwkBV3DMXSjW50ehlj7iy.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "57b47a4992514170f70005c6",
+                            "department": "Writing",
+                            "id": "1667276",
+                            "job": "Writer",
+                            "name": "Jason Grote",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243b020e0a263b71003cbf",
+                            "department": "Directing",
+                            "id": "21377",
+                            "job": "Director",
+                            "name": "Peter Medak",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Hassun",
+                    "overview": "As Will's murder trial begins, a copycat killer sends a gruesome message. Jack is under pressure to wrap up Will's case while Hannibal hopes for his friend's exoneration.",
+                    "still_path": "/hAMG3j1HtPhmQ9t1agp9RVSB7qL.jpg",
+                    "vote_average": 9,
+                    "vote_count": 9
+                },
+                {
+                    "id": "972725",
+                    "air_date": "2014-03-21",
+                    "episode_number": 4,
+                    "guest_stars": [],
+                    "crew": [
+                        {
+                            "credit_id": "57b47a17c3a36819b5005974",
+                            "department": "Directing",
+                            "id": "17272",
+                            "job": "Director",
+                            "name": "David Semel",
+                            "profile_path": "/7nDXxRcD6wmFqjYySJIh4wcepdD.jpg"
+                        },
+                        {
+                            "credit_id": "54243b8fc3a368086e003a95",
+                            "department": "Writing",
+                            "id": "1215611",
+                            "job": "Writer",
+                            "name": "Scott Nimerfro",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Takiawase",
+                    "overview": "Emboldened after drug therapy from Dr. Chilton, Will sets a deadly plan in place to expose Hannibal. A new killer is turning victims into beehives.",
+                    "still_path": "/gCvJydodAo5ztJhO7mzLf6D9jo9.jpg",
+                    "vote_average": 9.222,
+                    "vote_count": 9
+                },
+                {
+                    "id": "973459",
+                    "air_date": "2014-03-28",
+                    "episode_number": 5,
+                    "guest_stars": [],
+                    "crew": [
+                        {
+                            "credit_id": "54243aa3c3a368086e003a75",
+                            "department": "Directing",
+                            "id": "28741",
+                            "job": "Director",
+                            "name": "Michael Rymer",
+                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "57b478f9925141715b000549",
+                            "department": "Writing",
+                            "id": "1499724",
+                            "job": "Writer",
+                            "name": "Ayanna A. Floyd",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Mukōzuke",
+                    "overview": "The BSU investigates Beverly's death after her body is found displayed in a gruesome tableau. Abel Gideon returns to the Baltimore Hospital for the Criminally Insane. Will seeks a horrific revenge for Beverly's death.",
+                    "still_path": "/6iOlxshi7yjQ1WYu8hbRuyioyjZ.jpg",
+                    "vote_average": 8.889,
+                    "vote_count": 9
+                },
+                {
+                    "id": "973296",
+                    "air_date": "2014-04-04",
+                    "episode_number": 6,
+                    "guest_stars": [],
+                    "crew": [
+                        {
+                            "credit_id": "57b439839251412f5e00215a",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Teleplay",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "560331729251416f0f000d34",
+                            "department": "Writing",
+                            "id": "82623",
+                            "job": "Writer",
+                            "name": "Andrew Black",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "57b4785c925141712f0004e9",
+                            "department": "Writing",
+                            "id": "82623",
+                            "job": "Teleplay",
+                            "name": "Andrew Black",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c1b0e0a263b77003bf8",
+                            "department": "Directing",
+                            "id": "15858",
+                            "job": "Director",
+                            "name": "Tim Hunter",
+                            "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                        },
+                        {
+                            "credit_id": "57b47843c3a3680ca30011bb",
+                            "department": "Writing",
+                            "id": "1215611",
+                            "job": "Teleplay",
+                            "name": "Scott Nimerfro",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "57b476d7925141712f00046e",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Teleplay",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Futamono",
+                    "overview": "Jack suspects Hannibal might be the Chesapeake Ripper as two more victims turn up. Hannibal and Alana distance themselves from Will.",
+                    "still_path": "/GvHwMFoW047d5cOmoCSutMBH0O.jpg",
+                    "vote_average": 8.889,
+                    "vote_count": 9
+                },
+                {
+                    "id": "973666",
+                    "air_date": "2014-04-11",
+                    "episode_number": 7,
+                    "guest_stars": [],
+                    "crew": [
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243aa3c3a368086e003a75",
+                            "department": "Directing",
+                            "id": "28741",
+                            "job": "Director",
+                            "name": "Michael Rymer",
+                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Yakimono",
+                    "overview": "As Miriam Lass begins her recovery, Will is released from prison and resumes his pursuit of Hannibal.",
+                    "still_path": "/uj61abwSxxcfb5m7u2ynXxV7GvQ.jpg",
+                    "vote_average": 8.875,
+                    "vote_count": 8
+                },
+                {
+                    "id": "973965",
+                    "air_date": "2014-04-18",
+                    "episode_number": 8,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Margot Verger",
+                            "credit_id": "53d8b2fa0e0a261c84001dca",
+                            "id": "27136",
+                            "name": "Katharine Isabelle",
+                            "order": 15,
+                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243b8fc3a368086e003a95",
+                            "department": "Writing",
+                            "id": "1215611",
+                            "job": "Writer",
+                            "name": "Scott Nimerfro",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "56019ba09251412290001e39",
+                            "department": "Directing",
+                            "id": "5877",
+                            "job": "Director",
+                            "name": "Vincenzo Natali",
+                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Su-zakana",
+                    "overview": "Will resumes his therapy with Dr. Lecter. The FBI investigates the murder of a woman whose body was found sewn inside a dead horse.",
+                    "still_path": "/iLdSl33cCLbs1h29gJuTGwdF4LG.jpg",
+                    "vote_average": 8.333,
+                    "vote_count": 9
+                },
+                {
+                    "id": "974185",
+                    "air_date": "2014-04-25",
+                    "episode_number": 9,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Margot Verger",
+                            "credit_id": "53d8b2fa0e0a261c84001dca",
+                            "id": "27136",
+                            "name": "Katharine Isabelle",
+                            "order": 15,
+                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "56019c28c3a3685614001ee1",
+                            "department": "Writing",
+                            "id": "1218781",
+                            "job": "Writer",
+                            "name": "Jeff Vlaming",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243aa3c3a368086e003a75",
+                            "department": "Directing",
+                            "id": "28741",
+                            "job": "Director",
+                            "name": "Michael Rymer",
+                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Shiizakana",
+                    "overview": "Margot Verger seeks out Will as she tries to understand Hannibal. The FBI searches for an animalistic killer who tears his victims' bodies apart.",
+                    "still_path": "/y5VYtC2Q8FiHr65lFaSHOMHM2Ri.jpg",
+                    "vote_average": 8.375,
+                    "vote_count": 8
+                },
+                {
+                    "id": "974586",
+                    "air_date": "2014-05-02",
+                    "episode_number": 10,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Margot Verger",
+                            "credit_id": "53d8b2fa0e0a261c84001dca",
+                            "id": "27136",
+                            "name": "Katharine Isabelle",
+                            "order": 15,
+                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Mason Verger",
+                            "credit_id": "53c86a8a0e0a26648d00049c",
+                            "id": "10692",
+                            "name": "Michael Pitt",
+                            "order": 14,
+                            "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "57b439839251412f5e00215a",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Teleplay",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243bcac3a368087200417f",
+                            "department": "Writing",
+                            "id": "1367587",
+                            "job": "Writer",
+                            "name": "Kai Wu",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "56019ba09251412290001e39",
+                            "department": "Directing",
+                            "id": "5877",
+                            "job": "Director",
+                            "name": "Vincenzo Natali",
+                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                        }
+                    ],
+                    "name": "Naka-Choko",
+                    "overview": "Will's readiness to go to dark places strengthens his bond with Hannibal.",
+                    "still_path": "/ePqRlYKWnebMDbmsGcmgqRXwtbl.jpg",
+                    "vote_average": 8.111,
+                    "vote_count": 9
+                },
+                {
+                    "id": "975338",
+                    "air_date": "2014-05-09",
+                    "episode_number": 11,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Margot Verger",
+                            "credit_id": "53d8b2fa0e0a261c84001dca",
+                            "id": "27136",
+                            "name": "Katharine Isabelle",
+                            "order": 15,
+                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Mason Verger",
+                            "credit_id": "53c86a8a0e0a26648d00049c",
+                            "id": "10692",
+                            "name": "Michael Pitt",
+                            "order": 14,
+                            "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "560331729251416f0f000d34",
+                            "department": "Writing",
+                            "id": "82623",
+                            "job": "Writer",
+                            "name": "Andrew Black",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243a770e0a263b7e003c88",
+                            "department": "Directing",
+                            "id": "27571",
+                            "job": "Director",
+                            "name": "David Slade",
+                            "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                        },
+                        {
+                            "credit_id": "56019c28c3a3685614001ee1",
+                            "department": "Writing",
+                            "id": "1218781",
+                            "job": "Writer",
+                            "name": "Jeff Vlaming",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Kō No Mono",
+                    "overview": "Will and Margot hide her pregnancy from Mason. After Freddie's gruesome murder, Alana's doubts about Will and Hannibal grow stronger.",
+                    "still_path": "/eYiKeU5y3uGzqqiyaoim8Jk6lHy.jpg",
+                    "vote_average": 8.889,
+                    "vote_count": 9
+                },
+                {
+                    "id": "975339",
+                    "air_date": "2014-06-16",
+                    "episode_number": 12,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Margot Verger",
+                            "credit_id": "53d8b2fa0e0a261c84001dca",
+                            "id": "27136",
+                            "name": "Katharine Isabelle",
+                            "order": 15,
+                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Mason Verger",
+                            "credit_id": "53c86a8a0e0a26648d00049c",
+                            "id": "10692",
+                            "name": "Michael Pitt",
+                            "order": 14,
+                            "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243ca9c3a3680872004196",
+                            "department": "Writing",
+                            "id": "64506",
+                            "job": "Writer",
+                            "name": "Chris Brancato",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243b8fc3a368086e003a95",
+                            "department": "Writing",
+                            "id": "1215611",
+                            "job": "Writer",
+                            "name": "Scott Nimerfro",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243aa3c3a368086e003a75",
+                            "department": "Directing",
+                            "id": "28741",
+                            "job": "Director",
+                            "name": "Michael Rymer",
+                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Tome-wan",
+                    "overview": "Bedelia returns and accepts immunity to testify against Hannibal. Mason Verger plots revenge after learning of Hannibal's manipulations.",
+                    "still_path": "/pYsO5cXmjJGYUZWVDocBI3CIM6.jpg",
+                    "vote_average": 8.8,
+                    "vote_count": 10
+                },
+                {
+                    "id": "976285",
+                    "air_date": "2014-05-23",
+                    "episode_number": 13,
+                    "guest_stars": [],
+                    "crew": [
+                        {
+                            "credit_id": "54243a770e0a263b7e003c88",
+                            "department": "Directing",
+                            "id": "27571",
+                            "job": "Director",
+                            "name": "David Slade",
+                            "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Mizumono",
+                    "overview": "Springing their trap, Jack, Will and Alana face off with Hannibal in a bloody final showdown, but the doctor has a few surprises of his own.",
+                    "still_path": "/40jqX3XRk6W97gscX5rj4kTy411.jpg",
+                    "vote_average": 9.077,
+                    "vote_count": 13
+                }
+            ]
+        },
+        {
+            "air_date": "2015-06-04",
+            "name": "Season 3",
+            "overview": "After the shocking events of the Season 2 finale, Hannibal is on the run in Europe - accompanied by his psychiatrist Bedelia Du Maurier - sporting a new identity, but servicing the same insatiable appetite. As the lives of Will, Jack and Alana converge toward Hannibal again, each with their own motivations to catch him once and for all, their deadly dance turns in startling and unexpected ways.",
+            "id": "64757",
+            "poster_path": "/rHS29GbV7Ffmn66Ewndgl791fja.jpg",
+            "season_number": 3,
+            "credits": {
+                "cast": [
+                    {
+                        "cast_id": null,
+                        "character": "Will Graham",
+                        "credit_id": "52595bb619c295731c0877cb",
+                        "id": "12791",
+                        "name": "Hugh Dancy",
+                        "order": 0,
+                        "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Hannibal Lecter",
+                        "credit_id": "52595bb619c295731c087823",
+                        "id": "1019",
+                        "name": "Mads Mikkelsen",
+                        "order": 1,
+                        "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Jack Crawford",
+                        "credit_id": "52595bb619c295731c087925",
+                        "id": "2975",
+                        "name": "Laurence Fishburne",
+                        "order": 2,
+                        "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                    },
+                    {
+                        "cast_id": null,
+                        "character": "Dr. Bedelia Du Maurier",
+                        "credit_id": "528510a9760ee30c140309cc",
+                        "id": "12214",
+                        "name": "Gillian Anderson",
+                        "order": 14,
+                        "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                    }
+                ],
+                "crew": [
+                    {
+                        "credit_id": "563d231bc3a3681b5e026b11",
+                        "department": "Writing",
+                        "id": "16786",
+                        "job": "Characters",
+                        "name": "Thomas Harris",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d22adc3a3681b5e026b04",
+                        "department": "Sound",
+                        "id": "40839",
+                        "job": "Original Music Composer",
+                        "name": "Brian Reitzell",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d237d92514178190052fa",
+                        "department": "Production",
+                        "id": "17311",
+                        "job": "Executive Producer",
+                        "name": "Bryan Fuller",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d23b9c3a3681b4d02eadd",
+                        "department": "Production",
+                        "id": "19051",
+                        "job": "Executive Producer",
+                        "name": "Martha De Laurentiis",
+                        "profile_path": null
+                    },
+                    {
+                        "credit_id": "563d24bbc3a3681b610295e6",
+                        "department": "Costume & Make-Up",
+                        "id": "23548",
+                        "job": "Costume Design",
+                        "name": "Christopher Hargadon",
+                        "profile_path": null
+                    }
+                ]
+            },
+            "images": {
+                "backdrops": null,
+                "posters": [
+                    {
+                        "aspect_ratio": 0.6666666666666666,
+                        "file_path": "/rHS29GbV7Ffmn66Ewndgl791fja.jpg",
+                        "height": 2100,
+                        "iso_639_1": "en",
+                        "vote_average": 5.317460317460317,
+                        "vote_count": 3,
+                        "width": 1400
+                    },
+                    {
+                        "aspect_ratio": 0.6666666666666666,
+                        "file_path": "/kvEM1cqm2BjbcgucpRZlyrUmkFM.jpg",
+                        "height": 2100,
+                        "iso_639_1": "en",
+                        "vote_average": 5.3125,
+                        "vote_count": 1,
+                        "width": 1400
+                    },
+                    {
+                        "aspect_ratio": 0.6666666666666666,
+                        "file_path": "/pA2bweqNorR3j6XcVA4dHarFs7R.jpg",
+                        "height": 2700,
+                        "iso_639_1": "en",
+                        "vote_average": 5.171130952380953,
+                        "vote_count": 1,
+                        "width": 1800
+                    },
+                    {
+                        "aspect_ratio": 0.6666666666666666,
+                        "file_path": "/d2d2NFsg5wZEb8iePzeqaMrxCDI.jpg",
+                        "height": 1500,
+                        "iso_639_1": "en",
+                        "vote_average": 5.171130952380953,
+                        "vote_count": 1,
+                        "width": 1000
+                    },
+                    {
+                        "aspect_ratio": 0.68,
+                        "file_path": "/udRN2omoWx8OEz7BHaSZGxPtfzM.jpg",
+                        "height": 1000,
+                        "iso_639_1": "en",
+                        "vote_average": 0,
+                        "vote_count": 0,
+                        "width": 680
+                    }
+                ]
+            },
+            "videos": [
+                {
+                    "id": "54c7ee69c3a36871df000686",
+                    "iso_639_1": "en",
+                    "iso_3166_1": "US",
+                    "key": "9kN7fhWnhdM",
+                    "name": "Season 3 Trailer",
+                    "site": "YouTube",
+                    "type": "TRAILER",
+                    "size": 1080
+                }
+            ],
+            "episodes": [
+                {
+                    "id": "1045506",
+                    "air_date": "2015-06-04",
+                    "episode_number": 1,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "",
+                            "credit_id": "556cb65e9251414030001d27",
+                            "id": "17292",
+                            "name": "Tom Wisdom",
+                            "order": 16,
+                            "profile_path": "/3G9RdJHEfTcuBk5ArYSMOrnYYG9.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "56019ba09251412290001e39",
+                            "department": "Directing",
+                            "id": "5877",
+                            "job": "Director",
+                            "name": "Vincenzo Natali",
+                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Antipasto",
+                    "overview": "After the devastating bloodbath at Lecters home Hannibal establishes a new life for himself in Italy along with the company of his own psychiatrist Bedelia.",
+                    "still_path": "/ebVGlE5oI4hSG7p1kr3rJXzjqKn.jpg",
+                    "vote_average": 8.167,
+                    "vote_count": 6
+                },
+                {
+                    "id": "1058666",
+                    "air_date": "2015-06-11",
+                    "episode_number": 2,
+                    "guest_stars": [],
+                    "crew": [
+                        {
+                            "credit_id": "56019c28c3a3685614001ee1",
+                            "department": "Writing",
+                            "id": "1218781",
+                            "job": "Writer",
+                            "name": "Jeff Vlaming",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "56019ba09251412290001e39",
+                            "department": "Directing",
+                            "id": "5877",
+                            "job": "Director",
+                            "name": "Vincenzo Natali",
+                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Primavera",
+                    "overview": "With his wounds now healed, Will Graham heads to Europe eight months after the horrific event that almost took his life, in search of closure with Hannibal Lecter. Meanwhile an Italian inspector thinks that Lecter and a killer he pursued 20 years earlier are the same person.",
+                    "still_path": "/oFVeL4NRixEffG1DqxDG6gnngHb.jpg",
+                    "vote_average": 8.333,
+                    "vote_count": 6
+                },
+                {
+                    "id": "1058667",
+                    "air_date": "2015-06-18",
+                    "episode_number": 3,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Chiyo",
+                            "credit_id": "55b884b992514123dd00143d",
+                            "id": "1156024",
+                            "name": "Tao Okamoto",
+                            "order": 18,
+                            "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "56019c93c3a3685625001e33",
+                            "department": "Writing",
+                            "id": "1372372",
+                            "job": "Writer",
+                            "name": "Angelina Burnett",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "56019ba09251412290001e39",
+                            "department": "Directing",
+                            "id": "5877",
+                            "job": "Director",
+                            "name": "Vincenzo Natali",
+                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Secondo",
+                    "overview": "Will Graham continues his search for Hannibal Lecter, making his way to Hannibal's childhood home in Lithuania. Meanwhile, Jack Crawford arrives in Italy, hoping to find Will and intervene before tragedy strikes again, and Bedelia warns Hannibal against unraveling his new life.",
+                    "still_path": "/rZm7AZN8kwpYcU3vNPkwOkTL2eA.jpg",
+                    "vote_average": 8.167,
+                    "vote_count": 6
+                },
+                {
+                    "id": "1058668",
+                    "air_date": "2015-06-25",
+                    "episode_number": 4,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Cordell Doemling",
+                            "credit_id": "56068dd3c3a368120d001a1b",
+                            "id": "1377670",
+                            "name": "Glenn Fleshler",
+                            "order": 20,
+                            "profile_path": "/9SOBzbIjsTVBLT3FolXDHDrNLIh.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Mason Verger",
+                            "credit_id": "56068d8792514130520019a9",
+                            "id": "29234",
+                            "name": "Joe Anderson",
+                            "order": 19,
+                            "profile_path": "/qrz9007HeT1uDt3e0NVXFMWsQkA.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Margot Verger",
+                            "credit_id": "53d8b2fa0e0a261c84001dca",
+                            "id": "27136",
+                            "name": "Katharine Isabelle",
+                            "order": 15,
+                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Dr. Frederick Chilton",
+                            "credit_id": "52850ffd760ee375ec16a1b6",
+                            "id": "107515",
+                            "name": "Raúl Esparza",
+                            "order": 14,
+                            "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Bella Crawford",
+                            "credit_id": "52850f76760ee37be627e990",
+                            "id": "9576",
+                            "name": "Gina Torres",
+                            "order": 8,
+                            "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "56068d63c3a3681207001c57",
+                            "department": "Directing",
+                            "id": "1515079",
+                            "job": "Director",
+                            "name": "Marc Jobst",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "57b431bcc3a3684802003ab5",
+                            "department": "Writing",
+                            "id": "1114792",
+                            "job": "Writer",
+                            "name": "Nick Antosca",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Apertivo",
+                    "overview": "After surviving a disfiguring gunshot, Dr. Fredrick Chilton  is now focused on rallying support to capture Hannibal, using Will as bait. Jack is distracted by Bella's failing health, but he implores Will to abandon the risky idea of finding Hannibal. Meanwhile, Alana Bloom entertains a different approach, potentially partnering with Mason Verger to utilize his vast resources.",
+                    "still_path": "/kB0vkLn46v46kwtSJhN78hY3tmN.jpg",
+                    "vote_average": 7.667,
+                    "vote_count": 6
+                },
+                {
+                    "id": "1058669",
+                    "air_date": "2015-07-02",
+                    "episode_number": 5,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Chiyo",
+                            "credit_id": "55b884b992514123dd00143d",
+                            "id": "1156024",
+                            "name": "Tao Okamoto",
+                            "order": 18,
+                            "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "57b434af92514106a5002a8e",
+                            "department": "Writing",
+                            "id": "1285993",
+                            "job": "Writer",
+                            "name": "Tom de Ville",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c7ec3a3680880003b58",
+                            "department": "Directing",
+                            "id": "3113",
+                            "job": "Director",
+                            "name": "Guillermo Navarro",
+                            "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Contorno",
+                    "overview": "The hunt for Hannibal begins. Will travels via train with Chiyoh to Florence, as Alanna and Mason use Hannibal's fine tastes to track his whereabouts. Pazzi tries to get in close to find out if Hannibal is the man he's looking for, but his greed may get the better of him.",
+                    "still_path": "/a30Y5Np6m7N4GRhfzi85UwWVWc2.jpg",
+                    "vote_average": 9.5,
+                    "vote_count": 6
+                },
+                {
+                    "id": "1058670",
+                    "air_date": "2015-07-09",
+                    "episode_number": 6,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Chiyo",
+                            "credit_id": "55b884b992514123dd00143d",
+                            "id": "1156024",
+                            "name": "Tao Okamoto",
+                            "order": 18,
+                            "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "57b4330fc3a3684d5f002759",
+                            "department": "Writing",
+                            "id": "65677",
+                            "job": "Writer",
+                            "name": "Don Mancini",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "56019ba09251412290001e39",
+                            "department": "Directing",
+                            "id": "5877",
+                            "job": "Director",
+                            "name": "Vincenzo Natali",
+                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Dolce",
+                    "overview": "With Bedelia securing her alibi, Hannibal prepares to leave Florence just as Jack and Will begin to track him down. With Pazzi murdered, Mason and his cohorts consider a different course of action. However, Chiyoh has arrived in Florence with her own agenda.",
+                    "still_path": "/emFD7mlPGL0ehsNSjqDt5erQeFm.jpg",
+                    "vote_average": 8.833,
+                    "vote_count": 6
+                },
+                {
+                    "id": "1058671",
+                    "air_date": "2015-07-16",
+                    "episode_number": 7,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Chiyo",
+                            "credit_id": "55b884b992514123dd00143d",
+                            "id": "1156024",
+                            "name": "Tao Okamoto",
+                            "order": 18,
+                            "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "57b4344ac3a3684802003c1b",
+                            "department": "Directing",
+                            "id": "18695",
+                            "job": "Director",
+                            "name": "Adam Kane",
+                            "profile_path": "/wVmfwTmm4P8CknVKBYSwJ7edGU1.jpg"
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "Digestivo",
+                    "overview": "Captured in Italy by police on Mason Verger's payroll, Will Graham and Hannibal Lecter are delivered to Muskrat Farm to await Mason's revenge. Alana, distressed that Will has been endangered along with Hannibal, plots a rescue. And Hannibal, once again in contact with his old patient Margot, finds it irresistible to remind her that Mason will never make good on his promises. Meanwhile, Jack informs Chiyo of Hannibal's location.",
+                    "still_path": "/opMOuIhTgH7TtyNfNlCUi0PHI6C.jpg",
+                    "vote_average": 9,
+                    "vote_count": 7
+                },
+                {
+                    "id": "1058672",
+                    "air_date": "2015-07-23",
+                    "episode_number": 8,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Francis Dolarhyde",
+                            "credit_id": "55a93ce592514172ef001abc",
+                            "id": "30315",
+                            "name": "Richard Armitage",
+                            "order": 17,
+                            "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "562cf1bc9251410a2200398f",
+                            "department": "Directing",
+                            "id": "57581",
+                            "job": "Director",
+                            "name": "Neil Marshall",
+                            "profile_path": "/Au5p9cFlj2XVoVIECQ40ruOp1Qz.jpg"
+                        },
+                        {
+                            "credit_id": "57b431bcc3a3684802003ab5",
+                            "department": "Writing",
+                            "id": "1114792",
+                            "job": "Writer",
+                            "name": "Nick Antosca",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "The Great Red Dragon",
+                    "overview": "Dr. Hannibal Lecter has been under lock and key for three years at the Baltimore State Hospital for the Criminally Insane, when a new villain arises in Francis Dolarhyde, also known as \"The Tooth Fairy.\" As the investigation unfolds Jack Crawford approaches Will Graham to help catch this vicious serial killer who is targeting families.",
+                    "still_path": "/tKni6yy4Apmocz03ydS1mnaU9GD.jpg",
+                    "vote_average": 8.571,
+                    "vote_count": 7
+                },
+                {
+                    "id": "1058673",
+                    "air_date": "2015-07-30",
+                    "episode_number": 9,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Reba McClane",
+                            "credit_id": "577e460f92514169760000e0",
+                            "id": "210773",
+                            "name": "Rutina Wesley",
+                            "order": 21,
+                            "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Francis Dolarhyde",
+                            "credit_id": "55a93ce592514172ef001abc",
+                            "id": "30315",
+                            "name": "Richard Armitage",
+                            "order": 17,
+                            "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243c8f0e0a263b6e003c0d",
+                            "department": "Directing",
+                            "id": "21053",
+                            "job": "Director",
+                            "name": "John Dahl",
+                            "profile_path": "/klMxcB64Tu0sWCn3YDTMcGWPArQ.jpg"
+                        },
+                        {
+                            "credit_id": "57b433c9925141073a002a15",
+                            "department": "Writing",
+                            "id": "1667201",
+                            "job": "Writer",
+                            "name": "Helen Shang",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "56019c28c3a3685614001ee1",
+                            "department": "Writing",
+                            "id": "1218781",
+                            "job": "Writer",
+                            "name": "Jeff Vlaming",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "And the Woman Clothed with the Sun…",
+                    "overview": "The FBI's search for elusive serial killer Francis Dolarhyde intensifies as Will Graham begins envisioning himself in Dolarhyde's tormented psyche. Wading deeper into dangerous territory, Will enlists the help of Hannibal Lecter to assist with the killer's profile. Meanwhile, Alana Bloom reminds Will that the last time that he and Hannibal worked together things didn't end well, but Will sees no other option. Elsewhere, a new woman comes into Dolarhyde's life. ",
+                    "still_path": "/mVUqkB0ndeS6YssdOQz5v8oS5J0.jpg",
+                    "vote_average": 8.583,
+                    "vote_count": 6
+                },
+                {
+                    "id": "1058674",
+                    "air_date": "2015-08-06",
+                    "episode_number": 10,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Reba McClane",
+                            "credit_id": "577e460f92514169760000e0",
+                            "id": "210773",
+                            "name": "Rutina Wesley",
+                            "order": 21,
+                            "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                        },
+                        {
+                            "cast_id": null,
+                            "character": "Francis Dolarhyde",
+                            "credit_id": "55a93ce592514172ef001abc",
+                            "id": "30315",
+                            "name": "Richard Armitage",
+                            "order": 17,
+                            "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243c7ec3a3680880003b58",
+                            "department": "Directing",
+                            "id": "3113",
+                            "job": "Director",
+                            "name": "Guillermo Navarro",
+                            "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                        },
+                        {
+                            "credit_id": "57b4330fc3a3684d5f002759",
+                            "department": "Writing",
+                            "id": "65677",
+                            "job": "Writer",
+                            "name": "Don Mancini",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "And the Woman Clothed in Sun",
+                    "overview": "Carvings symbolizing the Great Red Dragon, retrieved from crime scenes, help Will Graham and the FBI shed light on Francis Dolarhyde's disturbing psychology. Meanwhile, Dolarhyde finds ways to communicate directly with Hannibal Lecter regarding his \"becoming.\" Will feels his bond with Hannibal growing uncomfortably stronger, and seeks out Bedelia Du Maurier, the only other person who fully understands the complexities of such a relationship.",
+                    "still_path": "/bcA3O9qUfnL50bl37Jp2ABDhekm.jpg",
+                    "vote_average": 9.214,
+                    "vote_count": 7
+                },
+                {
+                    "id": "1058675",
+                    "air_date": "2015-08-13",
+                    "episode_number": 11,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Reba McClane",
+                            "credit_id": "577e460f92514169760000e0",
+                            "id": "210773",
+                            "name": "Rutina Wesley",
+                            "order": 21,
+                            "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243aa3c3a368086e003a75",
+                            "department": "Directing",
+                            "id": "28741",
+                            "job": "Director",
+                            "name": "Michael Rymer",
+                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "And the Beast from the Sea",
+                    "overview": "Convinced that the Red Dragon will strike at the next full moon, Jack and Will grow desperate, and Alana turns to Hannibal for help.",
+                    "still_path": "/3ElfdLFOhw8bQAYQnnQ887QDpjS.jpg",
+                    "vote_average": 8.571,
+                    "vote_count": 7
+                },
+                {
+                    "id": "1058676",
+                    "air_date": "2015-08-20",
+                    "episode_number": 12,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Reba McClane",
+                            "credit_id": "577e460f92514169760000e0",
+                            "id": "210773",
+                            "name": "Rutina Wesley",
+                            "order": 21,
+                            "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "57b4329292514106a50029ca",
+                            "department": "Writing",
+                            "id": "1667199",
+                            "job": "Writer",
+                            "name": "Angela Lamanna",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c7ec3a3680880003b58",
+                            "department": "Directing",
+                            "id": "3113",
+                            "job": "Director",
+                            "name": "Guillermo Navarro",
+                            "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                        },
+                        {
+                            "credit_id": "56019c28c3a3685614001ee1",
+                            "department": "Writing",
+                            "id": "1218781",
+                            "job": "Writer",
+                            "name": "Jeff Vlaming",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "The Number of the Beast is 666",
+                    "overview": "Will Graham and the FBI enlist the expertise of Dr. Fredrick Chilton in the hopes of luring Francis Dolarhyde into an ambush, using Freddie Lounds as their mouthpiece. As Will's empathy for Dolarhyde begins to affect his fragile psyche, Bedelia Du Maurier warns that the killer Will should be most concerned about at the moment is himself. Meanwhile, Dolarhyde senses that the FBI is closing in and launches a horrifying endgame.",
+                    "still_path": "/qBscfjEOJuTidkIGSG4ZEXpykvI.jpg",
+                    "vote_average": 8.929,
+                    "vote_count": 7
+                },
+                {
+                    "id": "1058677",
+                    "air_date": "2015-08-27",
+                    "episode_number": 13,
+                    "guest_stars": [
+                        {
+                            "cast_id": null,
+                            "character": "Reba McClane",
+                            "credit_id": "577e460f92514169760000e0",
+                            "id": "210773",
+                            "name": "Rutina Wesley",
+                            "order": 21,
+                            "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                        }
+                    ],
+                    "crew": [
+                        {
+                            "credit_id": "57b431bcc3a3684802003ab5",
+                            "department": "Writing",
+                            "id": "1114792",
+                            "job": "Writer",
+                            "name": "Nick Antosca",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243c710e0a263b81003c18",
+                            "department": "Writing",
+                            "id": "1240816",
+                            "job": "Writer",
+                            "name": "Steve Lightfoot",
+                            "profile_path": null
+                        },
+                        {
+                            "credit_id": "54243aa3c3a368086e003a75",
+                            "department": "Directing",
+                            "id": "28741",
+                            "job": "Director",
+                            "name": "Michael Rymer",
+                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                        },
+                        {
+                            "credit_id": "52595bbc19c295731c087ac7",
+                            "department": "Writing",
+                            "id": "17311",
+                            "job": "Writer",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
+                    ],
+                    "name": "The Wrath of the Lamb",
+                    "overview": "In a desperate bid to slay Francis Dolarhyde, Will Graham engineers a cunning ploy utilizing Hannibal Lecter. Upon learning of his plan, Bedelia Du Maurier voices concerns that Will's actions may not only put his life in peril, but the lives of those around him. As the end draws near, Will remains unflinching in his game with Hannibal-even when it means coming face-to-face with his own darkest fears?",
+                    "still_path": "/X4WND6NGPSWkUc7RoFBow0JgJg.jpg",
+                    "vote_average": 8.2,
+                    "vote_count": 10
+                }
+            ]
+        }
+    ]
+}

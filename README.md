@@ -80,7 +80,8 @@ Env
 
 Variable | Default | Description
 -------- | ------- | -----------
-MONGO_URL | mongodb://localhost/metadata | 
 TMDB_API_KEY | | TheMovieDb api key
 TMDB_DEFAULT_RETRY_DELAY | 20 | When we cannot retreive the retry-after header, this provide the default timeout value
 TMDB_KILL_RETRY_AFTER | 20 | Cancel the request retry after 20 failed requests
+SERVER_HOST | localhost | server host
+SERVER_PORT | 8080 | server port
