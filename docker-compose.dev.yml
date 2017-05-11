@@ -7,11 +7,13 @@ services:
     env_file:
      - ./.env.test
     environment:
-      DATABASE_USER: test
-      DATABASE_PASSWORD: test
-      DATABASE: test
+      DATABASE_USER: dev
+      DATABASE_PASSWORD: dev
+      DATABASE: dev
+      DATABASE_LOGGING: 1
       DATABASE_HOST: maria.host
       DATABASE_DIALECT: mariadb
+      SERVER_PORT: 8080
       TMDB_API_KEY: ${TMDB_API_KEY}
     links:
       - maria:maria.host

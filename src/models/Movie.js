@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
-  var Movie = sequelize.define('Movie', {
+  const Movie = sequelize.define('Movie', {
     adult: DataTypes.BOOLEAN,
     backdrop_path: DataTypes.STRING,
     budget: DataTypes.BIGINT,
@@ -21,9 +21,15 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
+        Movie.belongsToMany(models.Genre, {
+          through: {
+            model: models.MovieGenre
+          },
+          foreignKey: 'movie_id'
+        });
       }
     }
   });
+
   return Movie;
 };

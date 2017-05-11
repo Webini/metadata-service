@@ -3,24 +3,31 @@
 const fs        = require('fs');
 const path      = require('path');
 const Sequelize = require('sequelize');
+const winston   = require('winston');
 const basename  = path.basename(module.filename);
 const db        = {};
 
-const sequelize = new Sequelize(
-  process.env.DATABASE, 
-  process.env.DATABASE_USER,
-  process.env.DATABASE_PASSWORD,
-  {
-    dialect: process.env.DATABASE_DIALECT || 'mariadb',
-    logging: !!parseInt(process.env.DATABASE_LOGGING || 0),
-    host: process.env.DATABASE_HOST,
-    port: process.env.DATABASE_PORT,
-    storage: process.env.DATABASE_STORAGE,
-    define: {
-      charset: 'utf8',
-      collate: 'utf8_general_ci'
-    }
+db.conf = {
+  database: process.env.DATABASE, 
+  user: process.env.DATABASE_USER,
+  password: process.env.DATABASE_PASSWORD,
+  dialect: process.env.DATABASE_DIALECT || 'mariadb',
+  logging: !!parseInt(process.env.DATABASE_LOGGING || 0),
+  host: process.env.DATABASE_HOST,
+  port: process.env.DATABASE_PORT || 3306,
+  storage: process.env.DATABASE_STORAGE,
+  define: {
+    freezeTableName: true, 
+    charset: 'utf8',
+    collate: 'utf8_general_ci'
   }
+};
+
+const sequelize = new Sequelize(
+  db.conf.database, 
+  db.conf.user,
+  db.conf.password,
+  db.conf
 );
 
 fs
