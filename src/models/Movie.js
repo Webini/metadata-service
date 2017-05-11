@@ -27,6 +27,20 @@ module.exports = function(sequelize, DataTypes) {
           },
           foreignKey: 'movie_id'
         });
+        
+        Movie.belongsToMany(models.ProductionCompany, {
+          through: {
+            model: models.MovieProductionCompany
+          },
+          foreignKey: 'movie_id'
+        });
+
+        Movie.belongsToMany(models.Video, {
+          through: {
+            model: models.MovieVideo
+          },
+          foreignKey: 'movie_id'
+        });
       }
     }
   });

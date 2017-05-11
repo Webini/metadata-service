@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
-  var Video = sequelize.define('Video', {
+  const Video = sequelize.define('Video', {
     name: DataTypes.STRING,
     iso_639_1: DataTypes.STRING(2),
     iso_3116_1: DataTypes.STRING(2),
@@ -12,6 +12,12 @@ module.exports = function(sequelize, DataTypes) {
     classMethods: {
       associate: function(models) {
         // associations can be defined here
+        Video.belongsToMany(models.Movie, {
+          through: {
+            model: models.MovieVideo
+          },
+          foreignKey: 'video_id'
+        });
       }
     }
   });
