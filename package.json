@@ -9,20 +9,25 @@
     "dotenv": "^2.0.0",
     "express": "^4.14.0",
     "guessit-exec": "0.0.1",
+    "mariasql": "^0.2.6",
     "moviedb": "^0.2.7",
+    "mysql": "^2.13.0",
     "node-restful": "^0.2.5",
     "normalizr": "^3.2.2",
+    "sequelize": "^3.30.4",
     "servicebus": "^2.0.6",
     "tmdb-graphql": "git+https://github.com/Webini/tmdb-graphql.git",
+    "umzug": "^2.0.1",
     "validate.js": "^0.11.1",
-    "winston": "^2.3.0"
+    "winston": "^2.3.0",
+    "yargs": "^8.0.1"
   },
   "devDependencies": {
     "eslint": "^3.11.1",
     "mocha": "^3.2.0"
   },
   "scripts": {
-    "test": "node node_modules/mocha/bin/mocha --recursive"
+    "test": "node node_modules/mocha/bin/mocha ./test/unit --recursive"
   },
   "repository": {
     "type": "git",

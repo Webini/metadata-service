@@ -1,0 +1,6 @@
+#!/bin/bash
+sequelize --migrations-path ./src/migrations \
+          --config ./data/config.json \
+          --models-path ./src/models \
+          --seeders-path ./src/seeds \
+          $@

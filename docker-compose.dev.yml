@@ -1,0 +1,41 @@
+# docker-compose.yml
+version: "2.0"
+
+services:
+  metadata:
+    build: ./
+    env_file:
+     - ./.env.test
+    environment:
+      DATABASE_USER: test
+      DATABASE_PASSWORD: test
+      DATABASE: test
+      DATABASE_HOST: maria.host
+      DATABASE_DIALECT: mariadb
+      TMDB_API_KEY: ${TMDB_API_KEY}
+    links:
+      - maria:maria.host
+    depends_on:
+      - maria
+    volumes:
+      - ./:/home/node/server
+    ports:
+      - 8080:8080
+    command:
+      - node
+      - ./node_modules/.bin/nodemon
+      - server.js
+      - --run-with-migrations
+
+  maria:
+    image: mariadb:latest
+    environment:
+      MYSQL_USER: dev
+      MYSQL_PASSWORD: dev
+      MYSQL_DATABASE: dev
+      MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
+    volumes:
+      - ./data/maria:/var/lib/mysql
+    ports:
+      - 3306:3306
+        

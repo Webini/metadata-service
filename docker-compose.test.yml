@@ -1,0 +1,27 @@
+# docker-compose.yml
+version: "3.2"
+
+services:
+  metadata:
+    build: ./
+    environment:
+      DATABASE_USER: test
+      DATABASE_PASSWORD: test
+      DATABASE: test
+      DATABASE_HOST: maria.host
+      DATABASE_DIALECT: mariadb
+      TMDB_API_KEY: ${TMDB_API_KEY}
+    links:
+      - maria:maria.host
+    depends_on:
+      - maria
+    command:
+
+  
+  maria:
+    image: mariadb:latest
+    environment:
+      MYSQL_USER: test
+      MYSQL_PASSWORD: test
+      MYSQL_DATABASE: test
+      MYSQL_RANDOM_ROOT_PASSWORD: 'yes'
