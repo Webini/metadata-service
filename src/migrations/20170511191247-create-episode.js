@@ -20,17 +20,20 @@ module.exports = {
       still_path: {
         type: Sequelize.STRING
       },
+      name: {
+        type: Sequelize.STRING
+      },
       vote_average: {
         type: Sequelize.FLOAT
       },
       vote_count: {
         type: Sequelize.INTEGER
       },
-      createdAt: {
+      created_at: {
         allowNull: false,
         type: Sequelize.DATE
       },
-      updatedAt: {
+      updated_at: {
         allowNull: false,
         type: Sequelize.DATE
       }

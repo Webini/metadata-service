@@ -1,7 +1,7 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
-  const SeasonVideo = sequelize.define('SeasonVideo', {
-    season_id: DataTypes.INTEGER,
+  const TvVideo = sequelize.define('TvVideo', {
+    tv_id: DataTypes.INTEGER,
     video_id: DataTypes.STRING(24)
   }, {
     timestamps: false,
@@ -11,5 +11,5 @@ module.exports = function(sequelize, DataTypes) {
       }
     }
   });
-  return SeasonVideo;
+  return TvVideo;
 };

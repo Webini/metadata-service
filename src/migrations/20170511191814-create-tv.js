@@ -11,11 +11,11 @@ module.exports = {
       backdrop_path: {
         type: Sequelize.STRING
       },
-      external_ids: {
+      external_ids_json: {
         type: Sequelize.STRING
       },
-      episode_run_time: {
-        type: Sequelize.INTEGER
+      episode_run_time_json: {
+        type: Sequelize.STRING
       },
       first_air_date: {
         type: Sequelize.DATE
@@ -38,11 +38,17 @@ module.exports = {
       original_name: {
         type: Sequelize.STRING
       },
+      origin_country_json: { 
+        type: Sequelize.STRING 
+      },
       overview: {
         type: Sequelize.TEXT
       },
       popularity: {
         type: Sequelize.FLOAT
+      },
+      networks_json: {
+        type: Sequelize.STRING
       },
       poster_path: {
         type: Sequelize.STRING
@@ -59,11 +65,11 @@ module.exports = {
       vote_count: {
         type: Sequelize.INTEGER
       },
-      createdAt: {
+      created_at: {
         allowNull: false,
         type: Sequelize.DATE
       },
-      updatedAt: {
+      updated_at: {
         allowNull: false,
         type: Sequelize.DATE
       }

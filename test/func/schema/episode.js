@@ -5,11 +5,21 @@ const assert = require('assert');
 
 describe('Episode schema', () => {
   const { 
-    EpisodeGuestStar, Episode, Person
+    EpisodeGuestStar, Episode, Person, Season, Tv
   } = models;
 
-  before(() => {
-    return onLoaded;
+  let tv = null;
+  let season = null;
+
+  before(async () => {
+    await onLoaded;
+    
+    tv = await Tv.create({ name: 'test' });
+    season = await Season.create({ tv_id: tv.id, name: 'test' });
+  });
+
+  after(async () => {
+    await tv.destroy();
   });
 
   afterEach(async () => {
@@ -19,7 +29,7 @@ describe('Episode schema', () => {
   
   it('should create a new guest star', async () => {
     const [ episode, person ] = await Promise.all([
-      Episode.create({ name: 'test' }),
+      Episode.create({ season_id: season.id, name: 'test' }),
       Person.create({ name: 'Jean Robert' })
     ]);
 

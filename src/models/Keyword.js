@@ -12,6 +12,14 @@ module.exports = function(sequelize, DataTypes) {
           foreignKey: 'keyword_id',
           otherKey: 'movie_id'
         });
+
+        Keyword.belongsToMany(models.Tv, {
+          through: {
+            model: models.TvKeyword
+          },
+          foreignKey: 'keyword_id',
+          otherKey: 'tv_id'
+        });
       }
     }
   });

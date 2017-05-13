@@ -12,7 +12,17 @@ module.exports = function(sequelize, DataTypes) {
             model: models.MovieGenre
           },
           foreignKey: 'genre_id',
-          otherKey: 'movie_id'
+          otherKey: 'movie_id',
+          as: 'Movies'
+        });
+
+        Genre.belongsToMany(models.Tv, {
+          through: {
+            model: models.TvGenre
+          },
+          foreignKey: 'genre_id',
+          otherKey: 'tv_id',
+          as: 'Tv'
         });
       }
     }

@@ -6,7 +6,8 @@ module.exports = function(sequelize, DataTypes) {
     overview: DataTypes.TEXT,
     still_path: DataTypes.STRING,
     vote_average: DataTypes.FLOAT,
-    vote_count: DataTypes.INTEGER
+    vote_count: DataTypes.INTEGER,
+    name: DataTypes.STRING
   }, {
     classMethods: {
       associate: function(models) {
@@ -14,6 +15,8 @@ module.exports = function(sequelize, DataTypes) {
           foreignKey: 'episode_id',
           as: 'GuestStars'
         });
+
+        Episode.belongsTo(models.Season, { foreignKey: 'season_id' });
       }
     }
   });

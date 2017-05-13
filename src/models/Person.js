@@ -30,6 +30,16 @@ module.exports = function(sequelize, DataTypes) {
           foreignKey: 'person_id',
           as: 'SeasonCrew'
         });
+
+        Person.hasMany(models.TvCast, {
+          foreignKey: 'person_id',
+          as: 'TvCast'
+        });
+
+        Person.hasMany(models.TvCrew, {
+          foreignKey: 'person_id',
+          as: 'TvCrew'
+        });
       }
     }
   });

@@ -46,6 +46,24 @@ module.exports = function(sequelize, DataTypes) {
           otherKey: 'season_id',
           as: 'SeasonBackdrops'
         });
+
+        Image.belongsToMany(models.Tv, {
+          through: {
+            model: models.TvPoster
+          },
+          foreignKey: 'image_id',
+          otherKey: 'tv_id',
+          as: 'TvPosters'
+        });
+
+        Image.belongsToMany(models.Tv, {
+          through: {
+            model: models.TvBackdrop
+          },
+          foreignKey: 'image_id',
+          otherKey: 'tv_id',
+          as: 'TvBackdrops'
+        });
       }
     }
   });

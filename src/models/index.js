@@ -16,7 +16,9 @@ db.conf = {
   host: process.env.DATABASE_HOST,
   port: process.env.DATABASE_PORT || 3306,
   storage: process.env.DATABASE_STORAGE,
+  underscored: true,
   define: {
+  underscored: true,
     freezeTableName: true, 
     charset: 'utf8',
     collate: 'utf8_general_ci'
