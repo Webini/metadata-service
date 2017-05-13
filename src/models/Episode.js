@@ -1,6 +1,6 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
-  var Episode = sequelize.define('Episode', {
+  const Episode = sequelize.define('Episode', {
     air_date: DataTypes.DATE,
     episode_number: DataTypes.INTEGER,
     overview: DataTypes.TEXT,
@@ -10,7 +10,10 @@ module.exports = function(sequelize, DataTypes) {
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
+        Episode.hasMany(models.EpisodeGuestStar, {
+          foreignKey: 'episode_id',
+          as: 'GuestStars'
+        });
       }
     }
   });

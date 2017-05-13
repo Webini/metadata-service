@@ -25,21 +25,60 @@ module.exports = function(sequelize, DataTypes) {
           through: {
             model: models.MovieGenre
           },
-          foreignKey: 'movie_id'
+          foreignKey: 'movie_id',
+          otherKey: 'genre_id'
         });
         
         Movie.belongsToMany(models.ProductionCompany, {
           through: {
             model: models.MovieProductionCompany
           },
-          foreignKey: 'movie_id'
+          foreignKey: 'movie_id',
+          otherKey: 'production_company_id'
         });
 
         Movie.belongsToMany(models.Video, {
           through: {
             model: models.MovieVideo
           },
-          foreignKey: 'movie_id'
+          foreignKey: 'movie_id',
+          otherKey: 'video_id'
+        });
+
+        Movie.hasMany(models.MovieCast, {
+          foreignKey: 'movie_id',
+          as: 'Cast'
+        });
+
+        Movie.hasMany(models.MovieCrew, {
+          foreignKey: 'movie_id',
+          as: 'Crew'
+        });
+
+        Movie.belongsToMany(models.Image, {
+          through: {
+            model: models.MovieBackdrop
+          },
+          foreignKey: 'movie_id',
+          otherKey: 'image_id',
+          as: 'Backdrops'
+        });
+
+        Movie.belongsToMany(models.Image, {
+          through: {
+            model: models.MoviePoster
+          },
+          foreignKey: 'movie_id',
+          otherKey: 'image_id',
+          as: 'Posters'
+        });
+
+        Movie.belongsToMany(models.Keyword, {
+          through: {
+            model: models.MovieKeyword
+          },
+          foreignKey: 'movie_id',
+          otherKey: 'keyword_id'
         });
       }
     }

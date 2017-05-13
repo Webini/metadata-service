@@ -3,10 +3,10 @@ const onLoaded = require('../../../server.js');
 const models = require('../../../src/models/index.js');
 const assert = require('assert');
 
-describe('Movie schema', () => {
+describe('Season schema', () => {
   const { 
-    Movie, Genre, ProductionCompany, Video,
-    Person, MovieCast, MovieCrew, Image, Keyword
+    Season, Video, Person, SeasonCast, 
+    SeasonCrew, Image
   } = models;
 
   before(() => {
@@ -15,90 +15,70 @@ describe('Movie schema', () => {
 
   afterEach(async () => {
     //no trucate cascade available
-    await Movie.destroy({ cascade: true, where: { id: { $gte: 0 } } });
-  });
-  
-  it('should create genre assoc', async () => {
-    const [ movie, genre ] = await Promise.all([
-      Movie.create({ title: 'test' }),
-      Genre.create({ name: 'yolo' })
-    ]);
-    
-    await movie.addGenre(genre);
-    await genre.destroy();
-  });
-
-  it('should create production company assoc', async () => {
-    const [ movie, pcomp ] = await Promise.all([
-      Movie.create({ title: 'test' }),
-      ProductionCompany.create({ name: 'yolo' })
-    ]);
-    
-    await movie.addProductionCompany(pcomp);
-    await pcomp.destroy();
+    await Season.destroy({ cascade: true, where: { id: { $gte: 0 } } });
   });
 
   it('should create video assoc', async () => {
-    const [ movie, video ] = await Promise.all([
-      Movie.create({ title: 'test' }),
+    const [ season, video ] = await Promise.all([
+      Season.create({ title: 'test' }),
       Video.create({ id: '58f5e92492514127c700b0dc', name: 'yolo' })
     ]);
     
-    await movie.addVideo(video);
+    await season.addVideo(video);
     await video.destroy();
   });
 
   it('should create a new cast', async () => {
-    const [ movie, person ] = await Promise.all([
-      Movie.create({ title: 'test' }),
+    const [ season, person ] = await Promise.all([
+      Season.create({ title: 'test' }),
       Person.create({ name: 'Jean Robert' })
     ]);
 
-    const movieCast = await MovieCast.create({ 
+    const seasonCast = await SeasonCast.create({ 
       id: '53d55cd10e0a262838004811',
-      movie_id: movie.id,
+      season_id: season.id,
       person_id: person.id,
       character: 'Marcel',
       order: 1
     });
 
-    let cast = await movie.getCast();
+    let cast = await season.getCast();
     assert.strictEqual((await cast[0].getPerson()).id, person.id);
     
-    await movieCast.destroy();
-    cast = await movie.getCast();
+    await seasonCast.destroy();
+    cast = await season.getCast();
     assert.strictEqual(cast.length, 0, 'cast should be empty');
 
     await person.destroy();
   });
 
   it('should create a new crew', async () => {
-    const [ movie, person ] = await Promise.all([
-      Movie.create({ title: 'test' }),
+    const [ season, person ] = await Promise.all([
+      Season.create({ title: 'test' }),
       Person.create({ name: 'Jean Robert' })
     ]);
 
-    const movieCrew = await MovieCrew.create({ 
+    const seasonCrew = await SeasonCrew.create({ 
       id: '584563e1c3a3684903001915',
-      movie_id: movie.id,
+      season_id: season.id,
       person_id: person.id,
       department: 'Production',
       job: 'Executive Producer'
     });
 
-    let crew = await movie.getCrew();
+    let crew = await season.getCrew();
     assert.strictEqual((await crew[0].getPerson()).id, person.id);
     
-    await movieCrew.destroy();
-    crew = await movie.getCast();
+    await seasonCrew.destroy();
+    crew = await season.getCast();
     assert.strictEqual(crew.length, 0, 'cast should be empty');
 
     await person.destroy();
   });
 
   it('should create image backdrop assoc', async () => {
-    const [ movie, image ] = await Promise.all([
-      Movie.create({ title: 'test' }),
+    const [ season, image ] = await Promise.all([
+      Season.create({ title: 'test' }),
       Image.create({
         id: 'ecdc19a9ab3c228a79aa636629ef7c65',
         aspect_ratio: 1.777777777777778,
@@ -111,13 +91,13 @@ describe('Movie schema', () => {
       })
     ]);
     
-    await movie.addBackdrop(image);
+    await season.addBackdrop(image);
     await image.destroy();
   });
 
   it('should create image poster assoc', async () => {
-    const [ movie, image ] = await Promise.all([
-      Movie.create({ title: 'test' }),
+    const [ season, image ] = await Promise.all([
+      Season.create({ title: 'test' }),
       Image.create({
         id: 'ecdc19a9ab3c228a79aa636629ef7c65',
         aspect_ratio: 1.777777777777778,
@@ -130,17 +110,7 @@ describe('Movie schema', () => {
       })
     ]);
     
-    await movie.addPoster(image);
+    await season.addPoster(image);
     await image.destroy();
-  });
-
-  it('should create keyword assoc', async () => {
-    const [ movie, keyword ] = await Promise.all([
-      Movie.create({ title: 'test' }),
-      Keyword.create({ name: 'test'})
-    ]);
-    
-    await movie.addKeyword(keyword);
-    await keyword.destroy();
   });
 });

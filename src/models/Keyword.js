@@ -1,21 +1,19 @@
 'use strict';
-
 module.exports = function(sequelize, DataTypes) {
-  const Genre = sequelize.define('Genre', {
+  const Keyword = sequelize.define('Keyword', {
     name: DataTypes.STRING
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
-        Genre.belongsToMany(models.Movie, {
+        Keyword.belongsToMany(models.Movie, {
           through: {
-            model: models.MovieGenre
+            model: models.MovieKeyword
           },
-          foreignKey: 'genre_id',
+          foreignKey: 'keyword_id',
           otherKey: 'movie_id'
         });
       }
     }
   });
-  return Genre;
+  return Keyword;
 };

@@ -10,7 +10,8 @@ module.exports = function(sequelize, DataTypes) {
           through: {
             model: models.MovieProductionCompany
           },
-          foreignKey: 'production_company_id'
+          foreignKey: 'production_company_id',
+          otherKey: 'movie_id'
         });
       }
     }

@@ -39,6 +39,7 @@ module.exports = waitForIt(orm.conf.host, orm.conf.port, 60000, 1000).then(() =>
     return runServer();
   }
 }).catch((e) => {
+  console.log(e);
   winston.error(process.env.LOG_PREFIX, { error: e });
   process.exit(-1);
 });

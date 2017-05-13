@@ -4,9 +4,8 @@ module.exports = {
     return queryInterface.createTable('Image', {
       id: {
         allowNull: false,
-        autoIncrement: true,
         primaryKey: true,
-        type: Sequelize.INTEGER
+        type: Sequelize.STRING(32)
       },
       aspect_ratio: {
         type: Sequelize.FLOAT

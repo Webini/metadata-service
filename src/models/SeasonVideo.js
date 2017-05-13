@@ -1,13 +1,15 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
-  var Keyword = sequelize.define('Keyword', {
-    name: DataTypes.STRING
+  const SeasonVideo = sequelize.define('SeasonVideo', {
+    season_id: DataTypes.INTEGER,
+    video_id: DataTypes.STRING(32)
   }, {
+    timestamps: false,
     classMethods: {
       associate: function(models) {
         // associations can be defined here
       }
     }
   });
-  return Keyword;
+  return SeasonVideo;
 };

@@ -1,15 +1,15 @@
 'use strict';
 module.exports = function(sequelize, DataTypes) {
-  var Cast = sequelize.define('Cast', {
-    name: DataTypes.STRING,
-    profile_path: DataTypes.STRING,
-    character: DataTypes.STRING
+  const MovieKeyword = sequelize.define('MovieKeyword', {
+    movie_id: DataTypes.INTEGER,
+    keyword_id: DataTypes.INTEGER
   }, {
+    timestamps: false,
     classMethods: {
       associate: function(models) {
         // associations can be defined here
       }
     }
   });
-  return Cast;
+  return MovieKeyword;
 };
