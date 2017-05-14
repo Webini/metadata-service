@@ -15,19 +15,23 @@ services:
       DATABASE_DIALECT: mariadb
       SERVER_PORT: 8080
       TMDB_API_KEY: ${TMDB_API_KEY}
+    restart: always
     links:
       - maria:maria.host
+      - rabbitmq:rabbitmq.host
+      - redis:redis.host
     depends_on:
       - maria
     volumes:
       - ./:/home/node/server
     ports:
       - 8080:8080
-    command:
-      - node
-      - ./node_modules/.bin/nodemon
-      - server.js
-      - --run-with-migrations
+    command: [
+      wait-for-it.sh, "maria.host:3306", -t, "120", -s, --,
+      wait-for-it.sh, "redis.host:6379", -t, "120", -s, --,
+      wait-for-it.sh, "rabbitmq.host:5672", -t, "120", -sa, "10", -s, --
+      node, ./node_modules/.bin/nodemon, server.js, --run-with-migrations
+    ]
 
   maria:
     image: mariadb:latest
@@ -40,4 +44,19 @@ services:
       - ./data/maria:/var/lib/mysql
     ports:
       - 3306:3306
-        
+    
+  rabbitmq:
+    image: rabbitmq:3.6-management
+    ports:
+      - 3001:15672
+      - 5672:5672
+    volumes:
+      - ./data/rabbitmq:/var/lib/rabbitmq
+
+  redis:
+    command: redis-server --appendonly yes
+    image: redis:3.2
+    volumes:
+      - ./data/redis:/data
+    ports: 
+      - 6379:6379

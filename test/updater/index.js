@@ -1,4 +1,3 @@
-const onLoaded = require('../../server.js');
 const updater = require('../../src/updater/updater.js');
 const assert = require('assert');
 const moviesData = require('../assets/movie_expected.json');
@@ -20,10 +19,6 @@ function destroyAll(data) {
 
 describe('Updater', function() {
   this.timeout(60000);
-
-  before(() => {
-    return onLoaded;
-  });
 
   it('should handle basic priorities', async () => {
     const results = await updater(

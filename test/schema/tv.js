@@ -1,4 +1,3 @@
-const onLoaded = require('../../server.js');
 const models = require('../../src/models/index.js');
 const assert = require('assert');
 
@@ -7,10 +6,6 @@ describe('Tv schema', () => {
     Tv, Genre, Video, Person, TvCast, TvCrew, 
     Image, Keyword, Season
   } = models;
-
-  before(() => {
-    return onLoaded;
-  });
 
   afterEach(async () => {
     //no trucate cascade available

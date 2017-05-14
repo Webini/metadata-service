@@ -1,5 +1,3 @@
-/*global describe,it*/
-const onLoaded = require('../../server.js');
 const models = require('../../src/models/index.js');
 const assert = require('assert');
 
@@ -12,8 +10,6 @@ describe('Episode schema', () => {
   let season = null;
 
   before(async () => {
-    await onLoaded;
-    
     tv = await Tv.create({ name: 'test' });
     season = await Season.create({ tv_id: tv.id, name: 'test' });
   });

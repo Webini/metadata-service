@@ -7,6 +7,10 @@ RUN apt-get update && \
     apt-get install -y --force-yes python-pip && \
     pip install guessit
     
+RUN git clone https://github.com/Webini/wait-for-it ./wait-for-it && \
+    mv ./wait-for-it/wait-for-it.sh /usr/local/bin && \
+    chmod +x /usr/local/bin/wait-for-it.sh
+
 VOLUME [ "/home/node/server/data" ]
 
 ADD "src" "/home/node/server/src"

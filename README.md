@@ -5,75 +5,7 @@ dep : Guessit
 
 API
 ===
-
-## /filename
-### POST
-#### Parameters
-```json
-{
-  "filename": "<string>"
-}
-``` 
-#### Description
-Return guessed metadata from filename
-
-#### Return 200 
-```json
-{
-  "success": true,
-  "data": {
-    "title": "< string >",
-    "season": < int >,
-    "episode": < int >,
-    "episode_title": "< string >",
-    "format": "< string >",
-    "video_codec": "< string >",
-    "release_group": "< string >",
-    "container": "< string >",
-    "mimetype": "< string >",
-    "type": "< string >"
-  }
-}
-```
- 
- If we cannot found informations, corresponding field are not returned.
-### Return 400
-```json
-{
-  "data": {
-    "< field >": [
-      "< error messages >",
-      ...
-    ]
-  },
-  "success": false
-}
-``` 
-### Return 500
-```json
-{
-  "success": false,
-  "data": "< string >"
-}
-```
-
-## /search
-### POST
-#### Parameters
-```json
-{ 
-  "type": < int >, 
-  "search": "< string >"
-}
-```
-
-#### Description
-Search for an item, available types:
-- 1: Serie
-- 2: Movie
-
-#### Return
-Todo
+@todo
 
 Env
 ===
@@ -93,3 +25,8 @@ DATABASE_HOST           |                | Database host
 DATABASE_LOGGING        | 0              | Database logging, it will output all queries
 DATABASE_PORT           |                | Database port
 DATABASE_STORAGE        |                | Database storage cf sequelize doc
+RABBITMQ_URL            |                | RabbitMQ url (format like `amqp://localhost:5672` )
+RABBITMQ_FILE_EXCHANGE  | transmission-service | Exchange used for retreiving files to process
+EXCHANGE_NAME           | metadata       | Exchange name of this service
+REDIS_HOST              |                | Redis host used to save retry state of rabbitmq messages processing and download speed metadata
+REDIS_PORT              | 6379           | Redis port

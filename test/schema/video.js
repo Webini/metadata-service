@@ -1,13 +1,8 @@
-const onLoaded = require('../../server.js');
 const assert = require('assert');
 const models = require('../../src/models/index.js');
 
 describe('Video schema', () => {
   const { Video } = models;
-
-  before(() => {
-    return onLoaded;
-  });
 
   afterEach(async () => {
     //no trucate cascade available
