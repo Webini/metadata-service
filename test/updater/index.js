@@ -1,8 +1,8 @@
-const onLoaded = require('../../../server.js');
-const updater = require('../../../src/updater/updater.js');
+const onLoaded = require('../../server.js');
+const updater = require('../../src/updater/updater.js');
 const assert = require('assert');
-const moviesData = require('../../assets/movie_expected.json');
-const tvData = require('../../assets/tv_expected.json');
+const moviesData = require('../assets/movie_expected.json');
+const tvData = require('../assets/tv_expected.json');
 
 /**
  * Destroy all entities and chain all promises to avoir deadlock

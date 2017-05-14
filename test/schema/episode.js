@@ -1,6 +1,6 @@
 /*global describe,it*/
-const onLoaded = require('../../../server.js');
-const models = require('../../../src/models/index.js');
+const onLoaded = require('../../server.js');
+const models = require('../../src/models/index.js');
 const assert = require('assert');
 
 describe('Episode schema', () => {

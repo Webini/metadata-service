@@ -14,5 +14,12 @@ module.exports = function(sequelize, DataTypes) {
       }
     }
   });
+
+  File.TYPES = {
+    unknownMedia: 1,
+    movie: 2,
+    tv: 4,
+  };
+
   return File;
 };
