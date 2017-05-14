@@ -3,6 +3,22 @@ const defaultDef = require('./definition.json');
 const db = require('../models/index.js');
 
 /**
+ * @param {Sequelize.Model} model 
+ * @param {Object} data 
+ * @param {Sequelize.Transaction} transaction 
+ * @returns {Promise}
+ */
+async function upsert(model, data) {
+  await model.upsert(data);
+
+  if (data.id) {
+    return await model.findOne({ where: { id: data.id }});
+  } else {
+    return await model.findOne({ where: data });
+  }
+}
+
+/**
  * @param {Object} conf 
  * @param {Object} entityData 
  * @param {Object} rootData 
@@ -11,13 +27,11 @@ const db = require('../models/index.js');
 async function processEntity(conf, entityData, rootData) {
   const model = db[conf.entity];
 
-  const entities = await db.sequelize.transaction((transaction) => {
-    return Promise.all(
-      Object
-        .keys(entityData)
-        .map((key) => model.create(entityData[key], { transaction: transaction }))
-    );
-  });
+  const entities = await Promise.all(
+    Object
+      .keys(entityData)
+      .map((key) => upsert(model, entityData[key]))
+  );
 
   if (!conf.relations) {
     return entities;
@@ -26,19 +40,18 @@ async function processEntity(conf, entityData, rootData) {
   await Promise.all(entities.map((entity) => {
     return Object
       .keys(conf.relations)
-      .reduce((promise, path) => {
-        return promise.then(() => {
-          const relation = conf.relations[path];
-          const relationData = _get(entityData[entity.id], path);
-          return processRelations(
-            conf.relationColumn, 
-            conf.idColumn,
-            entity,
-            relation,
-            relationData,
-            rootData
-          );
-        });
+      .reduce(async (promise, path) => {
+        await promise;
+        const relation = conf.relations[path];
+        const relationData = _get(entityData[entity.id], path);
+        return processRelations(
+          conf.relationColumn, 
+          conf.idColumn,
+          entity,
+          relation,
+          relationData,
+          rootData
+        );
       }, Promise.resolve())
     ;
   }));
@@ -74,14 +87,12 @@ async function processRelations(parentRelationColumn, parentIdColumn, parentEnti
     //if we have a many to many
     const model = db[relation.entity];
 
-    return await db.sequelize.transaction(() => {
-      return Promise.all(relationData.map(async (id) => {
-        return await model.create({
-          [parentRelationColumn]: parentEntity[parentIdColumn || 'id'],
-          [relation.column]: id
-        });
-      }));
-    });
+    return Promise.all(relationData.map(async (id) => {
+      return await upsert(model, {
+        [parentRelationColumn]: parentEntity[parentIdColumn || 'id'],
+        [relation.column]: id
+      });
+    }));
   }
 }
 
@@ -93,12 +104,11 @@ module.exports = async (rootData, definition = defaultDef) => {
       return !!(rootData[key]);
     })
     .sort((a, b) => definition[a].priority - definition[b].priority)
-    .reduce((promise, key) => {
-      return promise.then(() => {
-        const result = processEntity(definition[key], rootData[key], rootData);
-        results.push(result);
-        return result;
-      });
-    }, Promise.resolve([]))
+    .reduce(async (promise, key) => {
+      await promise;
+      const result = processEntity(definition[key], rootData[key], rootData);
+      results.push(result);
+      return result;
+    }, Promise.resolve())
     .then(() => Promise.all(results));
 };

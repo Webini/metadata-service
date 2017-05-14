@@ -7,10 +7,9 @@ const moviesData = require('../../assets/movie_expected.json');
  */
 function destroyAll(data) {
   if (Array.isArray(data)) {
-    return data.reduce((promise, entity) => {
-      return promise.then(() => {
-        return destroyAll(entity);
-      });
+    return data.reduce(async (promise, entity) => {
+      await promise;
+      return destroyAll(entity);
     }, Promise.resolve());
   } else {
     return data.destroy();
