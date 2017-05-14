@@ -61,5 +61,78 @@
         "column": "keyword_id"
       }
     }
+  },
+  "tv": {
+    "entity": "Tv",
+    "priority": 2,
+    "relationColumn": "tv_id",
+    "relations": {
+      "genres": {
+        "entity": "TvGenre",
+        "column": "genre_id"
+      },
+      "videos": {
+        "entity": "TvVideo",
+        "column": "video_id"
+      },
+      "credits.cast": {
+        "entity": "TvCast",
+        "normalizrEntity": "cast"
+      },
+      "credits.crew": {
+        "entity": "TvCrew",
+        "normalizrEntity": "crew"
+      },
+      "images.backdrops": {
+        "entity": "TvBackdrop",
+        "column": "image_id"
+      },
+      "images.posters": {
+        "entity": "TvPoster",
+        "column": "image_id"
+      },
+      "keywords": {
+        "entity": "TvKeyword",
+        "column": "keyword_id"
+      }
+    }
+  },
+  "seasons": {
+    "entity": "Season",
+    "priority": 3,
+    "relationColumn": "season_id",
+    "relation": {
+      "credits.cast": {
+        "entity": "SeasonCast",
+        "normalizrEntity": "cast"
+      },
+      "credits.crew": {
+        "entity": "SeasonCrew",
+        "normalizrEntity": "crew"
+      },
+      "images.backdrops": {
+        "entity": "SeasonBackdrop",
+        "column": "image_id"
+      },
+      "images.posters": {
+        "entity": "SeasonPoster",
+        "column": "image_id"
+      },
+      "videos": {
+        "entity": "SeasonVideo",
+        "column": "video_id"
+      }
+    }
+  },
+  "episodes": {
+    "entity": "Episode",
+    "priority": 4,
+    "relationColumn": "episode_id",
+    "relation": {
+      "guest_stars": {
+        "entity": "EpisodeGuestStar",
+        "normalizrEntity": "cast"
+      }
+    }
   }
 }

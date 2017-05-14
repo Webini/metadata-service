@@ -27,7 +27,6 @@ module.exports = {
   person: Person,
   cast: new schema.Entity('cast', { person: Person }, { processStrategy: assignPersonId }),
   crew: new schema.Entity('crew', { person: Person }, { processStrategy: assignPersonId }),
-  network: new schema.Entity('networks'),
   image: new schema.Entity('images', {}, { idAttribute: processImageId, processStrategy: processImage }),
   keyword: new schema.Entity('keywords')
 };

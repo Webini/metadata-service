@@ -3,6 +3,10 @@ FROM node:7.10.0
 ENV SERVER_PORT 8080
 ENV SERVER_HOST 0.0.0.0
 
+RUN apt-get update && \
+    apt-get install -y --force-yes python-pip && \
+    pip install guessit
+    
 VOLUME [ "/home/node/server/data" ]
 
 ADD "src" "/home/node/server/src"

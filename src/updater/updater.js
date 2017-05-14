@@ -5,7 +5,6 @@ const db = require('../models/index.js');
 /**
  * @param {Sequelize.Model} model 
  * @param {Object} data 
- * @param {Sequelize.Transaction} transaction 
  * @returns {Promise}
  */
 async function upsert(model, data) {

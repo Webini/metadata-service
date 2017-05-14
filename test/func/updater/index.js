@@ -1,6 +1,8 @@
+const onLoaded = require('../../../server.js');
 const updater = require('../../../src/updater/updater.js');
 const assert = require('assert');
 const moviesData = require('../../assets/movie_expected.json');
+const tvData = require('../../assets/tv_expected.json');
 
 /**
  * Destroy all entities and chain all promises to avoir deadlock
@@ -18,6 +20,11 @@ function destroyAll(data) {
 
 describe('Updater', function() {
   this.timeout(60000);
+
+  before(() => {
+    return onLoaded;
+  });
+
   it('should handle basic priorities', async () => {
     const results = await updater(
       {
@@ -149,5 +156,20 @@ describe('Updater', function() {
   it('should handle movie creation with sample data', async () => {
     const results = await updater(moviesData.entities);
     return destroyAll(results);
+  });
+
+  it('should handle tv creation with sample data', async () => {
+    const results = await updater(tvData.entities);
+    return destroyAll(results);
+  });
+
+  it('should handle concurrent tv creation with sample data', async () => {
+    const promA = updater(tvData.entities);
+    const promB = updater(tvData.entities);
+    
+    return Promise.all([
+      promB.then((results) => destroyAll(results)),
+      promA.then((results) => destroyAll(results))
+    ]);
   });
 });

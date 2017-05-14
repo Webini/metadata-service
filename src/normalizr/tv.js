@@ -6,8 +6,6 @@ const seasonSchema = require('./seasonSchema.js');
 
 const tv = new schema.Entity('tv', { 
   genres: [ sharedSchema.genre ],
-  networks: [ sharedSchema.network ],
-  production_companies: [ sharedSchema.productionCompany ],
   videos: [ sharedSchema.video ],
   credits: {
     crew: [ sharedSchema.crew ],

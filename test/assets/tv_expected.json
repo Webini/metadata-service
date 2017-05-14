@@ -6,12 +6,6 @@
                 "name": "Drama"
             }
         },
-        "networks": {
-            "6": {
-                "id": "6",
-                "name": "NBC"
-            }
-        },
         "videos": {
             "55713c4a9251416af7000eab": {
                 "id": "55713c4a9251416af7000eab",
@@ -2519,7 +2513,10 @@
                 "last_air_date": "2015-08-27",
                 "name": "Hannibal",
                 "networks": [
-                    "6"
+                    {
+                        "id": "6",
+                        "name": "NBC"
+                    }
                 ],
                 "number_of_episodes": 39,
                 "number_of_seasons": 3,
