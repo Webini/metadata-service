@@ -7,7 +7,6 @@ module.exports = new schema.Entity('episodes', {
   guest_stars: [ sharedSchema.cast ]
 }, {
   processStrategy: (val, parent) => Object.assign({
-    tv_id: parent.tv_id,
     season_id: parent.id
   }, val)
 });

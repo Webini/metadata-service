@@ -34,7 +34,7 @@
     "original_language": "en",
     "original_name": "Hannibal",
     "overview": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
-    "popularity": 6.475316,
+    "popularity": 4.217579,
     "poster_path": "/kArcGHvTb7m1v6RFHdU40jpiGZD.jpg",
     "production_companies": [],
     "status": "Ended",
@@ -66,82 +66,96 @@
     "credits": {
         "cast": [
             {
-                "cast_id": null,
+                "id": "52595bb619c295731c0877cb",
                 "character": "Will Graham",
-                "credit_id": "52595bb619c295731c0877cb",
-                "id": "12791",
-                "name": "Hugh Dancy",
                 "order": 0,
-                "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                "person": {
+                    "id": "12791",
+                    "name": "Hugh Dancy",
+                    "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                }
             },
             {
-                "cast_id": null,
+                "id": "52595bb619c295731c087823",
                 "character": "Hannibal Lecter",
-                "credit_id": "52595bb619c295731c087823",
-                "id": "1019",
-                "name": "Mads Mikkelsen",
                 "order": 1,
-                "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                "person": {
+                    "id": "1019",
+                    "name": "Mads Mikkelsen",
+                    "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                }
             },
             {
-                "cast_id": null,
+                "id": "52595bb619c295731c087925",
                 "character": "Jack Crawford",
-                "credit_id": "52595bb619c295731c087925",
-                "id": "2975",
-                "name": "Laurence Fishburne",
                 "order": 2,
-                "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                "person": {
+                    "id": "2975",
+                    "name": "Laurence Fishburne",
+                    "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                }
             },
             {
-                "cast_id": null,
+                "id": "528510a9760ee30c140309cc",
                 "character": "Dr. Bedelia Du Maurier",
-                "credit_id": "528510a9760ee30c140309cc",
-                "id": "12214",
-                "name": "Gillian Anderson",
                 "order": 14,
-                "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                "person": {
+                    "id": "12214",
+                    "name": "Gillian Anderson",
+                    "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                }
             }
         ],
         "crew": [
             {
-                "credit_id": "563d231bc3a3681b5e026b11",
+                "id": "563d231bc3a3681b5e026b11",
                 "department": "Writing",
-                "id": "16786",
                 "job": "Characters",
-                "name": "Thomas Harris",
-                "profile_path": null
+                "person": {
+                    "id": "16786",
+                    "name": "Thomas Harris",
+                    "profile_path": null
+                }
             },
             {
-                "credit_id": "563d22adc3a3681b5e026b04",
+                "id": "563d22adc3a3681b5e026b04",
                 "department": "Sound",
-                "id": "40839",
                 "job": "Original Music Composer",
-                "name": "Brian Reitzell",
-                "profile_path": null
+                "person": {
+                    "id": "40839",
+                    "name": "Brian Reitzell",
+                    "profile_path": null
+                }
             },
             {
-                "credit_id": "563d237d92514178190052fa",
+                "id": "563d237d92514178190052fa",
                 "department": "Production",
-                "id": "17311",
                 "job": "Executive Producer",
-                "name": "Bryan Fuller",
-                "profile_path": null
+                "person": {
+                    "id": "17311",
+                    "name": "Bryan Fuller",
+                    "profile_path": null
+                }
             },
             {
-                "credit_id": "563d23b9c3a3681b4d02eadd",
+                "id": "563d23b9c3a3681b4d02eadd",
                 "department": "Production",
-                "id": "19051",
                 "job": "Executive Producer",
-                "name": "Martha De Laurentiis",
-                "profile_path": null
+                "person": {
+                    "id": "19051",
+                    "name": "Martha De Laurentiis",
+                    "profile_path": null
+                }
             },
             {
-                "credit_id": "563d24bbc3a3681b610295e6",
+                "id": "563d24bbc3a3681b610295e6",
                 "department": "Costume & Make-Up",
-                "id": "23548",
                 "job": "Costume Design",
-                "name": "Christopher Hargadon",
-                "profile_path": null
+                "person": {
+                    "id": "23548",
+                    "name": "Christopher Hargadon",
+                    "profile_path": null
+                }
             }
         ]
     },
@@ -488,31 +502,34 @@
             "credits": {
                 "cast": [
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c0877cb",
                         "character": "Will Graham",
-                        "credit_id": "52595bb619c295731c0877cb",
-                        "id": "12791",
-                        "name": "Hugh Dancy",
                         "order": 0,
-                        "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                        "person": {
+                            "id": "12791",
+                            "name": "Hugh Dancy",
+                            "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c087823",
                         "character": "Hannibal Lecter",
-                        "credit_id": "52595bb619c295731c087823",
-                        "id": "1019",
-                        "name": "Mads Mikkelsen",
                         "order": 1,
-                        "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                        "person": {
+                            "id": "1019",
+                            "name": "Mads Mikkelsen",
+                            "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c087925",
                         "character": "Jack Crawford",
-                        "credit_id": "52595bb619c295731c087925",
-                        "id": "2975",
-                        "name": "Laurence Fishburne",
                         "order": 2,
-                        "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                        "person": {
+                            "id": "2975",
+                            "name": "Laurence Fishburne",
+                            "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                        }
                     }
                 ],
                 "crew": []
@@ -521,18 +538,7 @@
                 "backdrops": null,
                 "posters": []
             },
-            "videos": [
-                {
-                    "id": "534921db0e0a266b3f0013bb",
-                    "iso_639_1": "en",
-                    "iso_3166_1": "US",
-                    "key": "9cqABojhqr4",
-                    "name": "Pledge Your Allegiance - House Stark",
-                    "site": "YouTube",
-                    "size": 720,
-                    "type": "Featurette"
-                }
-            ],
+            "videos": [],
             "episodes": [
                 {
                     "id": "1241364",
@@ -618,107 +624,126 @@
             "credits": {
                 "cast": [
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c0877cb",
                         "character": "Will Graham",
-                        "credit_id": "52595bb619c295731c0877cb",
-                        "id": "12791",
-                        "name": "Hugh Dancy",
                         "order": 0,
-                        "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                        "person": {
+                            "id": "12791",
+                            "name": "Hugh Dancy",
+                            "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c087823",
                         "character": "Hannibal Lecter",
-                        "credit_id": "52595bb619c295731c087823",
-                        "id": "1019",
-                        "name": "Mads Mikkelsen",
                         "order": 1,
-                        "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                        "person": {
+                            "id": "1019",
+                            "name": "Mads Mikkelsen",
+                            "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c087925",
                         "character": "Jack Crawford",
-                        "credit_id": "52595bb619c295731c087925",
-                        "id": "2975",
-                        "name": "Laurence Fishburne",
                         "order": 2,
-                        "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                        "person": {
+                            "id": "2975",
+                            "name": "Laurence Fishburne",
+                            "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c087867",
                         "character": "Dr. Alana Bloom",
-                        "credit_id": "52595bb619c295731c087867",
-                        "id": "31383",
-                        "name": "Caroline Dhavernas",
                         "order": 3,
-                        "profile_path": "/iru7mIVFHGzGkd2XzCZBxjnq4t2.jpg"
+                        "person": {
+                            "id": "31383",
+                            "name": "Caroline Dhavernas",
+                            "profile_path": "/iru7mIVFHGzGkd2XzCZBxjnq4t2.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c08787f",
                         "character": "Beverly",
-                        "credit_id": "52595bb619c295731c08787f",
-                        "id": "1218184",
-                        "name": "Hettienne Park",
                         "order": 4,
-                        "profile_path": "/iQJMXqr5GeZogy1Ku6kPRtNl1mJ.jpg"
+                        "person": {
+                            "id": "1218184",
+                            "name": "Hettienne Park",
+                            "profile_path": "/iQJMXqr5GeZogy1Ku6kPRtNl1mJ.jpg"
+                        }
                     }
                 ],
                 "crew": [
                     {
-                        "credit_id": "563d24709251411867000443",
+                        "id": "563d24709251411867000443",
                         "department": "Production",
-                        "id": "64506",
                         "job": "Executive Producer",
-                        "name": "Chris Brancato",
-                        "profile_path": null
+                        "person": {
+                            "id": "64506",
+                            "name": "Chris Brancato",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "52595bbc19c295731c087b09",
+                        "id": "52595bbc19c295731c087b09",
                         "department": "Production",
-                        "id": "34218",
                         "job": "Producer",
-                        "name": "Jesse Alexander",
-                        "profile_path": null
+                        "person": {
+                            "id": "34218",
+                            "name": "Jesse Alexander",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d231bc3a3681b5e026b11",
+                        "id": "563d231bc3a3681b5e026b11",
                         "department": "Writing",
-                        "id": "16786",
                         "job": "Characters",
-                        "name": "Thomas Harris",
-                        "profile_path": null
+                        "person": {
+                            "id": "16786",
+                            "name": "Thomas Harris",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d22adc3a3681b5e026b04",
+                        "id": "563d22adc3a3681b5e026b04",
                         "department": "Sound",
-                        "id": "40839",
                         "job": "Original Music Composer",
-                        "name": "Brian Reitzell",
-                        "profile_path": null
+                        "person": {
+                            "id": "40839",
+                            "name": "Brian Reitzell",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d237d92514178190052fa",
+                        "id": "563d237d92514178190052fa",
                         "department": "Production",
-                        "id": "17311",
                         "job": "Executive Producer",
-                        "name": "Bryan Fuller",
-                        "profile_path": null
+                        "person": {
+                            "id": "17311",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d23b9c3a3681b4d02eadd",
+                        "id": "563d23b9c3a3681b4d02eadd",
                         "department": "Production",
-                        "id": "19051",
                         "job": "Executive Producer",
-                        "name": "Martha De Laurentiis",
-                        "profile_path": null
+                        "person": {
+                            "id": "19051",
+                            "name": "Martha De Laurentiis",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d24bbc3a3681b610295e6",
+                        "id": "563d24bbc3a3681b610295e6",
                         "department": "Costume & Make-Up",
-                        "id": "23548",
                         "job": "Costume Design",
-                        "name": "Christopher Hargadon",
-                        "profile_path": null
+                        "person": {
+                            "id": "23548",
+                            "name": "Christopher Hargadon",
+                            "profile_path": null
+                        }
                     }
                 ]
             },
@@ -807,65 +832,73 @@
                     "episode_number": 1,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "52850d5c760ee30c1402569d",
                             "character": "Franklin",
-                            "credit_id": "52850d5c760ee30c1402569d",
-                            "id": "58873",
-                            "name": "Dan Fogler",
                             "order": 4,
-                            "profile_path": "/75hCIe6KHpHUlJDcyoxEp035BWz.jpg"
+                            "person": {
+                                "id": "58873",
+                                "name": "Dan Fogler",
+                                "profile_path": "/75hCIe6KHpHUlJDcyoxEp035BWz.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850d8a760ee30c14025eee",
                             "character": "Abigail Hobbs",
-                            "credit_id": "52850d8a760ee30c14025eee",
-                            "id": "1038625",
-                            "name": "Kacey Rohl",
                             "order": 14,
-                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            "person": {
+                                "id": "1038625",
+                                "name": "Kacey Rohl",
+                                "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243a770e0a263b7e003c88",
+                            "id": "54243a770e0a263b7e003c88",
                             "department": "Directing",
-                            "id": "27571",
                             "job": "Director",
-                            "name": "David Slade",
-                            "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                            "person": {
+                                "id": "27571",
+                                "name": "David Slade",
+                                "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Apéritif",
                     "overview": "When the FBI takes on a case of disappearing college girls, Jack Crawford recruits Will Graham, a gifted criminal profiler with a unique view into the psyche of serial killers, to consult. Jack also seeks the help of Dr. Hannibal Lecter, a brilliant psychiatrist. After a copycat strikes, Will and Hannibal join forces to track down the culprit.",
                     "still_path": "/kXGE9Yv63ApoYZSYHcTMtoieqqb.jpg",
-                    "vote_average": 7.9,
-                    "vote_count": 10
+                    "vote_average": 7.909,
+                    "vote_count": 11
                 },
                 {
                     "id": "870663",
@@ -873,58 +906,66 @@
                     "episode_number": 2,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "52850eaf760ee37bda24bf4a",
                             "character": "Freddie Lounds",
-                            "credit_id": "52850eaf760ee37bda24bf4a",
-                            "id": "1102260",
-                            "name": "Lara Jean Chorostecki",
                             "order": 14,
-                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            "person": {
+                                "id": "1102260",
+                                "name": "Lara Jean Chorostecki",
+                                "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850d8a760ee30c14025eee",
                             "character": "Abigail Hobbs",
-                            "credit_id": "52850d8a760ee30c14025eee",
-                            "id": "1038625",
-                            "name": "Kacey Rohl",
                             "order": 14,
-                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            "person": {
+                                "id": "1038625",
+                                "name": "Kacey Rohl",
+                                "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243a97c3a368087a003bb0",
+                            "id": "54243a97c3a368087a003bb0",
                             "department": "Writing",
-                            "id": "1367585",
                             "job": "Writer",
-                            "name": "Jim Danger Gray",
-                            "profile_path": null
+                            "person": {
+                                "id": "1367585",
+                                "name": "Jim Danger Gray",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243aa3c3a368086e003a75",
+                            "id": "54243aa3c3a368086e003a75",
                             "department": "Directing",
-                            "id": "28741",
                             "job": "Director",
-                            "name": "Michael Rymer",
-                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            "person": {
+                                "id": "28741",
+                                "name": "Michael Rymer",
+                                "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            }
                         }
                     ],
                     "name": "Amuse-Bouche",
@@ -939,73 +980,86 @@
                     "episode_number": 3,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "52850eaf760ee37bda24bf4a",
                             "character": "Freddie Lounds",
-                            "credit_id": "52850eaf760ee37bda24bf4a",
-                            "id": "1102260",
-                            "name": "Lara Jean Chorostecki",
                             "order": 14,
-                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            "person": {
+                                "id": "1102260",
+                                "name": "Lara Jean Chorostecki",
+                                "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850d8a760ee30c14025eee",
                             "character": "Abigail Hobbs",
-                            "credit_id": "52850d8a760ee30c14025eee",
-                            "id": "1038625",
-                            "name": "Kacey Rohl",
                             "order": 14,
-                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            "person": {
+                                "id": "1038625",
+                                "name": "Kacey Rohl",
+                                "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "57975478c3a3685556002957",
                             "character": "Marissa Schurr",
-                            "credit_id": "57975478c3a3685556002957",
-                            "id": "1251993",
-                            "name": "Holly Deveaux",
                             "order": 23,
-                            "profile_path": "/8KAfgcsmJpvB9ZxHO7VaB7VfT3.jpg"
+                            "person": {
+                                "id": "1251993",
+                                "name": "Holly Deveaux",
+                                "profile_path": "/8KAfgcsmJpvB9ZxHO7VaB7VfT3.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243ad20e0a263b7e003c90",
+                            "id": "54243ad20e0a263b7e003c90",
                             "department": "Writing",
-                            "id": "1213069",
                             "job": "Writer",
-                            "name": "David Fury",
-                            "profile_path": null
+                            "person": {
+                                "id": "1213069",
+                                "name": "David Fury",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "57b47e18925141716a00069e",
+                            "id": "57b47e18925141716a00069e",
                             "department": "Writing",
-                            "id": "1213069",
                             "job": "Teleplay",
-                            "name": "David Fury",
-                            "profile_path": null
+                            "person": {
+                                "id": "1213069",
+                                "name": "David Fury",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243a770e0a263b7e003c88",
+                            "id": "54243a770e0a263b7e003c88",
                             "department": "Directing",
-                            "id": "27571",
                             "job": "Director",
-                            "name": "David Slade",
-                            "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                            "person": {
+                                "id": "27571",
+                                "name": "David Slade",
+                                "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "57b47e28c3a3684c760006ef",
+                            "id": "57b47e28c3a3684c760006ef",
                             "department": "Writing",
-                            "id": "64506",
                             "job": "Teleplay",
-                            "name": "Chris Brancato",
-                            "profile_path": null
+                            "person": {
+                                "id": "64506",
+                                "name": "Chris Brancato",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "57b476d7925141712f00046e",
+                            "id": "57b476d7925141712f00046e",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Teleplay",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Potage",
@@ -1020,58 +1074,66 @@
                     "episode_number": 4,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "52850d8a760ee30c14025eee",
                             "character": "Abigail Hobbs",
-                            "credit_id": "52850d8a760ee30c14025eee",
-                            "id": "1038625",
-                            "name": "Kacey Rohl",
                             "order": 14,
-                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            "person": {
+                                "id": "1038625",
+                                "name": "Kacey Rohl",
+                                "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850f76760ee37be627e990",
                             "character": "Bella Crawford",
-                            "credit_id": "52850f76760ee37be627e990",
-                            "id": "9576",
-                            "name": "Gina Torres",
                             "order": 8,
-                            "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
+                            "person": {
+                                "id": "9576",
+                                "name": "Gina Torres",
+                                "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243b020e0a263b71003cbf",
+                            "id": "54243b020e0a263b71003cbf",
                             "department": "Directing",
-                            "id": "21377",
                             "job": "Director",
-                            "name": "Peter Medak",
-                            "profile_path": null
+                            "person": {
+                                "id": "21377",
+                                "name": "Peter Medak",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243af50e0a263b71003cbb",
+                            "id": "54243af50e0a263b71003cbb",
                             "department": "Writing",
-                            "id": "1367586",
                             "job": "Writer",
-                            "name": "Jennifer Schuur",
-                            "profile_path": null
+                            "person": {
+                                "id": "1367586",
+                                "name": "Jennifer Schuur",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Œuf",
@@ -1086,65 +1148,76 @@
                     "episode_number": 5,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850f76760ee37be627e990",
                             "character": "Bella Crawford",
-                            "credit_id": "52850f76760ee37be627e990",
-                            "id": "9576",
-                            "name": "Gina Torres",
                             "order": 8,
-                            "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
+                            "person": {
+                                "id": "9576",
+                                "name": "Gina Torres",
+                                "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243b020e0a263b71003cbf",
+                            "id": "54243b020e0a263b71003cbf",
                             "department": "Directing",
-                            "id": "21377",
                             "job": "Director",
-                            "name": "Peter Medak",
-                            "profile_path": null
+                            "person": {
+                                "id": "21377",
+                                "name": "Peter Medak",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243b8fc3a368086e003a95",
+                            "id": "54243b8fc3a368086e003a95",
                             "department": "Writing",
-                            "id": "1215611",
                             "job": "Writer",
-                            "name": "Scott Nimerfro",
-                            "profile_path": null
+                            "person": {
+                                "id": "1215611",
+                                "name": "Scott Nimerfro",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "57b47843c3a3680ca30011bb",
+                            "id": "57b47843c3a3680ca30011bb",
                             "department": "Writing",
-                            "id": "1215611",
                             "job": "Teleplay",
-                            "name": "Scott Nimerfro",
-                            "profile_path": null
+                            "person": {
+                                "id": "1215611",
+                                "name": "Scott Nimerfro",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "57b476d7925141712f00046e",
+                            "id": "57b476d7925141712f00046e",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Teleplay",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Coquilles",
@@ -1159,92 +1232,106 @@
                     "episode_number": 6,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ffd760ee375ec16a1b6",
                             "character": "Dr. Frederick Chilton",
-                            "credit_id": "52850ffd760ee375ec16a1b6",
-                            "id": "107515",
-                            "name": "Raúl Esparza",
                             "order": 14,
-                            "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
+                            "person": {
+                                "id": "107515",
+                                "name": "Raúl Esparza",
+                                "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850eaf760ee37bda24bf4a",
                             "character": "Freddie Lounds",
-                            "credit_id": "52850eaf760ee37bda24bf4a",
-                            "id": "1102260",
-                            "name": "Lara Jean Chorostecki",
                             "order": 14,
-                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            "person": {
+                                "id": "1102260",
+                                "name": "Lara Jean Chorostecki",
+                                "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52851037760ee37bb6275987",
                             "character": "Dr. Abel Gideon",
-                            "credit_id": "52851037760ee37bb6275987",
-                            "id": "1926",
-                            "name": "Eddie Izzard",
                             "order": 14,
-                            "profile_path": "/j5hzBqmcyWG2GC754uACCoNgAvS.jpg"
+                            "person": {
+                                "id": "1926",
+                                "name": "Eddie Izzard",
+                                "profile_path": "/j5hzBqmcyWG2GC754uACCoNgAvS.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52851070760ee30c6a03773c",
                             "character": "Miriam Lass",
-                            "credit_id": "52851070760ee30c6a03773c",
-                            "id": "34612",
-                            "name": "Anna Chlumsky",
                             "order": 10,
-                            "profile_path": "/wWuhDcOKU3t8WVPLNsP268GKvOU.jpg"
+                            "person": {
+                                "id": "34612",
+                                "name": "Anna Chlumsky",
+                                "profile_path": "/wWuhDcOKU3t8WVPLNsP268GKvOU.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "57b47e99c3a3686c01000119",
+                            "id": "57b47e99c3a3686c01000119",
                             "department": "Writing",
-                            "id": "1367587",
                             "job": "Teleplay",
-                            "name": "Kai Wu",
-                            "profile_path": null
+                            "person": {
+                                "id": "1367587",
+                                "name": "Kai Wu",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243bcac3a368087200417f",
+                            "id": "54243bcac3a368087200417f",
                             "department": "Writing",
-                            "id": "1367587",
                             "job": "Writer",
-                            "name": "Kai Wu",
-                            "profile_path": null
+                            "person": {
+                                "id": "1367587",
+                                "name": "Kai Wu",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243aa3c3a368086e003a75",
+                            "id": "54243aa3c3a368086e003a75",
                             "department": "Directing",
-                            "id": "28741",
                             "job": "Director",
-                            "name": "Michael Rymer",
-                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            "person": {
+                                "id": "28741",
+                                "name": "Michael Rymer",
+                                "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "57b476d7925141712f00046e",
+                            "id": "57b476d7925141712f00046e",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Teleplay",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Entree",
@@ -1259,75 +1346,86 @@
                     "episode_number": 7,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "528510a9760ee30c140309cc",
                             "character": "Dr. Bedelia Du Maurier",
-                            "credit_id": "528510a9760ee30c140309cc",
-                            "id": "12214",
-                            "name": "Gillian Anderson",
                             "order": 14,
-                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                            "person": {
+                                "id": "12214",
+                                "name": "Gillian Anderson",
+                                "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850d8a760ee30c14025eee",
                             "character": "Abigail Hobbs",
-                            "credit_id": "52850d8a760ee30c14025eee",
-                            "id": "1038625",
-                            "name": "Kacey Rohl",
                             "order": 14,
-                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            "person": {
+                                "id": "1038625",
+                                "name": "Kacey Rohl",
+                                "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "528511a9760ee30c140338c0",
                             "character": "Mrs. Komeda",
-                            "credit_id": "528511a9760ee30c140338c0",
-                            "id": "13420",
-                            "name": "Ellen Greene",
                             "order": 12,
-                            "profile_path": "/1EHwrl4PzPJzVbheXoqW6uzhMos.jpg"
+                            "person": {
+                                "id": "13420",
+                                "name": "Ellen Greene",
+                                "profile_path": "/1EHwrl4PzPJzVbheXoqW6uzhMos.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243bf7c3a3681eca0023f0",
+                            "id": "54243bf7c3a3681eca0023f0",
                             "department": "Writing",
-                            "id": "34218",
                             "job": "Writer",
-                            "name": "Jesse Alexander",
-                            "profile_path": null
+                            "person": {
+                                "id": "34218",
+                                "name": "Jesse Alexander",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243be5c3a368087a003bcf",
+                            "id": "54243be5c3a368087a003bcf",
                             "department": "Directing",
-                            "id": "15890",
                             "job": "Director",
-                            "name": "James Foley",
-                            "profile_path": "/caO7yyC7C3YJdEvK1cb7gvJbWaY.jpg"
+                            "person": {
+                                "id": "15890",
+                                "name": "James Foley",
+                                "profile_path": "/caO7yyC7C3YJdEvK1cb7gvJbWaY.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Sorbet",
@@ -1342,57 +1440,66 @@
                     "episode_number": 8,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "528510a9760ee30c140309cc",
                             "character": "Dr. Bedelia Du Maurier",
-                            "credit_id": "528510a9760ee30c140309cc",
-                            "id": "12214",
-                            "name": "Gillian Anderson",
                             "order": 14,
-                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                            "person": {
+                                "id": "12214",
+                                "name": "Gillian Anderson",
+                                "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243af50e0a263b71003cbb",
+                            "id": "54243af50e0a263b71003cbb",
                             "department": "Writing",
-                            "id": "1367586",
                             "job": "Writer",
-                            "name": "Jennifer Schuur",
-                            "profile_path": null
+                            "person": {
+                                "id": "1367586",
+                                "name": "Jennifer Schuur",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c1b0e0a263b77003bf8",
+                            "id": "54243c1b0e0a263b77003bf8",
                             "department": "Directing",
-                            "id": "15858",
                             "job": "Director",
-                            "name": "Tim Hunter",
-                            "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                            "person": {
+                                "id": "15858",
+                                "name": "Tim Hunter",
+                                "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Fromage",
@@ -1407,67 +1514,76 @@
                     "episode_number": 9,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "52851215760ee37d3f056ce2",
                             "character": "Lawrence Wells",
-                            "credit_id": "52851215760ee37d3f056ce2",
-                            "id": "2714",
-                            "name": "Lance Henriksen",
                             "order": 13,
-                            "profile_path": "/wf4Pr9RxsHGd0O9fLPiB3Al8IVC.jpg"
+                            "person": {
+                                "id": "2714",
+                                "name": "Lance Henriksen",
+                                "profile_path": "/wf4Pr9RxsHGd0O9fLPiB3Al8IVC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850eaf760ee37bda24bf4a",
                             "character": "Freddie Lounds",
-                            "credit_id": "52850eaf760ee37bda24bf4a",
-                            "id": "1102260",
-                            "name": "Lara Jean Chorostecki",
                             "order": 14,
-                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            "person": {
+                                "id": "1102260",
+                                "name": "Lara Jean Chorostecki",
+                                "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850d8a760ee30c14025eee",
                             "character": "Abigail Hobbs",
-                            "credit_id": "52850d8a760ee30c14025eee",
-                            "id": "1038625",
-                            "name": "Kacey Rohl",
                             "order": 14,
-                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            "person": {
+                                "id": "1038625",
+                                "name": "Kacey Rohl",
+                                "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243c7ec3a3680880003b58",
+                            "id": "54243c7ec3a3680880003b58",
                             "department": "Directing",
-                            "id": "3113",
                             "job": "Director",
-                            "name": "Guillermo Navarro",
-                            "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                            "person": {
+                                "id": "3113",
+                                "name": "Guillermo Navarro",
+                                "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Trou Normand",
@@ -1482,65 +1598,76 @@
                     "episode_number": 10,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "52851286760ee30c1403697c",
                             "character": "Georgia Madchen",
-                            "credit_id": "52851286760ee30c1403697c",
-                            "id": "1218072",
-                            "name": "Ellen Muth",
                             "order": 14,
-                            "profile_path": "/1U1qdqyKCNbmi6r8HdN3ahur1zp.jpg"
+                            "person": {
+                                "id": "1218072",
+                                "name": "Ellen Muth",
+                                "profile_path": "/1U1qdqyKCNbmi6r8HdN3ahur1zp.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "560331729251416f0f000d34",
+                            "id": "560331729251416f0f000d34",
                             "department": "Writing",
-                            "id": "82623",
                             "job": "Writer",
-                            "name": "Andrew Black",
-                            "profile_path": null
+                            "person": {
+                                "id": "82623",
+                                "name": "Andrew Black",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c8f0e0a263b6e003c0d",
+                            "id": "54243c8f0e0a263b6e003c0d",
                             "department": "Directing",
-                            "id": "21053",
                             "job": "Director",
-                            "name": "John Dahl",
-                            "profile_path": "/klMxcB64Tu0sWCn3YDTMcGWPArQ.jpg"
+                            "person": {
+                                "id": "21053",
+                                "name": "John Dahl",
+                                "profile_path": "/klMxcB64Tu0sWCn3YDTMcGWPArQ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243ca9c3a3680872004196",
+                            "id": "54243ca9c3a3680872004196",
                             "department": "Writing",
-                            "id": "64506",
                             "job": "Writer",
-                            "name": "Chris Brancato",
-                            "profile_path": null
+                            "person": {
+                                "id": "64506",
+                                "name": "Chris Brancato",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Buffet Froid",
@@ -1555,92 +1682,106 @@
                     "episode_number": 11,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "528510a9760ee30c140309cc",
                             "character": "Dr. Bedelia Du Maurier",
-                            "credit_id": "528510a9760ee30c140309cc",
-                            "id": "12214",
-                            "name": "Gillian Anderson",
                             "order": 14,
-                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                            "person": {
+                                "id": "12214",
+                                "name": "Gillian Anderson",
+                                "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ffd760ee375ec16a1b6",
                             "character": "Dr. Frederick Chilton",
-                            "credit_id": "52850ffd760ee375ec16a1b6",
-                            "id": "107515",
-                            "name": "Raúl Esparza",
                             "order": 14,
-                            "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
+                            "person": {
+                                "id": "107515",
+                                "name": "Raúl Esparza",
+                                "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850eaf760ee37bda24bf4a",
                             "character": "Freddie Lounds",
-                            "credit_id": "52850eaf760ee37bda24bf4a",
-                            "id": "1102260",
-                            "name": "Lara Jean Chorostecki",
                             "order": 14,
-                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            "person": {
+                                "id": "1102260",
+                                "name": "Lara Jean Chorostecki",
+                                "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52851037760ee37bb6275987",
                             "character": "Dr. Abel Gideon",
-                            "credit_id": "52851037760ee37bb6275987",
-                            "id": "1926",
-                            "name": "Eddie Izzard",
                             "order": 14,
-                            "profile_path": "/j5hzBqmcyWG2GC754uACCoNgAvS.jpg"
+                            "person": {
+                                "id": "1926",
+                                "name": "Eddie Izzard",
+                                "profile_path": "/j5hzBqmcyWG2GC754uACCoNgAvS.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243c7ec3a3680880003b58",
+                            "id": "54243c7ec3a3680880003b58",
                             "department": "Directing",
-                            "id": "3113",
                             "job": "Director",
-                            "name": "Guillermo Navarro",
-                            "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                            "person": {
+                                "id": "3113",
+                                "name": "Guillermo Navarro",
+                                "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243b8fc3a368086e003a95",
+                            "id": "54243b8fc3a368086e003a95",
                             "department": "Writing",
-                            "id": "1215611",
                             "job": "Writer",
-                            "name": "Scott Nimerfro",
-                            "profile_path": null
+                            "person": {
+                                "id": "1215611",
+                                "name": "Scott Nimerfro",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Rôti",
@@ -1655,84 +1796,96 @@
                     "episode_number": 12,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "528510a9760ee30c140309cc",
                             "character": "Dr. Bedelia Du Maurier",
-                            "credit_id": "528510a9760ee30c140309cc",
-                            "id": "12214",
-                            "name": "Gillian Anderson",
                             "order": 14,
-                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                            "person": {
+                                "id": "12214",
+                                "name": "Gillian Anderson",
+                                "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850d8a760ee30c14025eee",
                             "character": "Abigail Hobbs",
-                            "credit_id": "52850d8a760ee30c14025eee",
-                            "id": "1038625",
-                            "name": "Kacey Rohl",
                             "order": 14,
-                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            "person": {
+                                "id": "1038625",
+                                "name": "Kacey Rohl",
+                                "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850eaf760ee37bda24bf4a",
                             "character": "Freddie Lounds",
-                            "credit_id": "52850eaf760ee37bda24bf4a",
-                            "id": "1102260",
-                            "name": "Lara Jean Chorostecki",
                             "order": 14,
-                            "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            "person": {
+                                "id": "1102260",
+                                "name": "Lara Jean Chorostecki",
+                                "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52851286760ee30c1403697c",
                             "character": "Georgia Madchen",
-                            "credit_id": "52851286760ee30c1403697c",
-                            "id": "1218072",
-                            "name": "Ellen Muth",
                             "order": 14,
-                            "profile_path": "/1U1qdqyKCNbmi6r8HdN3ahur1zp.jpg"
+                            "person": {
+                                "id": "1218072",
+                                "name": "Ellen Muth",
+                                "profile_path": "/1U1qdqyKCNbmi6r8HdN3ahur1zp.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243ca9c3a3680872004196",
+                            "id": "54243ca9c3a3680872004196",
                             "department": "Writing",
-                            "id": "64506",
                             "job": "Writer",
-                            "name": "Chris Brancato",
-                            "profile_path": null
+                            "person": {
+                                "id": "64506",
+                                "name": "Chris Brancato",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243aa3c3a368086e003a75",
+                            "id": "54243aa3c3a368086e003a75",
                             "department": "Directing",
-                            "id": "28741",
                             "job": "Director",
-                            "name": "Michael Rymer",
-                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            "person": {
+                                "id": "28741",
+                                "name": "Michael Rymer",
+                                "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Relevés",
@@ -1747,74 +1900,86 @@
                     "episode_number": 13,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "528510a9760ee30c140309cc",
                             "character": "Dr. Bedelia Du Maurier",
-                            "credit_id": "528510a9760ee30c140309cc",
-                            "id": "12214",
-                            "name": "Gillian Anderson",
                             "order": 14,
-                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                            "person": {
+                                "id": "12214",
+                                "name": "Gillian Anderson",
+                                "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850d8a760ee30c14025eee",
                             "character": "Abigail Hobbs",
-                            "credit_id": "52850d8a760ee30c14025eee",
-                            "id": "1038625",
-                            "name": "Kacey Rohl",
                             "order": 14,
-                            "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            "person": {
+                                "id": "1038625",
+                                "name": "Kacey Rohl",
+                                "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850aec760ee37baf26f3d4",
                             "character": "Brian Zeller",
-                            "credit_id": "52850aec760ee37baf26f3d4",
-                            "id": "56262",
-                            "name": "Aaron Abrams",
                             "order": 14,
-                            "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            "person": {
+                                "id": "56262",
+                                "name": "Aaron Abrams",
+                                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ad6760ee375ec1577bf",
                             "character": "Jimmy Price",
-                            "credit_id": "52850ad6760ee375ec1577bf",
-                            "id": "78576",
-                            "name": "Scott Thompson",
                             "order": 14,
-                            "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            "person": {
+                                "id": "78576",
+                                "name": "Scott Thompson",
+                                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243a770e0a263b7e003c88",
+                            "id": "54243a770e0a263b7e003c88",
                             "department": "Directing",
-                            "id": "27571",
                             "job": "Director",
-                            "name": "David Slade",
-                            "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                            "person": {
+                                "id": "27571",
+                                "name": "David Slade",
+                                "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243b8fc3a368086e003a95",
+                            "id": "54243b8fc3a368086e003a95",
                             "department": "Writing",
-                            "id": "1215611",
                             "job": "Writer",
-                            "name": "Scott Nimerfro",
-                            "profile_path": null
+                            "person": {
+                                "id": "1215611",
+                                "name": "Scott Nimerfro",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Savoureux",
@@ -1835,98 +2000,116 @@
             "credits": {
                 "cast": [
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c0877cb",
                         "character": "Will Graham",
-                        "credit_id": "52595bb619c295731c0877cb",
-                        "id": "12791",
-                        "name": "Hugh Dancy",
                         "order": 0,
-                        "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                        "person": {
+                            "id": "12791",
+                            "name": "Hugh Dancy",
+                            "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c087823",
                         "character": "Hannibal Lecter",
-                        "credit_id": "52595bb619c295731c087823",
-                        "id": "1019",
-                        "name": "Mads Mikkelsen",
                         "order": 1,
-                        "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                        "person": {
+                            "id": "1019",
+                            "name": "Mads Mikkelsen",
+                            "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c087925",
                         "character": "Jack Crawford",
-                        "credit_id": "52595bb619c295731c087925",
-                        "id": "2975",
-                        "name": "Laurence Fishburne",
                         "order": 2,
-                        "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                        "person": {
+                            "id": "2975",
+                            "name": "Laurence Fishburne",
+                            "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c087867",
                         "character": "Dr. Alana Bloom",
-                        "credit_id": "52595bb619c295731c087867",
-                        "id": "31383",
-                        "name": "Caroline Dhavernas",
                         "order": 3,
-                        "profile_path": "/iru7mIVFHGzGkd2XzCZBxjnq4t2.jpg"
+                        "person": {
+                            "id": "31383",
+                            "name": "Caroline Dhavernas",
+                            "profile_path": "/iru7mIVFHGzGkd2XzCZBxjnq4t2.jpg"
+                        }
                     }
                 ],
                 "crew": [
                     {
-                        "credit_id": "563d24709251411867000443",
+                        "id": "563d24709251411867000443",
                         "department": "Production",
-                        "id": "64506",
                         "job": "Executive Producer",
-                        "name": "Chris Brancato",
-                        "profile_path": null
+                        "person": {
+                            "id": "64506",
+                            "name": "Chris Brancato",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "52595bbc19c295731c087b09",
+                        "id": "52595bbc19c295731c087b09",
                         "department": "Production",
-                        "id": "34218",
                         "job": "Producer",
-                        "name": "Jesse Alexander",
-                        "profile_path": null
+                        "person": {
+                            "id": "34218",
+                            "name": "Jesse Alexander",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d231bc3a3681b5e026b11",
+                        "id": "563d231bc3a3681b5e026b11",
                         "department": "Writing",
-                        "id": "16786",
                         "job": "Characters",
-                        "name": "Thomas Harris",
-                        "profile_path": null
+                        "person": {
+                            "id": "16786",
+                            "name": "Thomas Harris",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d22adc3a3681b5e026b04",
+                        "id": "563d22adc3a3681b5e026b04",
                         "department": "Sound",
-                        "id": "40839",
                         "job": "Original Music Composer",
-                        "name": "Brian Reitzell",
-                        "profile_path": null
+                        "person": {
+                            "id": "40839",
+                            "name": "Brian Reitzell",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d237d92514178190052fa",
+                        "id": "563d237d92514178190052fa",
                         "department": "Production",
-                        "id": "17311",
                         "job": "Executive Producer",
-                        "name": "Bryan Fuller",
-                        "profile_path": null
+                        "person": {
+                            "id": "17311",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d23b9c3a3681b4d02eadd",
+                        "id": "563d23b9c3a3681b4d02eadd",
                         "department": "Production",
-                        "id": "19051",
                         "job": "Executive Producer",
-                        "name": "Martha De Laurentiis",
-                        "profile_path": null
+                        "person": {
+                            "id": "19051",
+                            "name": "Martha De Laurentiis",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d24bbc3a3681b610295e6",
+                        "id": "563d24bbc3a3681b610295e6",
                         "department": "Costume & Make-Up",
-                        "id": "23548",
                         "job": "Costume Design",
-                        "name": "Christopher Hargadon",
-                        "profile_path": null
+                        "person": {
+                            "id": "23548",
+                            "name": "Christopher Hargadon",
+                            "profile_path": null
+                        }
                     }
                 ]
             },
@@ -2007,33 +2190,39 @@
                     "guest_stars": [],
                     "crew": [
                         {
-                            "credit_id": "54243c1b0e0a263b77003bf8",
+                            "id": "54243c1b0e0a263b77003bf8",
                             "department": "Directing",
-                            "id": "15858",
                             "job": "Director",
-                            "name": "Tim Hunter",
-                            "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                            "person": {
+                                "id": "15858",
+                                "name": "Tim Hunter",
+                                "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Kaiseki",
                     "overview": "With Will Graham in prison, the FBI investigates his claims against Hannibal. A new serial killer emerges.",
-                    "still_path": "/l93D1l3ju3rENJYkWBWxIE7xw4w.jpg",
+                    "still_path": "/p3NlwVAkJlHgzx7kNZAVNv4QQDK.jpg",
                     "vote_average": 9,
                     "vote_count": 9
                 },
@@ -2044,28 +2233,34 @@
                     "guest_stars": [],
                     "crew": [
                         {
-                            "credit_id": "54243c1b0e0a263b77003bf8",
+                            "id": "54243c1b0e0a263b77003bf8",
                             "department": "Directing",
-                            "id": "15858",
                             "job": "Director",
-                            "name": "Tim Hunter",
-                            "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                            "person": {
+                                "id": "15858",
+                                "name": "Tim Hunter",
+                                "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                            }
                         },
                         {
-                            "credit_id": "56019c28c3a3685614001ee1",
+                            "id": "56019c28c3a3685614001ee1",
                             "department": "Writing",
-                            "id": "1218781",
                             "job": "Writer",
-                            "name": "Jeff Vlaming",
-                            "profile_path": null
+                            "person": {
+                                "id": "1218781",
+                                "name": "Jeff Vlaming",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Sakizuke",
@@ -2080,39 +2275,46 @@
                     "episode_number": 3,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "5780c2ebc3a368659f000164",
                             "character": "Wendy Vega",
-                            "credit_id": "5780c2ebc3a368659f000164",
-                            "id": "44097",
-                            "name": "Maria del Mar",
                             "order": 22,
-                            "profile_path": "/jD3FXAuwkBV3DMXSjW50ehlj7iy.jpg"
+                            "person": {
+                                "id": "44097",
+                                "name": "Maria del Mar",
+                                "profile_path": "/jD3FXAuwkBV3DMXSjW50ehlj7iy.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "57b47a4992514170f70005c6",
+                            "id": "57b47a4992514170f70005c6",
                             "department": "Writing",
-                            "id": "1667276",
                             "job": "Writer",
-                            "name": "Jason Grote",
-                            "profile_path": null
+                            "person": {
+                                "id": "1667276",
+                                "name": "Jason Grote",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243b020e0a263b71003cbf",
+                            "id": "54243b020e0a263b71003cbf",
                             "department": "Directing",
-                            "id": "21377",
                             "job": "Director",
-                            "name": "Peter Medak",
-                            "profile_path": null
+                            "person": {
+                                "id": "21377",
+                                "name": "Peter Medak",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Hassun",
@@ -2128,28 +2330,34 @@
                     "guest_stars": [],
                     "crew": [
                         {
-                            "credit_id": "57b47a17c3a36819b5005974",
+                            "id": "57b47a17c3a36819b5005974",
                             "department": "Directing",
-                            "id": "17272",
                             "job": "Director",
-                            "name": "David Semel",
-                            "profile_path": "/7nDXxRcD6wmFqjYySJIh4wcepdD.jpg"
+                            "person": {
+                                "id": "17272",
+                                "name": "David Semel",
+                                "profile_path": "/7nDXxRcD6wmFqjYySJIh4wcepdD.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243b8fc3a368086e003a95",
+                            "id": "54243b8fc3a368086e003a95",
                             "department": "Writing",
-                            "id": "1215611",
                             "job": "Writer",
-                            "name": "Scott Nimerfro",
-                            "profile_path": null
+                            "person": {
+                                "id": "1215611",
+                                "name": "Scott Nimerfro",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Takiawase",
@@ -2165,36 +2373,44 @@
                     "guest_stars": [],
                     "crew": [
                         {
-                            "credit_id": "54243aa3c3a368086e003a75",
+                            "id": "54243aa3c3a368086e003a75",
                             "department": "Directing",
-                            "id": "28741",
                             "job": "Director",
-                            "name": "Michael Rymer",
-                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            "person": {
+                                "id": "28741",
+                                "name": "Michael Rymer",
+                                "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "57b478f9925141715b000549",
+                            "id": "57b478f9925141715b000549",
                             "department": "Writing",
-                            "id": "1499724",
                             "job": "Writer",
-                            "name": "Ayanna A. Floyd",
-                            "profile_path": null
+                            "person": {
+                                "id": "1499724",
+                                "name": "Ayanna A. Floyd",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Mukōzuke",
@@ -2210,52 +2426,64 @@
                     "guest_stars": [],
                     "crew": [
                         {
-                            "credit_id": "57b439839251412f5e00215a",
+                            "id": "57b439839251412f5e00215a",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Teleplay",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "560331729251416f0f000d34",
+                            "id": "560331729251416f0f000d34",
                             "department": "Writing",
-                            "id": "82623",
                             "job": "Writer",
-                            "name": "Andrew Black",
-                            "profile_path": null
+                            "person": {
+                                "id": "82623",
+                                "name": "Andrew Black",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "57b4785c925141712f0004e9",
+                            "id": "57b4785c925141712f0004e9",
                             "department": "Writing",
-                            "id": "82623",
                             "job": "Teleplay",
-                            "name": "Andrew Black",
-                            "profile_path": null
+                            "person": {
+                                "id": "82623",
+                                "name": "Andrew Black",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c1b0e0a263b77003bf8",
+                            "id": "54243c1b0e0a263b77003bf8",
                             "department": "Directing",
-                            "id": "15858",
                             "job": "Director",
-                            "name": "Tim Hunter",
-                            "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                            "person": {
+                                "id": "15858",
+                                "name": "Tim Hunter",
+                                "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
+                            }
                         },
                         {
-                            "credit_id": "57b47843c3a3680ca30011bb",
+                            "id": "57b47843c3a3680ca30011bb",
                             "department": "Writing",
-                            "id": "1215611",
                             "job": "Teleplay",
-                            "name": "Scott Nimerfro",
-                            "profile_path": null
+                            "person": {
+                                "id": "1215611",
+                                "name": "Scott Nimerfro",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "57b476d7925141712f00046e",
+                            "id": "57b476d7925141712f00046e",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Teleplay",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Futamono",
@@ -2271,28 +2499,34 @@
                     "guest_stars": [],
                     "crew": [
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243aa3c3a368086e003a75",
+                            "id": "54243aa3c3a368086e003a75",
                             "department": "Directing",
-                            "id": "28741",
                             "job": "Director",
-                            "name": "Michael Rymer",
-                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            "person": {
+                                "id": "28741",
+                                "name": "Michael Rymer",
+                                "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Yakimono",
@@ -2307,47 +2541,56 @@
                     "episode_number": 8,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "53d8b2fa0e0a261c84001dca",
                             "character": "Margot Verger",
-                            "credit_id": "53d8b2fa0e0a261c84001dca",
-                            "id": "27136",
-                            "name": "Katharine Isabelle",
                             "order": 15,
-                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            "person": {
+                                "id": "27136",
+                                "name": "Katharine Isabelle",
+                                "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243b8fc3a368086e003a95",
+                            "id": "54243b8fc3a368086e003a95",
                             "department": "Writing",
-                            "id": "1215611",
                             "job": "Writer",
-                            "name": "Scott Nimerfro",
-                            "profile_path": null
+                            "person": {
+                                "id": "1215611",
+                                "name": "Scott Nimerfro",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "56019ba09251412290001e39",
+                            "id": "56019ba09251412290001e39",
                             "department": "Directing",
-                            "id": "5877",
                             "job": "Director",
-                            "name": "Vincenzo Natali",
-                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            "person": {
+                                "id": "5877",
+                                "name": "Vincenzo Natali",
+                                "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Su-zakana",
@@ -2362,39 +2605,46 @@
                     "episode_number": 9,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "53d8b2fa0e0a261c84001dca",
                             "character": "Margot Verger",
-                            "credit_id": "53d8b2fa0e0a261c84001dca",
-                            "id": "27136",
-                            "name": "Katharine Isabelle",
                             "order": 15,
-                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            "person": {
+                                "id": "27136",
+                                "name": "Katharine Isabelle",
+                                "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "56019c28c3a3685614001ee1",
+                            "id": "56019c28c3a3685614001ee1",
                             "department": "Writing",
-                            "id": "1218781",
                             "job": "Writer",
-                            "name": "Jeff Vlaming",
-                            "profile_path": null
+                            "person": {
+                                "id": "1218781",
+                                "name": "Jeff Vlaming",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243aa3c3a368086e003a75",
+                            "id": "54243aa3c3a368086e003a75",
                             "department": "Directing",
-                            "id": "28741",
                             "job": "Director",
-                            "name": "Michael Rymer",
-                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            "person": {
+                                "id": "28741",
+                                "name": "Michael Rymer",
+                                "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Shiizakana",
@@ -2409,56 +2659,66 @@
                     "episode_number": 10,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "53d8b2fa0e0a261c84001dca",
                             "character": "Margot Verger",
-                            "credit_id": "53d8b2fa0e0a261c84001dca",
-                            "id": "27136",
-                            "name": "Katharine Isabelle",
                             "order": 15,
-                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            "person": {
+                                "id": "27136",
+                                "name": "Katharine Isabelle",
+                                "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "53c86a8a0e0a26648d00049c",
                             "character": "Mason Verger",
-                            "credit_id": "53c86a8a0e0a26648d00049c",
-                            "id": "10692",
-                            "name": "Michael Pitt",
                             "order": 14,
-                            "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
+                            "person": {
+                                "id": "10692",
+                                "name": "Michael Pitt",
+                                "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "57b439839251412f5e00215a",
+                            "id": "57b439839251412f5e00215a",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Teleplay",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243bcac3a368087200417f",
+                            "id": "54243bcac3a368087200417f",
                             "department": "Writing",
-                            "id": "1367587",
                             "job": "Writer",
-                            "name": "Kai Wu",
-                            "profile_path": null
+                            "person": {
+                                "id": "1367587",
+                                "name": "Kai Wu",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "56019ba09251412290001e39",
+                            "id": "56019ba09251412290001e39",
                             "department": "Directing",
-                            "id": "5877",
                             "job": "Director",
-                            "name": "Vincenzo Natali",
-                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            "person": {
+                                "id": "5877",
+                                "name": "Vincenzo Natali",
+                                "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            }
                         }
                     ],
                     "name": "Naka-Choko",
@@ -2473,56 +2733,66 @@
                     "episode_number": 11,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "53d8b2fa0e0a261c84001dca",
                             "character": "Margot Verger",
-                            "credit_id": "53d8b2fa0e0a261c84001dca",
-                            "id": "27136",
-                            "name": "Katharine Isabelle",
                             "order": 15,
-                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            "person": {
+                                "id": "27136",
+                                "name": "Katharine Isabelle",
+                                "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "53c86a8a0e0a26648d00049c",
                             "character": "Mason Verger",
-                            "credit_id": "53c86a8a0e0a26648d00049c",
-                            "id": "10692",
-                            "name": "Michael Pitt",
                             "order": 14,
-                            "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
+                            "person": {
+                                "id": "10692",
+                                "name": "Michael Pitt",
+                                "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "560331729251416f0f000d34",
+                            "id": "560331729251416f0f000d34",
                             "department": "Writing",
-                            "id": "82623",
                             "job": "Writer",
-                            "name": "Andrew Black",
-                            "profile_path": null
+                            "person": {
+                                "id": "82623",
+                                "name": "Andrew Black",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243a770e0a263b7e003c88",
+                            "id": "54243a770e0a263b7e003c88",
                             "department": "Directing",
-                            "id": "27571",
                             "job": "Director",
-                            "name": "David Slade",
-                            "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                            "person": {
+                                "id": "27571",
+                                "name": "David Slade",
+                                "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "56019c28c3a3685614001ee1",
+                            "id": "56019c28c3a3685614001ee1",
                             "department": "Writing",
-                            "id": "1218781",
                             "job": "Writer",
-                            "name": "Jeff Vlaming",
-                            "profile_path": null
+                            "person": {
+                                "id": "1218781",
+                                "name": "Jeff Vlaming",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Kō No Mono",
@@ -2537,56 +2807,66 @@
                     "episode_number": 12,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "53d8b2fa0e0a261c84001dca",
                             "character": "Margot Verger",
-                            "credit_id": "53d8b2fa0e0a261c84001dca",
-                            "id": "27136",
-                            "name": "Katharine Isabelle",
                             "order": 15,
-                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            "person": {
+                                "id": "27136",
+                                "name": "Katharine Isabelle",
+                                "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "53c86a8a0e0a26648d00049c",
                             "character": "Mason Verger",
-                            "credit_id": "53c86a8a0e0a26648d00049c",
-                            "id": "10692",
-                            "name": "Michael Pitt",
                             "order": 14,
-                            "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
+                            "person": {
+                                "id": "10692",
+                                "name": "Michael Pitt",
+                                "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243ca9c3a3680872004196",
+                            "id": "54243ca9c3a3680872004196",
                             "department": "Writing",
-                            "id": "64506",
                             "job": "Writer",
-                            "name": "Chris Brancato",
-                            "profile_path": null
+                            "person": {
+                                "id": "64506",
+                                "name": "Chris Brancato",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243b8fc3a368086e003a95",
+                            "id": "54243b8fc3a368086e003a95",
                             "department": "Writing",
-                            "id": "1215611",
                             "job": "Writer",
-                            "name": "Scott Nimerfro",
-                            "profile_path": null
+                            "person": {
+                                "id": "1215611",
+                                "name": "Scott Nimerfro",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243aa3c3a368086e003a75",
+                            "id": "54243aa3c3a368086e003a75",
                             "department": "Directing",
-                            "id": "28741",
                             "job": "Director",
-                            "name": "Michael Rymer",
-                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            "person": {
+                                "id": "28741",
+                                "name": "Michael Rymer",
+                                "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Tome-wan",
@@ -2602,28 +2882,34 @@
                     "guest_stars": [],
                     "crew": [
                         {
-                            "credit_id": "54243a770e0a263b7e003c88",
+                            "id": "54243a770e0a263b7e003c88",
                             "department": "Directing",
-                            "id": "27571",
                             "job": "Director",
-                            "name": "David Slade",
-                            "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                            "person": {
+                                "id": "27571",
+                                "name": "David Slade",
+                                "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Mizumono",
@@ -2644,82 +2930,96 @@
             "credits": {
                 "cast": [
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c0877cb",
                         "character": "Will Graham",
-                        "credit_id": "52595bb619c295731c0877cb",
-                        "id": "12791",
-                        "name": "Hugh Dancy",
                         "order": 0,
-                        "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                        "person": {
+                            "id": "12791",
+                            "name": "Hugh Dancy",
+                            "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c087823",
                         "character": "Hannibal Lecter",
-                        "credit_id": "52595bb619c295731c087823",
-                        "id": "1019",
-                        "name": "Mads Mikkelsen",
                         "order": 1,
-                        "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                        "person": {
+                            "id": "1019",
+                            "name": "Mads Mikkelsen",
+                            "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "52595bb619c295731c087925",
                         "character": "Jack Crawford",
-                        "credit_id": "52595bb619c295731c087925",
-                        "id": "2975",
-                        "name": "Laurence Fishburne",
                         "order": 2,
-                        "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                        "person": {
+                            "id": "2975",
+                            "name": "Laurence Fishburne",
+                            "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+                        }
                     },
                     {
-                        "cast_id": null,
+                        "id": "528510a9760ee30c140309cc",
                         "character": "Dr. Bedelia Du Maurier",
-                        "credit_id": "528510a9760ee30c140309cc",
-                        "id": "12214",
-                        "name": "Gillian Anderson",
                         "order": 14,
-                        "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                        "person": {
+                            "id": "12214",
+                            "name": "Gillian Anderson",
+                            "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+                        }
                     }
                 ],
                 "crew": [
                     {
-                        "credit_id": "563d231bc3a3681b5e026b11",
+                        "id": "563d231bc3a3681b5e026b11",
                         "department": "Writing",
-                        "id": "16786",
                         "job": "Characters",
-                        "name": "Thomas Harris",
-                        "profile_path": null
+                        "person": {
+                            "id": "16786",
+                            "name": "Thomas Harris",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d22adc3a3681b5e026b04",
+                        "id": "563d22adc3a3681b5e026b04",
                         "department": "Sound",
-                        "id": "40839",
                         "job": "Original Music Composer",
-                        "name": "Brian Reitzell",
-                        "profile_path": null
+                        "person": {
+                            "id": "40839",
+                            "name": "Brian Reitzell",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d237d92514178190052fa",
+                        "id": "563d237d92514178190052fa",
                         "department": "Production",
-                        "id": "17311",
                         "job": "Executive Producer",
-                        "name": "Bryan Fuller",
-                        "profile_path": null
+                        "person": {
+                            "id": "17311",
+                            "name": "Bryan Fuller",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d23b9c3a3681b4d02eadd",
+                        "id": "563d23b9c3a3681b4d02eadd",
                         "department": "Production",
-                        "id": "19051",
                         "job": "Executive Producer",
-                        "name": "Martha De Laurentiis",
-                        "profile_path": null
+                        "person": {
+                            "id": "19051",
+                            "name": "Martha De Laurentiis",
+                            "profile_path": null
+                        }
                     },
                     {
-                        "credit_id": "563d24bbc3a3681b610295e6",
+                        "id": "563d24bbc3a3681b610295e6",
                         "department": "Costume & Make-Up",
-                        "id": "23548",
                         "job": "Costume Design",
-                        "name": "Christopher Hargadon",
-                        "profile_path": null
+                        "person": {
+                            "id": "23548",
+                            "name": "Christopher Hargadon",
+                            "profile_path": null
+                        }
                     }
                 ]
             },
@@ -2792,39 +3092,46 @@
                     "episode_number": 1,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "556cb65e9251414030001d27",
                             "character": "",
-                            "credit_id": "556cb65e9251414030001d27",
-                            "id": "17292",
-                            "name": "Tom Wisdom",
                             "order": 16,
-                            "profile_path": "/3G9RdJHEfTcuBk5ArYSMOrnYYG9.jpg"
+                            "person": {
+                                "id": "17292",
+                                "name": "Tom Wisdom",
+                                "profile_path": "/3G9RdJHEfTcuBk5ArYSMOrnYYG9.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "56019ba09251412290001e39",
+                            "id": "56019ba09251412290001e39",
                             "department": "Directing",
-                            "id": "5877",
                             "job": "Director",
-                            "name": "Vincenzo Natali",
-                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            "person": {
+                                "id": "5877",
+                                "name": "Vincenzo Natali",
+                                "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Antipasto",
@@ -2840,28 +3147,34 @@
                     "guest_stars": [],
                     "crew": [
                         {
-                            "credit_id": "56019c28c3a3685614001ee1",
+                            "id": "56019c28c3a3685614001ee1",
                             "department": "Writing",
-                            "id": "1218781",
                             "job": "Writer",
-                            "name": "Jeff Vlaming",
-                            "profile_path": null
+                            "person": {
+                                "id": "1218781",
+                                "name": "Jeff Vlaming",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "56019ba09251412290001e39",
+                            "id": "56019ba09251412290001e39",
                             "department": "Directing",
-                            "id": "5877",
                             "job": "Director",
-                            "name": "Vincenzo Natali",
-                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            "person": {
+                                "id": "5877",
+                                "name": "Vincenzo Natali",
+                                "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Primavera",
@@ -2876,47 +3189,56 @@
                     "episode_number": 3,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "55b884b992514123dd00143d",
                             "character": "Chiyo",
-                            "credit_id": "55b884b992514123dd00143d",
-                            "id": "1156024",
-                            "name": "Tao Okamoto",
                             "order": 18,
-                            "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                            "person": {
+                                "id": "1156024",
+                                "name": "Tao Okamoto",
+                                "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "56019c93c3a3685625001e33",
+                            "id": "56019c93c3a3685625001e33",
                             "department": "Writing",
-                            "id": "1372372",
                             "job": "Writer",
-                            "name": "Angelina Burnett",
-                            "profile_path": null
+                            "person": {
+                                "id": "1372372",
+                                "name": "Angelina Burnett",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "56019ba09251412290001e39",
+                            "id": "56019ba09251412290001e39",
                             "department": "Directing",
-                            "id": "5877",
                             "job": "Director",
-                            "name": "Vincenzo Natali",
-                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            "person": {
+                                "id": "5877",
+                                "name": "Vincenzo Natali",
+                                "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Secondo",
@@ -2931,83 +3253,96 @@
                     "episode_number": 4,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "56068dd3c3a368120d001a1b",
                             "character": "Dr. Cordell Doemling",
-                            "credit_id": "56068dd3c3a368120d001a1b",
-                            "id": "1377670",
-                            "name": "Glenn Fleshler",
                             "order": 20,
-                            "profile_path": "/9SOBzbIjsTVBLT3FolXDHDrNLIh.jpg"
+                            "person": {
+                                "id": "1377670",
+                                "name": "Glenn Fleshler",
+                                "profile_path": "/9SOBzbIjsTVBLT3FolXDHDrNLIh.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "56068d8792514130520019a9",
                             "character": "Mason Verger",
-                            "credit_id": "56068d8792514130520019a9",
-                            "id": "29234",
-                            "name": "Joe Anderson",
                             "order": 19,
-                            "profile_path": "/qrz9007HeT1uDt3e0NVXFMWsQkA.jpg"
+                            "person": {
+                                "id": "29234",
+                                "name": "Joe Anderson",
+                                "profile_path": "/qrz9007HeT1uDt3e0NVXFMWsQkA.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "53d8b2fa0e0a261c84001dca",
                             "character": "Margot Verger",
-                            "credit_id": "53d8b2fa0e0a261c84001dca",
-                            "id": "27136",
-                            "name": "Katharine Isabelle",
                             "order": 15,
-                            "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            "person": {
+                                "id": "27136",
+                                "name": "Katharine Isabelle",
+                                "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850ffd760ee375ec16a1b6",
                             "character": "Dr. Frederick Chilton",
-                            "credit_id": "52850ffd760ee375ec16a1b6",
-                            "id": "107515",
-                            "name": "Raúl Esparza",
                             "order": 14,
-                            "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
+                            "person": {
+                                "id": "107515",
+                                "name": "Raúl Esparza",
+                                "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "52850f76760ee37be627e990",
                             "character": "Bella Crawford",
-                            "credit_id": "52850f76760ee37be627e990",
-                            "id": "9576",
-                            "name": "Gina Torres",
                             "order": 8,
-                            "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
+                            "person": {
+                                "id": "9576",
+                                "name": "Gina Torres",
+                                "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "56068d63c3a3681207001c57",
+                            "id": "56068d63c3a3681207001c57",
                             "department": "Directing",
-                            "id": "1515079",
                             "job": "Director",
-                            "name": "Marc Jobst",
-                            "profile_path": null
+                            "person": {
+                                "id": "1515079",
+                                "name": "Marc Jobst",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "57b431bcc3a3684802003ab5",
+                            "id": "57b431bcc3a3684802003ab5",
                             "department": "Writing",
-                            "id": "1114792",
                             "job": "Writer",
-                            "name": "Nick Antosca",
-                            "profile_path": null
+                            "person": {
+                                "id": "1114792",
+                                "name": "Nick Antosca",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Apertivo",
@@ -3022,47 +3357,56 @@
                     "episode_number": 5,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "55b884b992514123dd00143d",
                             "character": "Chiyo",
-                            "credit_id": "55b884b992514123dd00143d",
-                            "id": "1156024",
-                            "name": "Tao Okamoto",
                             "order": 18,
-                            "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                            "person": {
+                                "id": "1156024",
+                                "name": "Tao Okamoto",
+                                "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "57b434af92514106a5002a8e",
+                            "id": "57b434af92514106a5002a8e",
                             "department": "Writing",
-                            "id": "1285993",
                             "job": "Writer",
-                            "name": "Tom de Ville",
-                            "profile_path": null
+                            "person": {
+                                "id": "1285993",
+                                "name": "Tom de Ville",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c7ec3a3680880003b58",
+                            "id": "54243c7ec3a3680880003b58",
                             "department": "Directing",
-                            "id": "3113",
                             "job": "Director",
-                            "name": "Guillermo Navarro",
-                            "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                            "person": {
+                                "id": "3113",
+                                "name": "Guillermo Navarro",
+                                "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Contorno",
@@ -3077,47 +3421,56 @@
                     "episode_number": 6,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "55b884b992514123dd00143d",
                             "character": "Chiyo",
-                            "credit_id": "55b884b992514123dd00143d",
-                            "id": "1156024",
-                            "name": "Tao Okamoto",
                             "order": 18,
-                            "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                            "person": {
+                                "id": "1156024",
+                                "name": "Tao Okamoto",
+                                "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "57b4330fc3a3684d5f002759",
+                            "id": "57b4330fc3a3684d5f002759",
                             "department": "Writing",
-                            "id": "65677",
                             "job": "Writer",
-                            "name": "Don Mancini",
-                            "profile_path": null
+                            "person": {
+                                "id": "65677",
+                                "name": "Don Mancini",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "56019ba09251412290001e39",
+                            "id": "56019ba09251412290001e39",
                             "department": "Directing",
-                            "id": "5877",
                             "job": "Director",
-                            "name": "Vincenzo Natali",
-                            "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            "person": {
+                                "id": "5877",
+                                "name": "Vincenzo Natali",
+                                "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Dolce",
@@ -3132,39 +3485,46 @@
                     "episode_number": 7,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "55b884b992514123dd00143d",
                             "character": "Chiyo",
-                            "credit_id": "55b884b992514123dd00143d",
-                            "id": "1156024",
-                            "name": "Tao Okamoto",
                             "order": 18,
-                            "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                            "person": {
+                                "id": "1156024",
+                                "name": "Tao Okamoto",
+                                "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "57b4344ac3a3684802003c1b",
+                            "id": "57b4344ac3a3684802003c1b",
                             "department": "Directing",
-                            "id": "18695",
                             "job": "Director",
-                            "name": "Adam Kane",
-                            "profile_path": "/wVmfwTmm4P8CknVKBYSwJ7edGU1.jpg"
+                            "person": {
+                                "id": "18695",
+                                "name": "Adam Kane",
+                                "profile_path": "/wVmfwTmm4P8CknVKBYSwJ7edGU1.jpg"
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "Digestivo",
@@ -3179,47 +3539,56 @@
                     "episode_number": 8,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "55a93ce592514172ef001abc",
                             "character": "Francis Dolarhyde",
-                            "credit_id": "55a93ce592514172ef001abc",
-                            "id": "30315",
-                            "name": "Richard Armitage",
                             "order": 17,
-                            "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
+                            "person": {
+                                "id": "30315",
+                                "name": "Richard Armitage",
+                                "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "562cf1bc9251410a2200398f",
+                            "id": "562cf1bc9251410a2200398f",
                             "department": "Directing",
-                            "id": "57581",
                             "job": "Director",
-                            "name": "Neil Marshall",
-                            "profile_path": "/Au5p9cFlj2XVoVIECQ40ruOp1Qz.jpg"
+                            "person": {
+                                "id": "57581",
+                                "name": "Neil Marshall",
+                                "profile_path": "/Au5p9cFlj2XVoVIECQ40ruOp1Qz.jpg"
+                            }
                         },
                         {
-                            "credit_id": "57b431bcc3a3684802003ab5",
+                            "id": "57b431bcc3a3684802003ab5",
                             "department": "Writing",
-                            "id": "1114792",
                             "job": "Writer",
-                            "name": "Nick Antosca",
-                            "profile_path": null
+                            "person": {
+                                "id": "1114792",
+                                "name": "Nick Antosca",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "The Great Red Dragon",
@@ -3234,64 +3603,76 @@
                     "episode_number": 9,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "577e460f92514169760000e0",
                             "character": "Reba McClane",
-                            "credit_id": "577e460f92514169760000e0",
-                            "id": "210773",
-                            "name": "Rutina Wesley",
                             "order": 21,
-                            "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                            "person": {
+                                "id": "210773",
+                                "name": "Rutina Wesley",
+                                "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "55a93ce592514172ef001abc",
                             "character": "Francis Dolarhyde",
-                            "credit_id": "55a93ce592514172ef001abc",
-                            "id": "30315",
-                            "name": "Richard Armitage",
                             "order": 17,
-                            "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
+                            "person": {
+                                "id": "30315",
+                                "name": "Richard Armitage",
+                                "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243c8f0e0a263b6e003c0d",
+                            "id": "54243c8f0e0a263b6e003c0d",
                             "department": "Directing",
-                            "id": "21053",
                             "job": "Director",
-                            "name": "John Dahl",
-                            "profile_path": "/klMxcB64Tu0sWCn3YDTMcGWPArQ.jpg"
+                            "person": {
+                                "id": "21053",
+                                "name": "John Dahl",
+                                "profile_path": "/klMxcB64Tu0sWCn3YDTMcGWPArQ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "57b433c9925141073a002a15",
+                            "id": "57b433c9925141073a002a15",
                             "department": "Writing",
-                            "id": "1667201",
                             "job": "Writer",
-                            "name": "Helen Shang",
-                            "profile_path": null
+                            "person": {
+                                "id": "1667201",
+                                "name": "Helen Shang",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "56019c28c3a3685614001ee1",
+                            "id": "56019c28c3a3685614001ee1",
                             "department": "Writing",
-                            "id": "1218781",
                             "job": "Writer",
-                            "name": "Jeff Vlaming",
-                            "profile_path": null
+                            "person": {
+                                "id": "1218781",
+                                "name": "Jeff Vlaming",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "And the Woman Clothed with the Sun…",
@@ -3306,48 +3687,56 @@
                     "episode_number": 10,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "577e460f92514169760000e0",
                             "character": "Reba McClane",
-                            "credit_id": "577e460f92514169760000e0",
-                            "id": "210773",
-                            "name": "Rutina Wesley",
                             "order": 21,
-                            "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                            "person": {
+                                "id": "210773",
+                                "name": "Rutina Wesley",
+                                "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                            }
                         },
                         {
-                            "cast_id": null,
+                            "id": "55a93ce592514172ef001abc",
                             "character": "Francis Dolarhyde",
-                            "credit_id": "55a93ce592514172ef001abc",
-                            "id": "30315",
-                            "name": "Richard Armitage",
                             "order": 17,
-                            "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
+                            "person": {
+                                "id": "30315",
+                                "name": "Richard Armitage",
+                                "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243c7ec3a3680880003b58",
+                            "id": "54243c7ec3a3680880003b58",
                             "department": "Directing",
-                            "id": "3113",
                             "job": "Director",
-                            "name": "Guillermo Navarro",
-                            "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                            "person": {
+                                "id": "3113",
+                                "name": "Guillermo Navarro",
+                                "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                            }
                         },
                         {
-                            "credit_id": "57b4330fc3a3684d5f002759",
+                            "id": "57b4330fc3a3684d5f002759",
                             "department": "Writing",
-                            "id": "65677",
                             "job": "Writer",
-                            "name": "Don Mancini",
-                            "profile_path": null
+                            "person": {
+                                "id": "65677",
+                                "name": "Don Mancini",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "And the Woman Clothed in Sun",
@@ -3362,39 +3751,46 @@
                     "episode_number": 11,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "577e460f92514169760000e0",
                             "character": "Reba McClane",
-                            "credit_id": "577e460f92514169760000e0",
-                            "id": "210773",
-                            "name": "Rutina Wesley",
                             "order": 21,
-                            "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                            "person": {
+                                "id": "210773",
+                                "name": "Rutina Wesley",
+                                "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243aa3c3a368086e003a75",
+                            "id": "54243aa3c3a368086e003a75",
                             "department": "Directing",
-                            "id": "28741",
                             "job": "Director",
-                            "name": "Michael Rymer",
-                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            "person": {
+                                "id": "28741",
+                                "name": "Michael Rymer",
+                                "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "And the Beast from the Sea",
@@ -3409,55 +3805,66 @@
                     "episode_number": 12,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "577e460f92514169760000e0",
                             "character": "Reba McClane",
-                            "credit_id": "577e460f92514169760000e0",
-                            "id": "210773",
-                            "name": "Rutina Wesley",
                             "order": 21,
-                            "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                            "person": {
+                                "id": "210773",
+                                "name": "Rutina Wesley",
+                                "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "57b4329292514106a50029ca",
+                            "id": "57b4329292514106a50029ca",
                             "department": "Writing",
-                            "id": "1667199",
                             "job": "Writer",
-                            "name": "Angela Lamanna",
-                            "profile_path": null
+                            "person": {
+                                "id": "1667199",
+                                "name": "Angela Lamanna",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c7ec3a3680880003b58",
+                            "id": "54243c7ec3a3680880003b58",
                             "department": "Directing",
-                            "id": "3113",
                             "job": "Director",
-                            "name": "Guillermo Navarro",
-                            "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                            "person": {
+                                "id": "3113",
+                                "name": "Guillermo Navarro",
+                                "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
+                            }
                         },
                         {
-                            "credit_id": "56019c28c3a3685614001ee1",
+                            "id": "56019c28c3a3685614001ee1",
                             "department": "Writing",
-                            "id": "1218781",
                             "job": "Writer",
-                            "name": "Jeff Vlaming",
-                            "profile_path": null
+                            "person": {
+                                "id": "1218781",
+                                "name": "Jeff Vlaming",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "The Number of the Beast is 666",
@@ -3472,47 +3879,56 @@
                     "episode_number": 13,
                     "guest_stars": [
                         {
-                            "cast_id": null,
+                            "id": "577e460f92514169760000e0",
                             "character": "Reba McClane",
-                            "credit_id": "577e460f92514169760000e0",
-                            "id": "210773",
-                            "name": "Rutina Wesley",
                             "order": 21,
-                            "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                            "person": {
+                                "id": "210773",
+                                "name": "Rutina Wesley",
+                                "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+                            }
                         }
                     ],
                     "crew": [
                         {
-                            "credit_id": "57b431bcc3a3684802003ab5",
+                            "id": "57b431bcc3a3684802003ab5",
                             "department": "Writing",
-                            "id": "1114792",
                             "job": "Writer",
-                            "name": "Nick Antosca",
-                            "profile_path": null
+                            "person": {
+                                "id": "1114792",
+                                "name": "Nick Antosca",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243c710e0a263b81003c18",
+                            "id": "54243c710e0a263b81003c18",
                             "department": "Writing",
-                            "id": "1240816",
                             "job": "Writer",
-                            "name": "Steve Lightfoot",
-                            "profile_path": null
+                            "person": {
+                                "id": "1240816",
+                                "name": "Steve Lightfoot",
+                                "profile_path": null
+                            }
                         },
                         {
-                            "credit_id": "54243aa3c3a368086e003a75",
+                            "id": "54243aa3c3a368086e003a75",
                             "department": "Directing",
-                            "id": "28741",
                             "job": "Director",
-                            "name": "Michael Rymer",
-                            "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            "person": {
+                                "id": "28741",
+                                "name": "Michael Rymer",
+                                "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
+                            }
                         },
                         {
-                            "credit_id": "52595bbc19c295731c087ac7",
+                            "id": "52595bbc19c295731c087ac7",
                             "department": "Writing",
-                            "id": "17311",
                             "job": "Writer",
-                            "name": "Bryan Fuller",
-                            "profile_path": null
+                            "person": {
+                                "id": "17311",
+                                "name": "Bryan Fuller",
+                                "profile_path": null
+                            }
                         }
                     ],
                     "name": "The Wrath of the Lamb",

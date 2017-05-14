@@ -1,0 +1,65 @@
+{
+  "genres": {
+    "entity": "Genre",
+    "priority": 1 
+  },
+  "production_companies": {
+    "entity": "ProductionCompany",
+    "priority": 1
+  },
+  "videos": {
+    "entity": "Video",
+    "priority": 1
+  },
+  "persons": {
+    "entity": "Person",
+    "priority": 1
+  },
+  "images": {
+    "entity": "Image",
+    "priority": 1
+  },
+  "keywords": {
+    "entity": "Keyword",
+    "priority": 1
+  },
+  "movies": {
+    "entity": "Movie",
+    "priority": 2,
+    "relationColumn": "movie_id",
+    "relations": {
+      "credits.cast": {
+        "entity": "MovieCast",
+        "normalizrEntity": "cast"
+      },
+      "credits.crew": {
+        "entity": "MovieCrew",
+        "normalizrEntity": "crew"
+      },
+      "genres": {
+        "entity": "MovieGenre",
+        "column": "genre_id"
+      },
+      "production_companies": {
+        "entity": "MovieProductionCompany",
+        "column": "production_company_id"
+      },
+      "videos": {
+        "entity": "MovieVideo",
+        "column": "video_id"
+      },
+      "images.backdrops": {
+        "entity": "MovieBackdrop",
+        "column": "image_id"
+      },
+      "images.posters": {
+        "entity": "MoviePoster",
+        "column": "image_id"
+      },
+      "keywords": {
+        "entity": "MovieKeyword",
+        "column": "keyword_id"
+      }
+    }
+  }
+}

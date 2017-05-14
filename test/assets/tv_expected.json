@@ -33,16 +33,6 @@
                 "type": "OPENING_CREDITS",
                 "size": 720
             },
-            "534921db0e0a266b3f0013bb": {
-                "id": "534921db0e0a266b3f0013bb",
-                "iso_639_1": "en",
-                "iso_3166_1": "US",
-                "key": "9cqABojhqr4",
-                "name": "Pledge Your Allegiance - House Stark",
-                "site": "YouTube",
-                "size": 720,
-                "type": "Featurette"
-            },
             "54c7ee69c3a36871df000686": {
                 "id": "54c7ee69c3a36871df000686",
                 "iso_639_1": "en",
@@ -54,540 +44,836 @@
                 "size": 1080
             }
         },
-        "crew": {
+        "persons": {
+            "1019": {
+                "id": "1019",
+                "name": "Mads Mikkelsen",
+                "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
+            },
+            "1926": {
+                "id": "1926",
+                "name": "Eddie Izzard",
+                "profile_path": "/j5hzBqmcyWG2GC754uACCoNgAvS.jpg"
+            },
+            "2714": {
+                "id": "2714",
+                "name": "Lance Henriksen",
+                "profile_path": "/wf4Pr9RxsHGd0O9fLPiB3Al8IVC.jpg"
+            },
+            "2975": {
+                "id": "2975",
+                "name": "Laurence Fishburne",
+                "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
+            },
             "3113": {
-                "credit_id": "54243c7ec3a3680880003b58",
-                "department": "Directing",
                 "id": "3113",
-                "job": "Director",
                 "name": "Guillermo Navarro",
                 "profile_path": "/AfZkxrEiLlqqHONhfJyVOLrHR8A.jpg"
             },
             "5877": {
-                "credit_id": "56019ba09251412290001e39",
-                "department": "Directing",
                 "id": "5877",
-                "job": "Director",
                 "name": "Vincenzo Natali",
                 "profile_path": "/4rdmLwBRQKs1gpjEfrTxabOUerv.jpg"
             },
+            "9576": {
+                "id": "9576",
+                "name": "Gina Torres",
+                "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
+            },
+            "10692": {
+                "id": "10692",
+                "name": "Michael Pitt",
+                "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
+            },
+            "12214": {
+                "id": "12214",
+                "name": "Gillian Anderson",
+                "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
+            },
+            "12791": {
+                "id": "12791",
+                "name": "Hugh Dancy",
+                "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+            },
+            "13420": {
+                "id": "13420",
+                "name": "Ellen Greene",
+                "profile_path": "/1EHwrl4PzPJzVbheXoqW6uzhMos.jpg"
+            },
             "15858": {
-                "credit_id": "54243c1b0e0a263b77003bf8",
-                "department": "Directing",
                 "id": "15858",
-                "job": "Director",
                 "name": "Tim Hunter",
                 "profile_path": "/46BrIP5cvIMUfYDvhhYSqExpN6F.jpg"
             },
             "15890": {
-                "credit_id": "54243be5c3a368087a003bcf",
-                "department": "Directing",
                 "id": "15890",
-                "job": "Director",
                 "name": "James Foley",
                 "profile_path": "/caO7yyC7C3YJdEvK1cb7gvJbWaY.jpg"
             },
             "16786": {
-                "credit_id": "563d231bc3a3681b5e026b11",
-                "department": "Writing",
                 "id": "16786",
-                "job": "Characters",
                 "name": "Thomas Harris",
                 "profile_path": null
             },
             "17272": {
-                "credit_id": "57b47a17c3a36819b5005974",
-                "department": "Directing",
                 "id": "17272",
-                "job": "Director",
                 "name": "David Semel",
                 "profile_path": "/7nDXxRcD6wmFqjYySJIh4wcepdD.jpg"
             },
+            "17292": {
+                "id": "17292",
+                "name": "Tom Wisdom",
+                "profile_path": "/3G9RdJHEfTcuBk5ArYSMOrnYYG9.jpg"
+            },
             "17311": {
-                "credit_id": "52595bbc19c295731c087ac7",
-                "department": "Writing",
                 "id": "17311",
-                "job": "Writer",
                 "name": "Bryan Fuller",
                 "profile_path": null
             },
             "18695": {
-                "credit_id": "57b4344ac3a3684802003c1b",
-                "department": "Directing",
                 "id": "18695",
-                "job": "Director",
                 "name": "Adam Kane",
                 "profile_path": "/wVmfwTmm4P8CknVKBYSwJ7edGU1.jpg"
             },
             "19051": {
-                "credit_id": "563d23b9c3a3681b4d02eadd",
-                "department": "Production",
                 "id": "19051",
-                "job": "Executive Producer",
                 "name": "Martha De Laurentiis",
                 "profile_path": null
             },
             "21053": {
-                "credit_id": "54243c8f0e0a263b6e003c0d",
-                "department": "Directing",
                 "id": "21053",
-                "job": "Director",
                 "name": "John Dahl",
                 "profile_path": "/klMxcB64Tu0sWCn3YDTMcGWPArQ.jpg"
             },
             "21377": {
-                "credit_id": "54243b020e0a263b71003cbf",
-                "department": "Directing",
                 "id": "21377",
-                "job": "Director",
                 "name": "Peter Medak",
                 "profile_path": null
             },
             "23548": {
-                "credit_id": "563d24bbc3a3681b610295e6",
-                "department": "Costume & Make-Up",
                 "id": "23548",
-                "job": "Costume Design",
                 "name": "Christopher Hargadon",
                 "profile_path": null
             },
+            "27136": {
+                "id": "27136",
+                "name": "Katharine Isabelle",
+                "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+            },
             "27571": {
-                "credit_id": "54243a770e0a263b7e003c88",
-                "department": "Directing",
                 "id": "27571",
-                "job": "Director",
                 "name": "David Slade",
                 "profile_path": "/ksOn4mssJbmdBX1AvzZF4nCUAiQ.jpg"
             },
             "28741": {
-                "credit_id": "54243aa3c3a368086e003a75",
-                "department": "Directing",
                 "id": "28741",
-                "job": "Director",
                 "name": "Michael Rymer",
                 "profile_path": "/w3iQNN1LAVsTbF4wyReOadjSojJ.jpg"
             },
+            "29234": {
+                "id": "29234",
+                "name": "Joe Anderson",
+                "profile_path": "/qrz9007HeT1uDt3e0NVXFMWsQkA.jpg"
+            },
+            "30315": {
+                "id": "30315",
+                "name": "Richard Armitage",
+                "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
+            },
+            "31383": {
+                "id": "31383",
+                "name": "Caroline Dhavernas",
+                "profile_path": "/iru7mIVFHGzGkd2XzCZBxjnq4t2.jpg"
+            },
             "34218": {
-                "credit_id": "52595bbc19c295731c087b09",
-                "department": "Production",
                 "id": "34218",
-                "job": "Producer",
                 "name": "Jesse Alexander",
                 "profile_path": null
             },
+            "34612": {
+                "id": "34612",
+                "name": "Anna Chlumsky",
+                "profile_path": "/wWuhDcOKU3t8WVPLNsP268GKvOU.jpg"
+            },
             "40839": {
-                "credit_id": "563d22adc3a3681b5e026b04",
-                "department": "Sound",
                 "id": "40839",
-                "job": "Original Music Composer",
                 "name": "Brian Reitzell",
                 "profile_path": null
             },
+            "44097": {
+                "id": "44097",
+                "name": "Maria del Mar",
+                "profile_path": "/jD3FXAuwkBV3DMXSjW50ehlj7iy.jpg"
+            },
+            "56262": {
+                "id": "56262",
+                "name": "Aaron Abrams",
+                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
+            },
             "57581": {
-                "credit_id": "562cf1bc9251410a2200398f",
-                "department": "Directing",
                 "id": "57581",
-                "job": "Director",
                 "name": "Neil Marshall",
                 "profile_path": "/Au5p9cFlj2XVoVIECQ40ruOp1Qz.jpg"
             },
+            "58873": {
+                "id": "58873",
+                "name": "Dan Fogler",
+                "profile_path": "/75hCIe6KHpHUlJDcyoxEp035BWz.jpg"
+            },
             "64506": {
-                "credit_id": "54243ca9c3a3680872004196",
-                "department": "Writing",
                 "id": "64506",
-                "job": "Writer",
                 "name": "Chris Brancato",
                 "profile_path": null
             },
             "65677": {
-                "credit_id": "57b4330fc3a3684d5f002759",
-                "department": "Writing",
                 "id": "65677",
-                "job": "Writer",
                 "name": "Don Mancini",
                 "profile_path": null
             },
+            "78576": {
+                "id": "78576",
+                "name": "Scott Thompson",
+                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
+            },
             "82623": {
-                "credit_id": "560331729251416f0f000d34",
-                "department": "Writing",
                 "id": "82623",
-                "job": "Writer",
                 "name": "Andrew Black",
                 "profile_path": null
             },
+            "107515": {
+                "id": "107515",
+                "name": "Raúl Esparza",
+                "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
+            },
+            "210773": {
+                "id": "210773",
+                "name": "Rutina Wesley",
+                "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
+            },
+            "1038625": {
+                "id": "1038625",
+                "name": "Kacey Rohl",
+                "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
+            },
+            "1102260": {
+                "id": "1102260",
+                "name": "Lara Jean Chorostecki",
+                "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
+            },
             "1114792": {
-                "credit_id": "57b431bcc3a3684802003ab5",
-                "department": "Writing",
                 "id": "1114792",
-                "job": "Writer",
                 "name": "Nick Antosca",
                 "profile_path": null
             },
+            "1156024": {
+                "id": "1156024",
+                "name": "Tao Okamoto",
+                "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
+            },
             "1213069": {
-                "credit_id": "57b47e18925141716a00069e",
-                "department": "Writing",
                 "id": "1213069",
-                "job": "Teleplay",
                 "name": "David Fury",
                 "profile_path": null
             },
             "1215611": {
-                "credit_id": "54243b8fc3a368086e003a95",
-                "department": "Writing",
                 "id": "1215611",
-                "job": "Writer",
                 "name": "Scott Nimerfro",
                 "profile_path": null
             },
+            "1218072": {
+                "id": "1218072",
+                "name": "Ellen Muth",
+                "profile_path": "/1U1qdqyKCNbmi6r8HdN3ahur1zp.jpg"
+            },
+            "1218184": {
+                "id": "1218184",
+                "name": "Hettienne Park",
+                "profile_path": "/iQJMXqr5GeZogy1Ku6kPRtNl1mJ.jpg"
+            },
             "1218781": {
-                "credit_id": "56019c28c3a3685614001ee1",
-                "department": "Writing",
                 "id": "1218781",
-                "job": "Writer",
                 "name": "Jeff Vlaming",
                 "profile_path": null
             },
             "1240816": {
-                "credit_id": "54243c710e0a263b81003c18",
-                "department": "Writing",
                 "id": "1240816",
-                "job": "Writer",
                 "name": "Steve Lightfoot",
                 "profile_path": null
             },
+            "1251993": {
+                "id": "1251993",
+                "name": "Holly Deveaux",
+                "profile_path": "/8KAfgcsmJpvB9ZxHO7VaB7VfT3.jpg"
+            },
             "1285993": {
-                "credit_id": "57b434af92514106a5002a8e",
-                "department": "Writing",
                 "id": "1285993",
-                "job": "Writer",
                 "name": "Tom de Ville",
                 "profile_path": null
             },
             "1367585": {
-                "credit_id": "54243a97c3a368087a003bb0",
-                "department": "Writing",
                 "id": "1367585",
-                "job": "Writer",
                 "name": "Jim Danger Gray",
                 "profile_path": null
             },
             "1367586": {
-                "credit_id": "54243af50e0a263b71003cbb",
-                "department": "Writing",
                 "id": "1367586",
-                "job": "Writer",
                 "name": "Jennifer Schuur",
                 "profile_path": null
             },
             "1367587": {
-                "credit_id": "54243bcac3a368087200417f",
-                "department": "Writing",
                 "id": "1367587",
-                "job": "Writer",
                 "name": "Kai Wu",
                 "profile_path": null
             },
             "1372372": {
-                "credit_id": "56019c93c3a3685625001e33",
-                "department": "Writing",
                 "id": "1372372",
-                "job": "Writer",
                 "name": "Angelina Burnett",
                 "profile_path": null
             },
+            "1377670": {
+                "id": "1377670",
+                "name": "Glenn Fleshler",
+                "profile_path": "/9SOBzbIjsTVBLT3FolXDHDrNLIh.jpg"
+            },
             "1499724": {
-                "credit_id": "57b478f9925141715b000549",
-                "department": "Writing",
                 "id": "1499724",
-                "job": "Writer",
                 "name": "Ayanna A. Floyd",
                 "profile_path": null
             },
             "1515079": {
-                "credit_id": "56068d63c3a3681207001c57",
-                "department": "Directing",
                 "id": "1515079",
-                "job": "Director",
                 "name": "Marc Jobst",
                 "profile_path": null
             },
             "1667199": {
-                "credit_id": "57b4329292514106a50029ca",
-                "department": "Writing",
                 "id": "1667199",
-                "job": "Writer",
                 "name": "Angela Lamanna",
                 "profile_path": null
             },
             "1667201": {
-                "credit_id": "57b433c9925141073a002a15",
-                "department": "Writing",
                 "id": "1667201",
-                "job": "Writer",
                 "name": "Helen Shang",
                 "profile_path": null
             },
             "1667276": {
-                "credit_id": "57b47a4992514170f70005c6",
-                "department": "Writing",
                 "id": "1667276",
-                "job": "Writer",
                 "name": "Jason Grote",
                 "profile_path": null
             }
         },
+        "crew": {
+            "563d231bc3a3681b5e026b11": {
+                "person_id": "16786",
+                "id": "563d231bc3a3681b5e026b11",
+                "department": "Writing",
+                "job": "Characters",
+                "person": "16786"
+            },
+            "563d22adc3a3681b5e026b04": {
+                "person_id": "40839",
+                "id": "563d22adc3a3681b5e026b04",
+                "department": "Sound",
+                "job": "Original Music Composer",
+                "person": "40839"
+            },
+            "563d237d92514178190052fa": {
+                "person_id": "17311",
+                "id": "563d237d92514178190052fa",
+                "department": "Production",
+                "job": "Executive Producer",
+                "person": "17311"
+            },
+            "563d23b9c3a3681b4d02eadd": {
+                "person_id": "19051",
+                "id": "563d23b9c3a3681b4d02eadd",
+                "department": "Production",
+                "job": "Executive Producer",
+                "person": "19051"
+            },
+            "563d24bbc3a3681b610295e6": {
+                "person_id": "23548",
+                "id": "563d24bbc3a3681b610295e6",
+                "department": "Costume & Make-Up",
+                "job": "Costume Design",
+                "person": "23548"
+            },
+            "563d24709251411867000443": {
+                "person_id": "64506",
+                "id": "563d24709251411867000443",
+                "department": "Production",
+                "job": "Executive Producer",
+                "person": "64506"
+            },
+            "52595bbc19c295731c087b09": {
+                "person_id": "34218",
+                "id": "52595bbc19c295731c087b09",
+                "department": "Production",
+                "job": "Producer",
+                "person": "34218"
+            },
+            "54243a770e0a263b7e003c88": {
+                "person_id": "27571",
+                "id": "54243a770e0a263b7e003c88",
+                "department": "Directing",
+                "job": "Director",
+                "person": "27571"
+            },
+            "52595bbc19c295731c087ac7": {
+                "person_id": "17311",
+                "id": "52595bbc19c295731c087ac7",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "17311"
+            },
+            "54243a97c3a368087a003bb0": {
+                "person_id": "1367585",
+                "id": "54243a97c3a368087a003bb0",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1367585"
+            },
+            "54243aa3c3a368086e003a75": {
+                "person_id": "28741",
+                "id": "54243aa3c3a368086e003a75",
+                "department": "Directing",
+                "job": "Director",
+                "person": "28741"
+            },
+            "54243ad20e0a263b7e003c90": {
+                "person_id": "1213069",
+                "id": "54243ad20e0a263b7e003c90",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1213069"
+            },
+            "57b47e18925141716a00069e": {
+                "person_id": "1213069",
+                "id": "57b47e18925141716a00069e",
+                "department": "Writing",
+                "job": "Teleplay",
+                "person": "1213069"
+            },
+            "57b47e28c3a3684c760006ef": {
+                "person_id": "64506",
+                "id": "57b47e28c3a3684c760006ef",
+                "department": "Writing",
+                "job": "Teleplay",
+                "person": "64506"
+            },
+            "57b476d7925141712f00046e": {
+                "person_id": "17311",
+                "id": "57b476d7925141712f00046e",
+                "department": "Writing",
+                "job": "Teleplay",
+                "person": "17311"
+            },
+            "54243b020e0a263b71003cbf": {
+                "person_id": "21377",
+                "id": "54243b020e0a263b71003cbf",
+                "department": "Directing",
+                "job": "Director",
+                "person": "21377"
+            },
+            "54243af50e0a263b71003cbb": {
+                "person_id": "1367586",
+                "id": "54243af50e0a263b71003cbb",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1367586"
+            },
+            "54243b8fc3a368086e003a95": {
+                "person_id": "1215611",
+                "id": "54243b8fc3a368086e003a95",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1215611"
+            },
+            "57b47843c3a3680ca30011bb": {
+                "person_id": "1215611",
+                "id": "57b47843c3a3680ca30011bb",
+                "department": "Writing",
+                "job": "Teleplay",
+                "person": "1215611"
+            },
+            "57b47e99c3a3686c01000119": {
+                "person_id": "1367587",
+                "id": "57b47e99c3a3686c01000119",
+                "department": "Writing",
+                "job": "Teleplay",
+                "person": "1367587"
+            },
+            "54243bcac3a368087200417f": {
+                "person_id": "1367587",
+                "id": "54243bcac3a368087200417f",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1367587"
+            },
+            "54243bf7c3a3681eca0023f0": {
+                "person_id": "34218",
+                "id": "54243bf7c3a3681eca0023f0",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "34218"
+            },
+            "54243be5c3a368087a003bcf": {
+                "person_id": "15890",
+                "id": "54243be5c3a368087a003bcf",
+                "department": "Directing",
+                "job": "Director",
+                "person": "15890"
+            },
+            "54243c1b0e0a263b77003bf8": {
+                "person_id": "15858",
+                "id": "54243c1b0e0a263b77003bf8",
+                "department": "Directing",
+                "job": "Director",
+                "person": "15858"
+            },
+            "54243c7ec3a3680880003b58": {
+                "person_id": "3113",
+                "id": "54243c7ec3a3680880003b58",
+                "department": "Directing",
+                "job": "Director",
+                "person": "3113"
+            },
+            "54243c710e0a263b81003c18": {
+                "person_id": "1240816",
+                "id": "54243c710e0a263b81003c18",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1240816"
+            },
+            "560331729251416f0f000d34": {
+                "person_id": "82623",
+                "id": "560331729251416f0f000d34",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "82623"
+            },
+            "54243c8f0e0a263b6e003c0d": {
+                "person_id": "21053",
+                "id": "54243c8f0e0a263b6e003c0d",
+                "department": "Directing",
+                "job": "Director",
+                "person": "21053"
+            },
+            "54243ca9c3a3680872004196": {
+                "person_id": "64506",
+                "id": "54243ca9c3a3680872004196",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "64506"
+            },
+            "56019c28c3a3685614001ee1": {
+                "person_id": "1218781",
+                "id": "56019c28c3a3685614001ee1",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1218781"
+            },
+            "57b47a4992514170f70005c6": {
+                "person_id": "1667276",
+                "id": "57b47a4992514170f70005c6",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1667276"
+            },
+            "57b47a17c3a36819b5005974": {
+                "person_id": "17272",
+                "id": "57b47a17c3a36819b5005974",
+                "department": "Directing",
+                "job": "Director",
+                "person": "17272"
+            },
+            "57b478f9925141715b000549": {
+                "person_id": "1499724",
+                "id": "57b478f9925141715b000549",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1499724"
+            },
+            "57b439839251412f5e00215a": {
+                "person_id": "1240816",
+                "id": "57b439839251412f5e00215a",
+                "department": "Writing",
+                "job": "Teleplay",
+                "person": "1240816"
+            },
+            "57b4785c925141712f0004e9": {
+                "person_id": "82623",
+                "id": "57b4785c925141712f0004e9",
+                "department": "Writing",
+                "job": "Teleplay",
+                "person": "82623"
+            },
+            "56019ba09251412290001e39": {
+                "person_id": "5877",
+                "id": "56019ba09251412290001e39",
+                "department": "Directing",
+                "job": "Director",
+                "person": "5877"
+            },
+            "56019c93c3a3685625001e33": {
+                "person_id": "1372372",
+                "id": "56019c93c3a3685625001e33",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1372372"
+            },
+            "56068d63c3a3681207001c57": {
+                "person_id": "1515079",
+                "id": "56068d63c3a3681207001c57",
+                "department": "Directing",
+                "job": "Director",
+                "person": "1515079"
+            },
+            "57b431bcc3a3684802003ab5": {
+                "person_id": "1114792",
+                "id": "57b431bcc3a3684802003ab5",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1114792"
+            },
+            "57b434af92514106a5002a8e": {
+                "person_id": "1285993",
+                "id": "57b434af92514106a5002a8e",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1285993"
+            },
+            "57b4330fc3a3684d5f002759": {
+                "person_id": "65677",
+                "id": "57b4330fc3a3684d5f002759",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "65677"
+            },
+            "57b4344ac3a3684802003c1b": {
+                "person_id": "18695",
+                "id": "57b4344ac3a3684802003c1b",
+                "department": "Directing",
+                "job": "Director",
+                "person": "18695"
+            },
+            "562cf1bc9251410a2200398f": {
+                "person_id": "57581",
+                "id": "562cf1bc9251410a2200398f",
+                "department": "Directing",
+                "job": "Director",
+                "person": "57581"
+            },
+            "57b433c9925141073a002a15": {
+                "person_id": "1667201",
+                "id": "57b433c9925141073a002a15",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1667201"
+            },
+            "57b4329292514106a50029ca": {
+                "person_id": "1667199",
+                "id": "57b4329292514106a50029ca",
+                "department": "Writing",
+                "job": "Writer",
+                "person": "1667199"
+            }
+        },
         "cast": {
-            "1019": {
-                "cast_id": null,
-                "character": "Hannibal Lecter",
-                "credit_id": "52595bb619c295731c087823",
-                "id": "1019",
-                "name": "Mads Mikkelsen",
-                "order": 1,
-                "profile_path": "/o29Wd1DL8ZcSnVlOhLZ53LPPRwi.jpg"
-            },
-            "1926": {
-                "cast_id": null,
-                "character": "Dr. Abel Gideon",
-                "credit_id": "52851037760ee37bb6275987",
-                "id": "1926",
-                "name": "Eddie Izzard",
-                "order": 14,
-                "profile_path": "/j5hzBqmcyWG2GC754uACCoNgAvS.jpg"
-            },
-            "2714": {
-                "cast_id": null,
-                "character": "Lawrence Wells",
-                "credit_id": "52851215760ee37d3f056ce2",
-                "id": "2714",
-                "name": "Lance Henriksen",
-                "order": 13,
-                "profile_path": "/wf4Pr9RxsHGd0O9fLPiB3Al8IVC.jpg"
-            },
-            "2975": {
-                "cast_id": null,
-                "character": "Jack Crawford",
-                "credit_id": "52595bb619c295731c087925",
-                "id": "2975",
-                "name": "Laurence Fishburne",
-                "order": 2,
-                "profile_path": "/zzJCud5BdpGomC3ZhUZczTx1DEa.jpg"
-            },
-            "9576": {
-                "cast_id": null,
-                "character": "Bella Crawford",
-                "credit_id": "52850f76760ee37be627e990",
-                "id": "9576",
-                "name": "Gina Torres",
-                "order": 8,
-                "profile_path": "/jngIFehSh5Lkzu713sxyK23PzPC.jpg"
-            },
-            "10692": {
-                "cast_id": null,
-                "character": "Mason Verger",
-                "credit_id": "53c86a8a0e0a26648d00049c",
-                "id": "10692",
-                "name": "Michael Pitt",
-                "order": 14,
-                "profile_path": "/e0UbPlJX4zC205Dfvi7w4ubGR5.jpg"
-            },
-            "12214": {
-                "cast_id": null,
-                "character": "Dr. Bedelia Du Maurier",
-                "credit_id": "528510a9760ee30c140309cc",
-                "id": "12214",
-                "name": "Gillian Anderson",
-                "order": 14,
-                "profile_path": "/uXw82aq2bH7GUYQIaoihXwDolLK.jpg"
-            },
-            "12791": {
-                "cast_id": null,
+            "52595bb619c295731c0877cb": {
+                "person_id": "12791",
+                "id": "52595bb619c295731c0877cb",
                 "character": "Will Graham",
-                "credit_id": "52595bb619c295731c0877cb",
-                "id": "12791",
-                "name": "Hugh Dancy",
                 "order": 0,
-                "profile_path": "/ivFvPpua1zl3GIs7A2Px7QKric5.jpg"
+                "person": "12791"
             },
-            "13420": {
-                "cast_id": null,
-                "character": "Mrs. Komeda",
-                "credit_id": "528511a9760ee30c140338c0",
-                "id": "13420",
-                "name": "Ellen Greene",
-                "order": 12,
-                "profile_path": "/1EHwrl4PzPJzVbheXoqW6uzhMos.jpg"
+            "52595bb619c295731c087823": {
+                "person_id": "1019",
+                "id": "52595bb619c295731c087823",
+                "character": "Hannibal Lecter",
+                "order": 1,
+                "person": "1019"
             },
-            "17292": {
-                "cast_id": null,
-                "character": "",
-                "credit_id": "556cb65e9251414030001d27",
-                "id": "17292",
-                "name": "Tom Wisdom",
-                "order": 16,
-                "profile_path": "/3G9RdJHEfTcuBk5ArYSMOrnYYG9.jpg"
+            "52595bb619c295731c087925": {
+                "person_id": "2975",
+                "id": "52595bb619c295731c087925",
+                "character": "Jack Crawford",
+                "order": 2,
+                "person": "2975"
             },
-            "27136": {
-                "cast_id": null,
-                "character": "Margot Verger",
-                "credit_id": "53d8b2fa0e0a261c84001dca",
-                "id": "27136",
-                "name": "Katharine Isabelle",
-                "order": 15,
-                "profile_path": "/fYqQdPLHfwdeDnE4s6ooTzsWgHd.jpg"
+            "528510a9760ee30c140309cc": {
+                "person_id": "12214",
+                "id": "528510a9760ee30c140309cc",
+                "character": "Dr. Bedelia Du Maurier",
+                "order": 14,
+                "person": "12214"
             },
-            "29234": {
-                "cast_id": null,
-                "character": "Mason Verger",
-                "credit_id": "56068d8792514130520019a9",
-                "id": "29234",
-                "name": "Joe Anderson",
-                "order": 19,
-                "profile_path": "/qrz9007HeT1uDt3e0NVXFMWsQkA.jpg"
-            },
-            "30315": {
-                "cast_id": null,
-                "character": "Francis Dolarhyde",
-                "credit_id": "55a93ce592514172ef001abc",
-                "id": "30315",
-                "name": "Richard Armitage",
-                "order": 17,
-                "profile_path": "/rRXwvGQOOqYJ5Pp2o2HzF1KNbjq.jpg"
-            },
-            "31383": {
-                "cast_id": null,
+            "52595bb619c295731c087867": {
+                "person_id": "31383",
+                "id": "52595bb619c295731c087867",
                 "character": "Dr. Alana Bloom",
-                "credit_id": "52595bb619c295731c087867",
-                "id": "31383",
-                "name": "Caroline Dhavernas",
                 "order": 3,
-                "profile_path": "/iru7mIVFHGzGkd2XzCZBxjnq4t2.jpg"
+                "person": "31383"
             },
-            "34612": {
-                "cast_id": null,
-                "character": "Miriam Lass",
-                "credit_id": "52851070760ee30c6a03773c",
-                "id": "34612",
-                "name": "Anna Chlumsky",
-                "order": 10,
-                "profile_path": "/wWuhDcOKU3t8WVPLNsP268GKvOU.jpg"
-            },
-            "44097": {
-                "cast_id": null,
-                "character": "Wendy Vega",
-                "credit_id": "5780c2ebc3a368659f000164",
-                "id": "44097",
-                "name": "Maria del Mar",
-                "order": 22,
-                "profile_path": "/jD3FXAuwkBV3DMXSjW50ehlj7iy.jpg"
-            },
-            "56262": {
-                "cast_id": null,
-                "character": "Brian Zeller",
-                "credit_id": "52850aec760ee37baf26f3d4",
-                "id": "56262",
-                "name": "Aaron Abrams",
-                "order": 14,
-                "profile_path": "/weVv0AxBDJvk3pCf8ADnHjJRjtC.jpg"
-            },
-            "58873": {
-                "cast_id": null,
-                "character": "Franklin",
-                "credit_id": "52850d5c760ee30c1402569d",
-                "id": "58873",
-                "name": "Dan Fogler",
-                "order": 4,
-                "profile_path": "/75hCIe6KHpHUlJDcyoxEp035BWz.jpg"
-            },
-            "78576": {
-                "cast_id": null,
-                "character": "Jimmy Price",
-                "credit_id": "52850ad6760ee375ec1577bf",
-                "id": "78576",
-                "name": "Scott Thompson",
-                "order": 14,
-                "profile_path": "/xgZAC5vgVUhFLoOr2n685Vo3LvZ.jpg"
-            },
-            "107515": {
-                "cast_id": null,
-                "character": "Dr. Frederick Chilton",
-                "credit_id": "52850ffd760ee375ec16a1b6",
-                "id": "107515",
-                "name": "Raúl Esparza",
-                "order": 14,
-                "profile_path": "/pkGlIce52PZbFStPC2SpZaCVSjb.jpg"
-            },
-            "210773": {
-                "cast_id": null,
-                "character": "Reba McClane",
-                "credit_id": "577e460f92514169760000e0",
-                "id": "210773",
-                "name": "Rutina Wesley",
-                "order": 21,
-                "profile_path": "/ewT4aCJsXkfLg7e6IHZFHgIHcoV.jpg"
-            },
-            "1038625": {
-                "cast_id": null,
-                "character": "Abigail Hobbs",
-                "credit_id": "52850d8a760ee30c14025eee",
-                "id": "1038625",
-                "name": "Kacey Rohl",
-                "order": 14,
-                "profile_path": "/ic3DvvbrfxzJ3uKxYDBpER0sbxy.jpg"
-            },
-            "1102260": {
-                "cast_id": null,
-                "character": "Freddie Lounds",
-                "credit_id": "52850eaf760ee37bda24bf4a",
-                "id": "1102260",
-                "name": "Lara Jean Chorostecki",
-                "order": 14,
-                "profile_path": "/qtKzOfOVQnnL3aOFXlc0BURYjyg.jpg"
-            },
-            "1156024": {
-                "cast_id": null,
-                "character": "Chiyo",
-                "credit_id": "55b884b992514123dd00143d",
-                "id": "1156024",
-                "name": "Tao Okamoto",
-                "order": 18,
-                "profile_path": "/ahbByaizp6xLkakmTWebPC57v06.jpg"
-            },
-            "1218072": {
-                "cast_id": null,
-                "character": "Georgia Madchen",
-                "credit_id": "52851286760ee30c1403697c",
-                "id": "1218072",
-                "name": "Ellen Muth",
-                "order": 14,
-                "profile_path": "/1U1qdqyKCNbmi6r8HdN3ahur1zp.jpg"
-            },
-            "1218184": {
-                "cast_id": null,
+            "52595bb619c295731c08787f": {
+                "person_id": "1218184",
+                "id": "52595bb619c295731c08787f",
                 "character": "Beverly",
-                "credit_id": "52595bb619c295731c08787f",
-                "id": "1218184",
-                "name": "Hettienne Park",
                 "order": 4,
-                "profile_path": "/iQJMXqr5GeZogy1Ku6kPRtNl1mJ.jpg"
+                "person": "1218184"
             },
-            "1251993": {
-                "cast_id": null,
+            "52850d5c760ee30c1402569d": {
+                "person_id": "58873",
+                "id": "52850d5c760ee30c1402569d",
+                "character": "Franklin",
+                "order": 4,
+                "person": "58873"
+            },
+            "52850ad6760ee375ec1577bf": {
+                "person_id": "78576",
+                "id": "52850ad6760ee375ec1577bf",
+                "character": "Jimmy Price",
+                "order": 14,
+                "person": "78576"
+            },
+            "52850aec760ee37baf26f3d4": {
+                "person_id": "56262",
+                "id": "52850aec760ee37baf26f3d4",
+                "character": "Brian Zeller",
+                "order": 14,
+                "person": "56262"
+            },
+            "52850d8a760ee30c14025eee": {
+                "person_id": "1038625",
+                "id": "52850d8a760ee30c14025eee",
+                "character": "Abigail Hobbs",
+                "order": 14,
+                "person": "1038625"
+            },
+            "52850eaf760ee37bda24bf4a": {
+                "person_id": "1102260",
+                "id": "52850eaf760ee37bda24bf4a",
+                "character": "Freddie Lounds",
+                "order": 14,
+                "person": "1102260"
+            },
+            "57975478c3a3685556002957": {
+                "person_id": "1251993",
+                "id": "57975478c3a3685556002957",
                 "character": "Marissa Schurr",
-                "credit_id": "57975478c3a3685556002957",
-                "id": "1251993",
-                "name": "Holly Deveaux",
                 "order": 23,
-                "profile_path": "/8KAfgcsmJpvB9ZxHO7VaB7VfT3.jpg"
+                "person": "1251993"
             },
-            "1377670": {
-                "cast_id": null,
+            "52850f76760ee37be627e990": {
+                "person_id": "9576",
+                "id": "52850f76760ee37be627e990",
+                "character": "Bella Crawford",
+                "order": 8,
+                "person": "9576"
+            },
+            "52850ffd760ee375ec16a1b6": {
+                "person_id": "107515",
+                "id": "52850ffd760ee375ec16a1b6",
+                "character": "Dr. Frederick Chilton",
+                "order": 14,
+                "person": "107515"
+            },
+            "52851037760ee37bb6275987": {
+                "person_id": "1926",
+                "id": "52851037760ee37bb6275987",
+                "character": "Dr. Abel Gideon",
+                "order": 14,
+                "person": "1926"
+            },
+            "52851070760ee30c6a03773c": {
+                "person_id": "34612",
+                "id": "52851070760ee30c6a03773c",
+                "character": "Miriam Lass",
+                "order": 10,
+                "person": "34612"
+            },
+            "528511a9760ee30c140338c0": {
+                "person_id": "13420",
+                "id": "528511a9760ee30c140338c0",
+                "character": "Mrs. Komeda",
+                "order": 12,
+                "person": "13420"
+            },
+            "52851215760ee37d3f056ce2": {
+                "person_id": "2714",
+                "id": "52851215760ee37d3f056ce2",
+                "character": "Lawrence Wells",
+                "order": 13,
+                "person": "2714"
+            },
+            "52851286760ee30c1403697c": {
+                "person_id": "1218072",
+                "id": "52851286760ee30c1403697c",
+                "character": "Georgia Madchen",
+                "order": 14,
+                "person": "1218072"
+            },
+            "5780c2ebc3a368659f000164": {
+                "person_id": "44097",
+                "id": "5780c2ebc3a368659f000164",
+                "character": "Wendy Vega",
+                "order": 22,
+                "person": "44097"
+            },
+            "53d8b2fa0e0a261c84001dca": {
+                "person_id": "27136",
+                "id": "53d8b2fa0e0a261c84001dca",
+                "character": "Margot Verger",
+                "order": 15,
+                "person": "27136"
+            },
+            "53c86a8a0e0a26648d00049c": {
+                "person_id": "10692",
+                "id": "53c86a8a0e0a26648d00049c",
+                "character": "Mason Verger",
+                "order": 14,
+                "person": "10692"
+            },
+            "556cb65e9251414030001d27": {
+                "person_id": "17292",
+                "id": "556cb65e9251414030001d27",
+                "character": "",
+                "order": 16,
+                "person": "17292"
+            },
+            "55b884b992514123dd00143d": {
+                "person_id": "1156024",
+                "id": "55b884b992514123dd00143d",
+                "character": "Chiyo",
+                "order": 18,
+                "person": "1156024"
+            },
+            "56068dd3c3a368120d001a1b": {
+                "person_id": "1377670",
+                "id": "56068dd3c3a368120d001a1b",
                 "character": "Dr. Cordell Doemling",
-                "credit_id": "56068dd3c3a368120d001a1b",
-                "id": "1377670",
-                "name": "Glenn Fleshler",
                 "order": 20,
-                "profile_path": "/9SOBzbIjsTVBLT3FolXDHDrNLIh.jpg"
+                "person": "1377670"
+            },
+            "56068d8792514130520019a9": {
+                "person_id": "29234",
+                "id": "56068d8792514130520019a9",
+                "character": "Mason Verger",
+                "order": 19,
+                "person": "29234"
+            },
+            "55a93ce592514172ef001abc": {
+                "person_id": "30315",
+                "id": "55a93ce592514172ef001abc",
+                "character": "Francis Dolarhyde",
+                "order": 17,
+                "person": "30315"
+            },
+            "577e460f92514169760000e0": {
+                "person_id": "210773",
+                "id": "577e460f92514169760000e0",
+                "character": "Reba McClane",
+                "order": 21,
+                "person": "210773"
             }
         },
         "images": {
@@ -1146,21 +1432,20 @@
         },
         "episodes": {
             "870659": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870659",
                 "air_date": "2013-05-23",
                 "episode_number": 9,
                 "guest_stars": [
-                    "2714",
-                    "1102260",
-                    "78576",
-                    "56262",
-                    "1038625"
+                    "52851215760ee37d3f056ce2",
+                    "52850eaf760ee37bda24bf4a",
+                    "52850ad6760ee375ec1577bf",
+                    "52850aec760ee37baf26f3d4",
+                    "52850d8a760ee30c14025eee"
                 ],
                 "crew": [
-                    "3113",
-                    "1240816"
+                    "54243c7ec3a3680880003b58",
+                    "54243c710e0a263b81003c18"
                 ],
                 "name": "Trou Normand",
                 "overview": "Will, Jack and the BAU team hunt for a serial killer who creates a totem pole out of his victims' bodies.",
@@ -1169,20 +1454,19 @@
                 "vote_count": 12
             },
             "870661": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870661",
                 "air_date": "2013-04-24",
                 "episode_number": 4,
                 "guest_stars": [
-                    "1038625",
-                    "56262",
-                    "78576",
-                    "9576"
+                    "52850d8a760ee30c14025eee",
+                    "52850aec760ee37baf26f3d4",
+                    "52850ad6760ee375ec1577bf",
+                    "52850f76760ee37be627e990"
                 ],
                 "crew": [
-                    "21377",
-                    "1367586"
+                    "54243b020e0a263b71003cbf",
+                    "54243af50e0a263b71003cbb"
                 ],
                 "name": "Œuf",
                 "overview": "A series of family murders takes place.",
@@ -1191,20 +1475,19 @@
                 "vote_count": 12
             },
             "870663": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870663",
                 "air_date": "2013-04-11",
                 "episode_number": 2,
                 "guest_stars": [
-                    "1102260",
-                    "78576",
-                    "56262",
-                    "1038625"
+                    "52850eaf760ee37bda24bf4a",
+                    "52850ad6760ee375ec1577bf",
+                    "52850aec760ee37baf26f3d4",
+                    "52850d8a760ee30c14025eee"
                 ],
                 "crew": [
-                    "1367585",
-                    "28741"
+                    "54243a97c3a368087a003bb0",
+                    "54243aa3c3a368086e003a75"
                 ],
                 "name": "Amuse-Bouche",
                 "overview": "Will and Jack race to apprehend a serial killer using humans as fertilizer.",
@@ -1213,22 +1496,21 @@
                 "vote_count": 11
             },
             "870665": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870665",
                 "air_date": "2013-04-18",
                 "episode_number": 3,
                 "guest_stars": [
-                    "1102260",
-                    "1038625",
-                    "1251993"
+                    "52850eaf760ee37bda24bf4a",
+                    "52850d8a760ee30c14025eee",
+                    "57975478c3a3685556002957"
                 ],
                 "crew": [
-                    "1213069",
-                    "1213069",
-                    "27571",
-                    "64506",
-                    "17311"
+                    "54243ad20e0a263b7e003c90",
+                    "57b47e18925141716a00069e",
+                    "54243a770e0a263b7e003c88",
+                    "57b47e28c3a3684c760006ef",
+                    "57b476d7925141712f00046e"
                 ],
                 "name": "Potage",
                 "overview": "Abigail Hobbs comes out of her coma with new information about her father.",
@@ -1237,22 +1519,21 @@
                 "vote_count": 11
             },
             "870666": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870666",
                 "air_date": "2013-06-20",
                 "episode_number": 13,
                 "guest_stars": [
-                    "12214",
-                    "1038625",
-                    "56262",
-                    "78576"
+                    "528510a9760ee30c140309cc",
+                    "52850d8a760ee30c14025eee",
+                    "52850aec760ee37baf26f3d4",
+                    "52850ad6760ee375ec1577bf"
                 ],
                 "crew": [
-                    "27571",
-                    "1215611",
-                    "1240816",
-                    "17311"
+                    "54243a770e0a263b7e003c88",
+                    "54243b8fc3a368086e003a95",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Savoureux",
                 "overview": "Season finale! Hannibal frames Will, convincing Jack and Alana that Will's the copycat killer.",
@@ -1261,23 +1542,22 @@
                 "vote_count": 9
             },
             "870668": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870668",
                 "air_date": "2013-06-13",
                 "episode_number": 12,
                 "guest_stars": [
-                    "12214",
-                    "1038625",
-                    "56262",
-                    "78576",
-                    "1102260",
-                    "1218072"
+                    "528510a9760ee30c140309cc",
+                    "52850d8a760ee30c14025eee",
+                    "52850aec760ee37baf26f3d4",
+                    "52850ad6760ee375ec1577bf",
+                    "52850eaf760ee37bda24bf4a",
+                    "52851286760ee30c1403697c"
                 ],
                 "crew": [
-                    "64506",
-                    "28741",
-                    "17311"
+                    "54243ca9c3a3680872004196",
+                    "54243aa3c3a368086e003a75",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Relevés",
                 "overview": "Hannibal convinces Jack and Alana that Will could be the copycat killer.",
@@ -1286,43 +1566,41 @@
                 "vote_count": 10
             },
             "870670": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870670",
                 "air_date": "2013-04-04",
                 "episode_number": 1,
                 "guest_stars": [
-                    "58873",
-                    "78576",
-                    "56262",
-                    "1038625"
+                    "52850d5c760ee30c1402569d",
+                    "52850ad6760ee375ec1577bf",
+                    "52850aec760ee37baf26f3d4",
+                    "52850d8a760ee30c14025eee"
                 ],
                 "crew": [
-                    "27571",
-                    "17311"
+                    "54243a770e0a263b7e003c88",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Apéritif",
                 "overview": "When the FBI takes on a case of disappearing college girls, Jack Crawford recruits Will Graham, a gifted criminal profiler with a unique view into the psyche of serial killers, to consult. Jack also seeks the help of Dr. Hannibal Lecter, a brilliant psychiatrist. After a copycat strikes, Will and Hannibal join forces to track down the culprit.",
                 "still_path": "/kXGE9Yv63ApoYZSYHcTMtoieqqb.jpg",
-                "vote_average": 7.9,
-                "vote_count": 10
+                "vote_average": 7.909,
+                "vote_count": 11
             },
             "870672": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870672",
                 "air_date": "2013-04-25",
                 "episode_number": 5,
                 "guest_stars": [
-                    "56262",
-                    "78576",
-                    "9576"
+                    "52850aec760ee37baf26f3d4",
+                    "52850ad6760ee375ec1577bf",
+                    "52850f76760ee37be627e990"
                 ],
                 "crew": [
-                    "21377",
-                    "1215611",
-                    "1215611",
-                    "17311"
+                    "54243b020e0a263b71003cbf",
+                    "54243b8fc3a368086e003a95",
+                    "57b47843c3a3680ca30011bb",
+                    "57b476d7925141712f00046e"
                 ],
                 "name": "Coquilles",
                 "overview": "Jack and Will search for a killer who turns his victims into angels.",
@@ -1331,24 +1609,23 @@
                 "vote_count": 11
             },
             "870674": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870674",
                 "air_date": "2013-05-02",
                 "episode_number": 6,
                 "guest_stars": [
-                    "56262",
-                    "78576",
-                    "107515",
-                    "1102260",
-                    "1926",
-                    "34612"
+                    "52850aec760ee37baf26f3d4",
+                    "52850ad6760ee375ec1577bf",
+                    "52850ffd760ee375ec16a1b6",
+                    "52850eaf760ee37bda24bf4a",
+                    "52851037760ee37bb6275987",
+                    "52851070760ee30c6a03773c"
                 ],
                 "crew": [
-                    "1367587",
-                    "1367587",
-                    "28741",
-                    "17311"
+                    "57b47e99c3a3686c01000119",
+                    "54243bcac3a368087200417f",
+                    "54243aa3c3a368086e003a75",
+                    "57b476d7925141712f00046e"
                 ],
                 "name": "Entree",
                 "overview": "The Chesapeake Ripper taunts Jack Crawford with guilt from the past.",
@@ -1357,22 +1634,21 @@
                 "vote_count": 11
             },
             "870675": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870675",
                 "air_date": "2013-05-09",
                 "episode_number": 7,
                 "guest_stars": [
-                    "12214",
-                    "1038625",
-                    "56262",
-                    "78576",
-                    "13420"
+                    "528510a9760ee30c140309cc",
+                    "52850d8a760ee30c14025eee",
+                    "52850aec760ee37baf26f3d4",
+                    "52850ad6760ee375ec1577bf",
+                    "528511a9760ee30c140338c0"
                 ],
                 "crew": [
-                    "34218",
-                    "15890",
-                    "17311"
+                    "54243bf7c3a3681eca0023f0",
+                    "54243be5c3a368087a003bcf",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Sorbet",
                 "overview": "Will races to stop a rogue surgeon extracting organs from his victims.",
@@ -1381,20 +1657,19 @@
                 "vote_count": 12
             },
             "870676": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870676",
                 "air_date": "2013-05-16",
                 "episode_number": 8,
                 "guest_stars": [
-                    "12214",
-                    "56262",
-                    "78576"
+                    "528510a9760ee30c140309cc",
+                    "52850aec760ee37baf26f3d4",
+                    "52850ad6760ee375ec1577bf"
                 ],
                 "crew": [
-                    "1367586",
-                    "15858",
-                    "17311"
+                    "54243af50e0a263b71003cbb",
+                    "54243c1b0e0a263b77003bf8",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Fromage",
                 "overview": "A deadly symphony hall killing forces Will to hunt a defiant killer.",
@@ -1403,21 +1678,20 @@
                 "vote_count": 12
             },
             "870677": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870677",
                 "air_date": "2013-05-30",
                 "episode_number": 10,
                 "guest_stars": [
-                    "1218072",
-                    "78576",
-                    "56262"
+                    "52851286760ee30c1403697c",
+                    "52850ad6760ee375ec1577bf",
+                    "52850aec760ee37baf26f3d4"
                 ],
                 "crew": [
-                    "82623",
-                    "21053",
-                    "64506",
-                    "17311"
+                    "560331729251416f0f000d34",
+                    "54243c8f0e0a263b6e003c0d",
+                    "54243ca9c3a3680872004196",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Buffet Froid",
                 "overview": "Will tracks a killer with mental instability similar to his own.",
@@ -1426,24 +1700,23 @@
                 "vote_count": 11
             },
             "870680": {
-                "tv_id": "40008",
                 "season_id": "51121",
                 "id": "870680",
                 "air_date": "2013-06-06",
                 "episode_number": 11,
                 "guest_stars": [
-                    "12214",
-                    "56262",
-                    "78576",
-                    "107515",
-                    "1102260",
-                    "1926"
+                    "528510a9760ee30c140309cc",
+                    "52850aec760ee37baf26f3d4",
+                    "52850ad6760ee375ec1577bf",
+                    "52850ffd760ee375ec16a1b6",
+                    "52850eaf760ee37bda24bf4a",
+                    "52851037760ee37bb6275987"
                 ],
                 "crew": [
-                    "3113",
-                    "1215611",
-                    "1240816",
-                    "17311"
+                    "54243c7ec3a3680880003b58",
+                    "54243b8fc3a368086e003a95",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Rôti",
                 "overview": "When Dr. Gideon escapes to terrorize Alana and Dr. Chilton, Hannibal and Will go on the hunt. Eddie Izzard guest stars.",
@@ -1452,36 +1725,34 @@
                 "vote_count": 10
             },
             "971819": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "971819",
                 "air_date": "2014-02-28",
                 "episode_number": 1,
                 "guest_stars": [],
                 "crew": [
-                    "15858",
-                    "1240816",
-                    "17311"
+                    "54243c1b0e0a263b77003bf8",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Kaiseki",
                 "overview": "With Will Graham in prison, the FBI investigates his claims against Hannibal. A new serial killer emerges.",
-                "still_path": "/l93D1l3ju3rENJYkWBWxIE7xw4w.jpg",
+                "still_path": "/p3NlwVAkJlHgzx7kNZAVNv4QQDK.jpg",
                 "vote_average": 9,
                 "vote_count": 9
             },
             "972331": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "972331",
                 "air_date": "2014-03-14",
                 "episode_number": 3,
                 "guest_stars": [
-                    "44097"
+                    "5780c2ebc3a368659f000164"
                 ],
                 "crew": [
-                    "1667276",
-                    "21377",
-                    "1240816"
+                    "57b47a4992514170f70005c6",
+                    "54243b020e0a263b71003cbf",
+                    "54243c710e0a263b81003c18"
                 ],
                 "name": "Hassun",
                 "overview": "As Will's murder trial begins, a copycat killer sends a gruesome message. Jack is under pressure to wrap up Will's case while Hannibal hopes for his friend's exoneration.",
@@ -1490,16 +1761,15 @@
                 "vote_count": 9
             },
             "972578": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "972578",
                 "air_date": "2014-03-07",
                 "episode_number": 2,
                 "guest_stars": [],
                 "crew": [
-                    "15858",
-                    "1218781",
-                    "17311"
+                    "54243c1b0e0a263b77003bf8",
+                    "56019c28c3a3685614001ee1",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Sakizuke",
                 "overview": "As the FBI seeks Will's help in tracking a killer who turns his victims' bodies into art, Will plots to reveal the truth about Hannibal.",
@@ -1508,16 +1778,15 @@
                 "vote_count": 9
             },
             "972725": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "972725",
                 "air_date": "2014-03-21",
                 "episode_number": 4,
                 "guest_stars": [],
                 "crew": [
-                    "17272",
-                    "1215611",
-                    "17311"
+                    "57b47a17c3a36819b5005974",
+                    "54243b8fc3a368086e003a95",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Takiawase",
                 "overview": "Emboldened after drug therapy from Dr. Chilton, Will sets a deadly plan in place to expose Hannibal. A new killer is turning victims into beehives.",
@@ -1526,19 +1795,18 @@
                 "vote_count": 9
             },
             "973296": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "973296",
                 "air_date": "2014-04-04",
                 "episode_number": 6,
                 "guest_stars": [],
                 "crew": [
-                    "1240816",
-                    "82623",
-                    "82623",
-                    "15858",
-                    "1215611",
-                    "17311"
+                    "57b439839251412f5e00215a",
+                    "560331729251416f0f000d34",
+                    "57b4785c925141712f0004e9",
+                    "54243c1b0e0a263b77003bf8",
+                    "57b47843c3a3680ca30011bb",
+                    "57b476d7925141712f00046e"
                 ],
                 "name": "Futamono",
                 "overview": "Jack suspects Hannibal might be the Chesapeake Ripper as two more victims turn up. Hannibal and Alana distance themselves from Will.",
@@ -1547,17 +1815,16 @@
                 "vote_count": 9
             },
             "973459": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "973459",
                 "air_date": "2014-03-28",
                 "episode_number": 5,
                 "guest_stars": [],
                 "crew": [
-                    "28741",
-                    "1240816",
-                    "1499724",
-                    "17311"
+                    "54243aa3c3a368086e003a75",
+                    "54243c710e0a263b81003c18",
+                    "57b478f9925141715b000549",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Mukōzuke",
                 "overview": "The BSU investigates Beverly's death after her body is found displayed in a gruesome tableau. Abel Gideon returns to the Baltimore Hospital for the Criminally Insane. Will seeks a horrific revenge for Beverly's death.",
@@ -1566,16 +1833,15 @@
                 "vote_count": 9
             },
             "973666": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "973666",
                 "air_date": "2014-04-11",
                 "episode_number": 7,
                 "guest_stars": [],
                 "crew": [
-                    "1240816",
-                    "28741",
-                    "17311"
+                    "54243c710e0a263b81003c18",
+                    "54243aa3c3a368086e003a75",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Yakimono",
                 "overview": "As Miriam Lass begins her recovery, Will is released from prison and resumes his pursuit of Hannibal.",
@@ -1584,19 +1850,18 @@
                 "vote_count": 8
             },
             "973965": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "973965",
                 "air_date": "2014-04-18",
                 "episode_number": 8,
                 "guest_stars": [
-                    "27136"
+                    "53d8b2fa0e0a261c84001dca"
                 ],
                 "crew": [
-                    "1215611",
-                    "1240816",
-                    "5877",
-                    "17311"
+                    "54243b8fc3a368086e003a95",
+                    "54243c710e0a263b81003c18",
+                    "56019ba09251412290001e39",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Su-zakana",
                 "overview": "Will resumes his therapy with Dr. Lecter. The FBI investigates the murder of a woman whose body was found sewn inside a dead horse.",
@@ -1605,18 +1870,17 @@
                 "vote_count": 9
             },
             "974185": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "974185",
                 "air_date": "2014-04-25",
                 "episode_number": 9,
                 "guest_stars": [
-                    "27136"
+                    "53d8b2fa0e0a261c84001dca"
                 ],
                 "crew": [
-                    "1218781",
-                    "28741",
-                    "17311"
+                    "56019c28c3a3685614001ee1",
+                    "54243aa3c3a368086e003a75",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Shiizakana",
                 "overview": "Margot Verger seeks out Will as she tries to understand Hannibal. The FBI searches for an animalistic killer who tears his victims' bodies apart.",
@@ -1625,20 +1889,19 @@
                 "vote_count": 8
             },
             "974586": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "974586",
                 "air_date": "2014-05-02",
                 "episode_number": 10,
                 "guest_stars": [
-                    "27136",
-                    "10692"
+                    "53d8b2fa0e0a261c84001dca",
+                    "53c86a8a0e0a26648d00049c"
                 ],
                 "crew": [
-                    "1240816",
-                    "1367587",
-                    "1240816",
-                    "5877"
+                    "57b439839251412f5e00215a",
+                    "54243bcac3a368087200417f",
+                    "54243c710e0a263b81003c18",
+                    "56019ba09251412290001e39"
                 ],
                 "name": "Naka-Choko",
                 "overview": "Will's readiness to go to dark places strengthens his bond with Hannibal.",
@@ -1647,20 +1910,19 @@
                 "vote_count": 9
             },
             "975338": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "975338",
                 "air_date": "2014-05-09",
                 "episode_number": 11,
                 "guest_stars": [
-                    "27136",
-                    "10692"
+                    "53d8b2fa0e0a261c84001dca",
+                    "53c86a8a0e0a26648d00049c"
                 ],
                 "crew": [
-                    "82623",
-                    "27571",
-                    "1218781",
-                    "17311"
+                    "560331729251416f0f000d34",
+                    "54243a770e0a263b7e003c88",
+                    "56019c28c3a3685614001ee1",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Kō No Mono",
                 "overview": "Will and Margot hide her pregnancy from Mason. After Freddie's gruesome murder, Alana's doubts about Will and Hannibal grow stronger.",
@@ -1669,20 +1931,19 @@
                 "vote_count": 9
             },
             "975339": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "975339",
                 "air_date": "2014-06-16",
                 "episode_number": 12,
                 "guest_stars": [
-                    "27136",
-                    "10692"
+                    "53d8b2fa0e0a261c84001dca",
+                    "53c86a8a0e0a26648d00049c"
                 ],
                 "crew": [
-                    "64506",
-                    "1215611",
-                    "28741",
-                    "17311"
+                    "54243ca9c3a3680872004196",
+                    "54243b8fc3a368086e003a95",
+                    "54243aa3c3a368086e003a75",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Tome-wan",
                 "overview": "Bedelia returns and accepts immunity to testify against Hannibal. Mason Verger plots revenge after learning of Hannibal's manipulations.",
@@ -1691,16 +1952,15 @@
                 "vote_count": 10
             },
             "976285": {
-                "tv_id": "40008",
                 "season_id": "51122",
                 "id": "976285",
                 "air_date": "2014-05-23",
                 "episode_number": 13,
                 "guest_stars": [],
                 "crew": [
-                    "27571",
-                    "1240816",
-                    "17311"
+                    "54243a770e0a263b7e003c88",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Mizumono",
                 "overview": "Springing their trap, Jack, Will and Alana face off with Hannibal in a bloody final showdown, but the doctor has a few surprises of his own.",
@@ -1709,18 +1969,17 @@
                 "vote_count": 13
             },
             "1045506": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1045506",
                 "air_date": "2015-06-04",
                 "episode_number": 1,
                 "guest_stars": [
-                    "17292"
+                    "556cb65e9251414030001d27"
                 ],
                 "crew": [
-                    "1240816",
-                    "5877",
-                    "17311"
+                    "54243c710e0a263b81003c18",
+                    "56019ba09251412290001e39",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Antipasto",
                 "overview": "After the devastating bloodbath at Lecters home Hannibal establishes a new life for himself in Italy along with the company of his own psychiatrist Bedelia.",
@@ -1729,16 +1988,15 @@
                 "vote_count": 6
             },
             "1058666": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058666",
                 "air_date": "2015-06-11",
                 "episode_number": 2,
                 "guest_stars": [],
                 "crew": [
-                    "1218781",
-                    "5877",
-                    "17311"
+                    "56019c28c3a3685614001ee1",
+                    "56019ba09251412290001e39",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Primavera",
                 "overview": "With his wounds now healed, Will Graham heads to Europe eight months after the horrific event that almost took his life, in search of closure with Hannibal Lecter. Meanwhile an Italian inspector thinks that Lecter and a killer he pursued 20 years earlier are the same person.",
@@ -1747,19 +2005,18 @@
                 "vote_count": 6
             },
             "1058667": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058667",
                 "air_date": "2015-06-18",
                 "episode_number": 3,
                 "guest_stars": [
-                    "1156024"
+                    "55b884b992514123dd00143d"
                 ],
                 "crew": [
-                    "1372372",
-                    "5877",
-                    "1240816",
-                    "17311"
+                    "56019c93c3a3685625001e33",
+                    "56019ba09251412290001e39",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Secondo",
                 "overview": "Will Graham continues his search for Hannibal Lecter, making his way to Hannibal's childhood home in Lithuania. Meanwhile, Jack Crawford arrives in Italy, hoping to find Will and intervene before tragedy strikes again, and Bedelia warns Hannibal against unraveling his new life.",
@@ -1768,23 +2025,22 @@
                 "vote_count": 6
             },
             "1058668": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058668",
                 "air_date": "2015-06-25",
                 "episode_number": 4,
                 "guest_stars": [
-                    "1377670",
-                    "29234",
-                    "27136",
-                    "107515",
-                    "9576"
+                    "56068dd3c3a368120d001a1b",
+                    "56068d8792514130520019a9",
+                    "53d8b2fa0e0a261c84001dca",
+                    "52850ffd760ee375ec16a1b6",
+                    "52850f76760ee37be627e990"
                 ],
                 "crew": [
-                    "1515079",
-                    "1114792",
-                    "1240816",
-                    "17311"
+                    "56068d63c3a3681207001c57",
+                    "57b431bcc3a3684802003ab5",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Apertivo",
                 "overview": "After surviving a disfiguring gunshot, Dr. Fredrick Chilton  is now focused on rallying support to capture Hannibal, using Will as bait. Jack is distracted by Bella's failing health, but he implores Will to abandon the risky idea of finding Hannibal. Meanwhile, Alana Bloom entertains a different approach, potentially partnering with Mason Verger to utilize his vast resources.",
@@ -1793,19 +2049,18 @@
                 "vote_count": 6
             },
             "1058669": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058669",
                 "air_date": "2015-07-02",
                 "episode_number": 5,
                 "guest_stars": [
-                    "1156024"
+                    "55b884b992514123dd00143d"
                 ],
                 "crew": [
-                    "1285993",
-                    "3113",
-                    "1240816",
-                    "17311"
+                    "57b434af92514106a5002a8e",
+                    "54243c7ec3a3680880003b58",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Contorno",
                 "overview": "The hunt for Hannibal begins. Will travels via train with Chiyoh to Florence, as Alanna and Mason use Hannibal's fine tastes to track his whereabouts. Pazzi tries to get in close to find out if Hannibal is the man he's looking for, but his greed may get the better of him.",
@@ -1814,19 +2069,18 @@
                 "vote_count": 6
             },
             "1058670": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058670",
                 "air_date": "2015-07-09",
                 "episode_number": 6,
                 "guest_stars": [
-                    "1156024"
+                    "55b884b992514123dd00143d"
                 ],
                 "crew": [
-                    "65677",
-                    "1240816",
-                    "5877",
-                    "17311"
+                    "57b4330fc3a3684d5f002759",
+                    "54243c710e0a263b81003c18",
+                    "56019ba09251412290001e39",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Dolce",
                 "overview": "With Bedelia securing her alibi, Hannibal prepares to leave Florence just as Jack and Will begin to track him down. With Pazzi murdered, Mason and his cohorts consider a different course of action. However, Chiyoh has arrived in Florence with her own agenda.",
@@ -1835,18 +2089,17 @@
                 "vote_count": 6
             },
             "1058671": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058671",
                 "air_date": "2015-07-16",
                 "episode_number": 7,
                 "guest_stars": [
-                    "1156024"
+                    "55b884b992514123dd00143d"
                 ],
                 "crew": [
-                    "18695",
-                    "1240816",
-                    "17311"
+                    "57b4344ac3a3684802003c1b",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "Digestivo",
                 "overview": "Captured in Italy by police on Mason Verger's payroll, Will Graham and Hannibal Lecter are delivered to Muskrat Farm to await Mason's revenge. Alana, distressed that Will has been endangered along with Hannibal, plots a rescue. And Hannibal, once again in contact with his old patient Margot, finds it irresistible to remind her that Mason will never make good on his promises. Meanwhile, Jack informs Chiyo of Hannibal's location.",
@@ -1855,19 +2108,18 @@
                 "vote_count": 7
             },
             "1058672": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058672",
                 "air_date": "2015-07-23",
                 "episode_number": 8,
                 "guest_stars": [
-                    "30315"
+                    "55a93ce592514172ef001abc"
                 ],
                 "crew": [
-                    "57581",
-                    "1114792",
-                    "1240816",
-                    "17311"
+                    "562cf1bc9251410a2200398f",
+                    "57b431bcc3a3684802003ab5",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "The Great Red Dragon",
                 "overview": "Dr. Hannibal Lecter has been under lock and key for three years at the Baltimore State Hospital for the Criminally Insane, when a new villain arises in Francis Dolarhyde, also known as \"The Tooth Fairy.\" As the investigation unfolds Jack Crawford approaches Will Graham to help catch this vicious serial killer who is targeting families.",
@@ -1876,21 +2128,20 @@
                 "vote_count": 7
             },
             "1058673": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058673",
                 "air_date": "2015-07-30",
                 "episode_number": 9,
                 "guest_stars": [
-                    "210773",
-                    "30315"
+                    "577e460f92514169760000e0",
+                    "55a93ce592514172ef001abc"
                 ],
                 "crew": [
-                    "21053",
-                    "1667201",
-                    "1218781",
-                    "1240816",
-                    "17311"
+                    "54243c8f0e0a263b6e003c0d",
+                    "57b433c9925141073a002a15",
+                    "56019c28c3a3685614001ee1",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "And the Woman Clothed with the Sun…",
                 "overview": "The FBI's search for elusive serial killer Francis Dolarhyde intensifies as Will Graham begins envisioning himself in Dolarhyde's tormented psyche. Wading deeper into dangerous territory, Will enlists the help of Hannibal Lecter to assist with the killer's profile. Meanwhile, Alana Bloom reminds Will that the last time that he and Hannibal worked together things didn't end well, but Will sees no other option. Elsewhere, a new woman comes into Dolarhyde's life. ",
@@ -1899,19 +2150,18 @@
                 "vote_count": 6
             },
             "1058674": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058674",
                 "air_date": "2015-08-06",
                 "episode_number": 10,
                 "guest_stars": [
-                    "210773",
-                    "30315"
+                    "577e460f92514169760000e0",
+                    "55a93ce592514172ef001abc"
                 ],
                 "crew": [
-                    "3113",
-                    "65677",
-                    "17311"
+                    "54243c7ec3a3680880003b58",
+                    "57b4330fc3a3684d5f002759",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "And the Woman Clothed in Sun",
                 "overview": "Carvings symbolizing the Great Red Dragon, retrieved from crime scenes, help Will Graham and the FBI shed light on Francis Dolarhyde's disturbing psychology. Meanwhile, Dolarhyde finds ways to communicate directly with Hannibal Lecter regarding his \"becoming.\" Will feels his bond with Hannibal growing uncomfortably stronger, and seeks out Bedelia Du Maurier, the only other person who fully understands the complexities of such a relationship.",
@@ -1920,18 +2170,17 @@
                 "vote_count": 7
             },
             "1058675": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058675",
                 "air_date": "2015-08-13",
                 "episode_number": 11,
                 "guest_stars": [
-                    "210773"
+                    "577e460f92514169760000e0"
                 ],
                 "crew": [
-                    "1240816",
-                    "28741",
-                    "17311"
+                    "54243c710e0a263b81003c18",
+                    "54243aa3c3a368086e003a75",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "And the Beast from the Sea",
                 "overview": "Convinced that the Red Dragon will strike at the next full moon, Jack and Will grow desperate, and Alana turns to Hannibal for help.",
@@ -1940,20 +2189,19 @@
                 "vote_count": 7
             },
             "1058676": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058676",
                 "air_date": "2015-08-20",
                 "episode_number": 12,
                 "guest_stars": [
-                    "210773"
+                    "577e460f92514169760000e0"
                 ],
                 "crew": [
-                    "1667199",
-                    "3113",
-                    "1218781",
-                    "1240816",
-                    "17311"
+                    "57b4329292514106a50029ca",
+                    "54243c7ec3a3680880003b58",
+                    "56019c28c3a3685614001ee1",
+                    "54243c710e0a263b81003c18",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "The Number of the Beast is 666",
                 "overview": "Will Graham and the FBI enlist the expertise of Dr. Fredrick Chilton in the hopes of luring Francis Dolarhyde into an ambush, using Freddie Lounds as their mouthpiece. As Will's empathy for Dolarhyde begins to affect his fragile psyche, Bedelia Du Maurier warns that the killer Will should be most concerned about at the moment is himself. Meanwhile, Dolarhyde senses that the FBI is closing in and launches a horrifying endgame.",
@@ -1962,19 +2210,18 @@
                 "vote_count": 7
             },
             "1058677": {
-                "tv_id": "40008",
                 "season_id": "64757",
                 "id": "1058677",
                 "air_date": "2015-08-27",
                 "episode_number": 13,
                 "guest_stars": [
-                    "210773"
+                    "577e460f92514169760000e0"
                 ],
                 "crew": [
-                    "1114792",
-                    "1240816",
-                    "28741",
-                    "17311"
+                    "57b431bcc3a3684802003ab5",
+                    "54243c710e0a263b81003c18",
+                    "54243aa3c3a368086e003a75",
+                    "52595bbc19c295731c087ac7"
                 ],
                 "name": "The Wrath of the Lamb",
                 "overview": "In a desperate bid to slay Francis Dolarhyde, Will Graham engineers a cunning ploy utilizing Hannibal Lecter. Upon learning of his plan, Bedelia Du Maurier voices concerns that Will's actions may not only put his life in peril, but the lives of those around him. As the end draws near, Will remains unflinching in his game with Hannibal-even when it means coming face-to-face with his own darkest fears?",
@@ -1983,7 +2230,6 @@
                 "vote_count": 10
             },
             "1241364": {
-                "tv_id": "40008",
                 "season_id": "82137",
                 "id": "1241364",
                 "air_date": "2013-04-24",
@@ -1997,7 +2243,6 @@
                 "vote_count": 0
             },
             "1241365": {
-                "tv_id": "40008",
                 "season_id": "82137",
                 "id": "1241365",
                 "air_date": "2015-12-08",
@@ -2011,7 +2256,6 @@
                 "vote_count": 0
             },
             "1241366": {
-                "tv_id": "40008",
                 "season_id": "82137",
                 "id": "1241366",
                 "air_date": "2015-12-08",
@@ -2025,7 +2269,6 @@
                 "vote_count": 0
             },
             "1241367": {
-                "tv_id": "40008",
                 "season_id": "82137",
                 "id": "1241367",
                 "air_date": "2015-12-08",
@@ -2039,7 +2282,6 @@
                 "vote_count": 0
             },
             "1241368": {
-                "tv_id": "40008",
                 "season_id": "82137",
                 "id": "1241368",
                 "air_date": "2015-12-08",
@@ -2053,7 +2295,6 @@
                 "vote_count": 0
             },
             "1241369": {
-                "tv_id": "40008",
                 "season_id": "82137",
                 "id": "1241369",
                 "air_date": "2015-12-08",
@@ -2078,20 +2319,20 @@
                 "season_number": 1,
                 "credits": {
                     "cast": [
-                        "12791",
-                        "1019",
-                        "2975",
-                        "31383",
-                        "1218184"
+                        "52595bb619c295731c0877cb",
+                        "52595bb619c295731c087823",
+                        "52595bb619c295731c087925",
+                        "52595bb619c295731c087867",
+                        "52595bb619c295731c08787f"
                     ],
                     "crew": [
-                        "64506",
-                        "34218",
-                        "16786",
-                        "40839",
-                        "17311",
-                        "19051",
-                        "23548"
+                        "563d24709251411867000443",
+                        "52595bbc19c295731c087b09",
+                        "563d231bc3a3681b5e026b11",
+                        "563d22adc3a3681b5e026b04",
+                        "563d237d92514178190052fa",
+                        "563d23b9c3a3681b4d02eadd",
+                        "563d24bbc3a3681b610295e6"
                     ]
                 },
                 "images": {
@@ -2133,19 +2374,19 @@
                 "season_number": 2,
                 "credits": {
                     "cast": [
-                        "12791",
-                        "1019",
-                        "2975",
-                        "31383"
+                        "52595bb619c295731c0877cb",
+                        "52595bb619c295731c087823",
+                        "52595bb619c295731c087925",
+                        "52595bb619c295731c087867"
                     ],
                     "crew": [
-                        "64506",
-                        "34218",
-                        "16786",
-                        "40839",
-                        "17311",
-                        "19051",
-                        "23548"
+                        "563d24709251411867000443",
+                        "52595bbc19c295731c087b09",
+                        "563d231bc3a3681b5e026b11",
+                        "563d22adc3a3681b5e026b04",
+                        "563d237d92514178190052fa",
+                        "563d23b9c3a3681b4d02eadd",
+                        "563d24bbc3a3681b610295e6"
                     ]
                 },
                 "images": {
@@ -2186,17 +2427,17 @@
                 "season_number": 3,
                 "credits": {
                     "cast": [
-                        "12791",
-                        "1019",
-                        "2975",
-                        "12214"
+                        "52595bb619c295731c0877cb",
+                        "52595bb619c295731c087823",
+                        "52595bb619c295731c087925",
+                        "528510a9760ee30c140309cc"
                     ],
                     "crew": [
-                        "16786",
-                        "40839",
-                        "17311",
-                        "19051",
-                        "23548"
+                        "563d231bc3a3681b5e026b11",
+                        "563d22adc3a3681b5e026b04",
+                        "563d237d92514178190052fa",
+                        "563d23b9c3a3681b4d02eadd",
+                        "563d24bbc3a3681b610295e6"
                     ]
                 },
                 "images": {
@@ -2237,18 +2478,16 @@
                 "season_number": 0,
                 "credits": {
                     "cast": [
-                        "12791",
-                        "1019",
-                        "2975"
+                        "52595bb619c295731c0877cb",
+                        "52595bb619c295731c087823",
+                        "52595bb619c295731c087925"
                     ],
                     "crew": []
                 },
                 "images": {
                     "posters": []
                 },
-                "videos": [
-                    "534921db0e0a266b3f0013bb"
-                ],
+                "videos": [],
                 "episodes": [
                     "1241364",
                     "1241365",
@@ -2290,7 +2529,7 @@
                 "original_language": "en",
                 "original_name": "Hannibal",
                 "overview": "Both a gift and a curse, Graham has the extraordinary ability to think like his prey—he sees what they see, feels what they feel. But while Graham is pursuing an especially troubling, cannibalistic murderer, Special Agent Jack Crawford teams him with a highly respected psychiatrist – a man with a taste for the criminal minded – Dr. Hannibal Lecter.",
-                "popularity": 6.475316,
+                "popularity": 4.217579,
                 "poster_path": "/kArcGHvTb7m1v6RFHdU40jpiGZD.jpg",
                 "production_companies": [],
                 "status": "Ended",
@@ -2303,17 +2542,17 @@
                 ],
                 "credits": {
                     "cast": [
-                        "12791",
-                        "1019",
-                        "2975",
-                        "12214"
+                        "52595bb619c295731c0877cb",
+                        "52595bb619c295731c087823",
+                        "52595bb619c295731c087925",
+                        "528510a9760ee30c140309cc"
                     ],
                     "crew": [
-                        "16786",
-                        "40839",
-                        "17311",
-                        "19051",
-                        "23548"
+                        "563d231bc3a3681b5e026b11",
+                        "563d22adc3a3681b5e026b04",
+                        "563d237d92514178190052fa",
+                        "563d23b9c3a3681b4d02eadd",
+                        "563d24bbc3a3681b610295e6"
                     ]
                 },
                 "images": {
