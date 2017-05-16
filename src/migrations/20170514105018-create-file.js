@@ -8,10 +8,6 @@ module.exports = {
         primaryKey: true,
         type: Sequelize.STRING(36)
       },
-      torrent: {
-        type: Sequelize.STRING(40),
-        allowNull: false
-      },
       basename: {
         type: Sequelize.STRING(1024)
       },
@@ -24,10 +20,6 @@ module.exports = {
       type: {
         type: Sequelize.INTEGER.UNSIGNED
       },
-      directory: {
-        type: Sequelize.STRING(4096),
-        allowNull: true
-      },
       createdAt: {
         allowNull: false,
         type: Sequelize.DATE
@@ -38,8 +30,6 @@ module.exports = {
       }
     }).then(() => {
       return queryInterface.addIndex('File', ['type'], { indexName: 'file_type_idx' });
-    }).then(() => {
-      return queryInterface.addIndex('File', ['torrent'], { indexName: 'torrent_torrent_idx' });  
     });
   },
   down: function(queryInterface, Sequelize) {
@@ -48,8 +38,6 @@ module.exports = {
       .then(() => {
         return queryInterface.removeIndex('File', 'file_type_idx'); 
       })
-      .then(() => {
-        return queryInterface.removeIndex('File', 'torrent_torrent_idx'); 
-      });
+    ;
   }
 };
