@@ -12,21 +12,21 @@ module.exports = function(sequelize, DataTypes) {
       associate: function(models) {
         // associations can be defined here
       }
-    },
-    hooks: {
-      afterCreate: function(file, options) {
-        /** @todo catch handling */
-        channelPromise.then(({ publish }) => {
-          publish(events.METADATA.CREATED, file.toJSON());
-        });
-      }
     }
   });
 
+  File.addHook('afterCreate', 'publish', (file, options) => {
+    /** @todo catch handling */
+    channelPromise.then(({ publish }) => {
+      publish(events.METADATA.CREATED, file.toJSON());
+    });
+  });
+
   File.TYPES = {
-    unknownMedia: 1,
-    movie: 2,
-    tv: 4,
+    unknown: 1,
+    unknownMedia: 2,
+    movie: 4,
+    tv: 8,
   };
 
   return File;

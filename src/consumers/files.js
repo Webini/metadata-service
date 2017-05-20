@@ -6,22 +6,25 @@ module.exports = function(message, channel) {
   const { contentData: event } = message;
 
   if (message.fields.routingKey === events.FILE.CREATED) {
-    const extension = path.extname(event.basename);
+    const extension = path.extname(event.data.basename);
 
     File
       .create({
         extension,
         basename: event.data.basename,
         length: event.data.length,
-        id: event.objectId
+        id: event.objectId,
+        type: File.TYPES.unknown
       })
       .then(() => {
         channel.ack(message);
       })
-      .catch(() => {
+      .catch((e) => {
         //1 retry
         channel.nack(message, false, !message.fields.redelivered);
-        throw new Error('Cannot create new file');
+        /** @todo log options */
+        console.log('Cannot save file', e);
+        process.exit(1);
       });
   }
 };

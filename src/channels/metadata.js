@@ -2,7 +2,7 @@ const connection = require('./connection.js');
 const events = require('./queues/events.js');
 
 /**
- * @returns {Promise.<{ slow, fast, exchange }>} 
+ * @returns {Promise.<{ slow, fast, exchange, bindedExchange, publish }>} 
  */
 async function create() {
   const exchange = process.env.METADATA_EXCHANGE || 'metadata';
@@ -34,7 +34,7 @@ async function create() {
     }
   });
 
-  return { slow: slowChannel, fast: fastChannel, publish, exchange };
+  return { slow: slowChannel, fast: fastChannel, publish, exchange, bindedExchange: fromExchange };
 }
 
 module.exports = create();

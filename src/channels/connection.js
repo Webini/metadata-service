@@ -1,5 +1,6 @@
 const { connect } = require('amqplib');
 const promise = connect(process.env.RABBITMQ_URL);
+const debug = require('debug')('rabbitmq');
 
 module.exports = {
   /**
@@ -9,6 +10,7 @@ module.exports = {
    * @returns {Promise.<{channel, exchange, publish}>}
    */
   createChannelAndExchange: async function(exchangeName, { prefetch=null, prefetchGlobal=true, type='topic', exchangeOptions }) {
+    debug('Creating channel and asserting exchange %o', exchangeName);
     const channel = await this.createChannel(prefetch, prefetchGlobal);
     const publish = this.createPublish(channel, exchangeName);
     await channel.assertExchange(exchangeName, type, exchangeOptions);
@@ -21,7 +23,8 @@ module.exports = {
    * @param {String} exchangeName 
    * @returns {function}
    */
-  createPublish: async function(channel, exchangeName) {
+  createPublish: function(channel, exchangeName) {
+    debug('Creating publish for exchange exchange %o', exchangeName);
     /**
      * @param {string} routingKey 
      * @param {any} content 
@@ -42,7 +45,8 @@ module.exports = {
    * @returns 
    */
   createChannel: async function(prefetch=null, prefetchGlobal=true) {
-    const channel = (await promise).createChannel();
+    debug('Creating channel with %d prefetch options', prefetch);
+    const channel = await (await promise).createChannel();
 
     if (prefetch !== null) {
       await channel.prefetch(prefetch, prefetchGlobal);
@@ -59,8 +63,15 @@ module.exports = {
    * @param {Object} { routingPattern='#', type='topic', exchangeOptions } 
    */
   assertAndBindExchange: async function(channel, exchangeName, destExchangeName, { routingPattern='#', type='topic', exchangeOptions }) {
+    debug('Assert exchange %o and bind %o to %o', exchangeName, routingPattern, destExchangeName);
     await channel.assertExchange(exchangeName, type, exchangeOptions);
-    await channel.bindExchange(destExchangeName, exchangeName, routingPattern);
+    await Promise.all(
+      routingPattern
+        .split(' ')
+        .map((key) => {
+          return channel.bindExchange(destExchangeName, exchangeName, key);
+        })
+    );
   },
 
   /**
@@ -71,6 +82,7 @@ module.exports = {
    * @returns {Promise.<String>}
    */
   assertAndBindQueue: async function(channel, queueName, exchangeName, { autoDlx=false, routingPattern='#', queueOptions={} } ) {
+    debug('Assert exchange %o and bind %o to queue %o', exchangeName, routingPattern, queueName);
     if (autoDlx) {
       if (!queueOptions.arguments) {
         queueOptions.arguments = {};
@@ -84,11 +96,18 @@ module.exports = {
       queueOptions.arguments['x-dead-letter-routing-key'] = dlxRoutingKey;
 
       await channel.assertExchange(dlxExchange, 'topic', { durable: true });
-      await this.createAndBindQueue(channel, dlxQueue, dlxExchange, { routingPattern: dlxRoutingKey, durable: true });
+      await this.assertAndBindQueue(channel, dlxQueue, dlxExchange, { routingPattern: dlxRoutingKey, durable: true });
     }
-
+    
     await channel.assertQueue(queueName, queueOptions);
-    await channel.bindQueue(queueName, exchangeName, routingPattern);
+    await Promise.all(
+      routingPattern
+        .split(' ')
+        .map((key) => {
+          return channel.bindQueue(queueName, exchangeName, key);
+        })
+    );
+
     return queueName;
   },
 
@@ -96,11 +115,13 @@ module.exports = {
   /**
    * @param {Object} channel 
    * @param {String} queueName 
-   * @param {Function} callback function(msgContent, message, channel) 
+   * @param {Function} callback function(message, channel) 
    * @returns {Promise}
    */
   consume: async function(channel, queueName, callback) {
+    debug('Create consumer queue for channel %o', queueName);
     return await channel.consume(queueName, (msg) => {
+      debug('Message received on queue %o with key %o', queueName, msg.fields.routingKey);
       msg.contentData = JSON.parse(msg.content);
       return callback(msg, channel);
     });

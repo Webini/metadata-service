@@ -18,7 +18,7 @@ db.conf = {
   storage: process.env.DATABASE_STORAGE,
   underscored: true,
   define: {
-  underscored: true,
+    underscored: true,
     freezeTableName: true, 
     charset: 'utf8',
     collate: 'utf8_general_ci'

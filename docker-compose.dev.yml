@@ -19,7 +19,6 @@ services:
     links:
       - maria:maria.host
       - rabbitmq:rabbitmq.host
-      - redis:redis.host
     depends_on:
       - maria
     volumes:
@@ -28,7 +27,6 @@ services:
       - 8080:8080
     command: [
       wait-for-it.sh, "maria.host:3306", -t, "120", -s, --,
-      wait-for-it.sh, "redis.host:6379", -t, "120", -s, --,
       wait-for-it.sh, "rabbitmq.host:5672", -t, "120", -sa, "10", -s, --
       node, ./node_modules/.bin/nodemon, server.js, --run-with-migrations
     ]
@@ -52,11 +50,3 @@ services:
       - 5672:5672
     volumes:
       - ./data/rabbitmq:/var/lib/rabbitmq
-
-  redis:
-    command: redis-server --appendonly yes
-    image: redis:3.2
-    volumes:
-      - ./data/redis:/data
-    ports: 
-      - 6379:6379

@@ -1,6 +1,7 @@
+const EventEmitter = require('events');
 const connection = require('../connection.js');
 const channelPromise = require('../metadata.js');
-const consumer = require('../../workers/tmdb.js');
+const consumer = require('../../consumers/tmdb.js');
 const events = require('./events.js');
 const QUEUE_NAME = 'metadata-tmdb';
 
@@ -9,16 +10,20 @@ async function create() {
 
   const queue = await connection.assertAndBindQueue(channel, QUEUE_NAME, exchange, {
     autoDlx: true,
+    routingPattern: events.METADATA.CREATED,
     queueOptions: {
-      routingPattern: events.METADATA.CREATED,
       autoDelete: false,
       durable: true
     }
   });
 
-  await connection.consume(channel, queue, consumer);
+  const emitter = new EventEmitter();
+  await connection.consume(channel, queue, (msg, channel) => {
+    emitter.emit(msg.fields.routingKey, msg, channel);
+    consumer(msg, channel);
+  });
 
-  return queue;
+  return { queue, emitter };
 }
 
 module.exports = create();

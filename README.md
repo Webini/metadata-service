@@ -9,7 +9,7 @@ Contracts
 
 This microservice bind the [FILE_EXCHANGE](#Env) exchange and retreive all `file.create` and `file.deleted` messages
 
-#### file.create
+#### file.created
 The message must contains:
 ```json
 {
@@ -56,5 +56,3 @@ DATABASE_STORAGE        |                | Database storage cf sequelize doc
 RABBITMQ_URL            |                | RabbitMQ url (format like `amqp://localhost:5672` )
 FILE_EXCHANGE           | transmission-service | Exchange used for retreiving files to process
 METADATA_EXCHANGE       | metadata       | Exchange name of this service
-REDIS_HOST              |                | Redis host used to save retry state of rabbitmq messages processing and download speed metadata
-REDIS_PORT              | 6379           | Redis port
