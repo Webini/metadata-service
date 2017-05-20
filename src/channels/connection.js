@@ -24,7 +24,7 @@ module.exports = {
    * @returns {function}
    */
   createPublish: function(channel, exchangeName) {
-    debug('Creating publish for exchange exchange %o', exchangeName);
+    debug('Creating publish for exchange %o', exchangeName);
     /**
      * @param {string} routingKey 
      * @param {any} content 
@@ -45,7 +45,7 @@ module.exports = {
    * @returns 
    */
   createChannel: async function(prefetch=null, prefetchGlobal=true) {
-    debug('Creating channel with %d prefetch options', prefetch);
+    debug('Creating channel with %d prefetch', prefetch);
     const channel = await (await promise).createChannel();
 
     if (prefetch !== null) {

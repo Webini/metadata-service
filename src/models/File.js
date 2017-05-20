@@ -16,10 +16,11 @@ module.exports = function(sequelize, DataTypes) {
   });
 
   File.addHook('afterCreate', 'publish', (file, options) => {
-    /** @todo catch handling */
-    channelPromise.then(({ publish }) => {
-      publish(events.METADATA.CREATED, file.toJSON());
-    });
+    channelPromise
+      .then(({ publish }) => {
+        publish(events.METADATA.CREATED, file.toJSON());
+      })
+    ;
   });
 
   File.TYPES = {

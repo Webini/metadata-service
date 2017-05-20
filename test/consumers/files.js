@@ -19,7 +19,7 @@ describe('Files worker', () => {
 
     const initialEvent = {
       basename: 'test.mkv',
-      id: uuid(),
+      id: 1337,
       length: 42
     };
 

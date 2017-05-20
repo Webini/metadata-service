@@ -56,3 +56,4 @@ DATABASE_STORAGE        |                | Database storage cf sequelize doc
 RABBITMQ_URL            |                | RabbitMQ url (format like `amqp://localhost:5672` )
 FILE_EXCHANGE           | transmission-service | Exchange used for retreiving files to process
 METADATA_EXCHANGE       | metadata       | Exchange name of this service
+SENTRY_URL              |                | Sentry url (`https://<key>@sentry.io/<project>`)

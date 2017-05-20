@@ -17,6 +17,7 @@
     "moviedb": "^0.2.7",
     "mysql": "^2.13.0",
     "normalizr": "^3.2.2",
+    "raven": "^2.0.1",
     "sequelize": "^3.30.4",
     "tmdb-graphql": "^1.0.0",
     "umzug": "^2.0.1",

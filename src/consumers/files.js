@@ -1,3 +1,4 @@
+const Raven    = require('../raven.js');
 const events   = require('../channels/queues/events.js');
 const { File } = require('../models/index.js');
 const path     = require('path');
@@ -22,9 +23,8 @@ module.exports = function(message, channel) {
       .catch((e) => {
         //1 retry
         channel.nack(message, false, !message.fields.redelivered);
-        /** @todo log options */
-        console.log('Cannot save file', e);
-        process.exit(1);
+        //this error is critical
+        Raven.captureException(e, { extra: { event: message } }, () => process.exit(1));
       });
   }
 };

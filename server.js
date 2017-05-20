@@ -1,5 +1,5 @@
 require('dotenv').config();
-
+const Raven      = require('./src/raven.js');
 const { argv }   = require('yargs');
 const migrate    = require('./src/migrate.js');
 const winston    = require('winston');
