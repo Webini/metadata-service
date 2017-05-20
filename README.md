@@ -7,7 +7,7 @@ Contracts
 =========
 ## Dependencies
 
-This microservice bind the [FILE_EXCHANGE](#Env) exchange and retreive all `file.create` and `file.deleted` messages
+This microservice bind the [FILE_EXCHANGE](#env) exchange and retreive all `file.create` and `file.deleted` messages
 
 #### file.created
 The message must contains:

@@ -2,12 +2,10 @@ require('dotenv').config();
 const Raven      = require('./src/raven.js');
 const { argv }   = require('yargs');
 const migrate    = require('./src/migrate.js');
-const winston    = require('winston');
-
+const debug      = require('debug')('metadata-service');
 const server     = require('./src/server.js');
 const port       = process.env.SERVER_PORT || 8080;
 const host       = process.env.SERVER_HOST || 'localhost';
-const LOG_PREFIX = 'MetadataService';
 
 function runServer() {
   return new Promise((resolve, reject) => {
@@ -16,7 +14,7 @@ function runServer() {
         return reject(err);
       }
 
-      winston.info(LOG_PREFIX, `Server started on ${host}:${port}`);
+      debug('Server started on %o:%o', host, port);
       resolve();
     });
   });

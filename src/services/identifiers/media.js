@@ -1,4 +1,3 @@
-const guessit = require('guessit-exec');
 const tmdb = require('tmdb-graphql');
 const db = require('../../models/index.js');
 
@@ -9,11 +8,10 @@ const keys = {
 
 /**
  * Retreive file movie or tv series associated with his name
- * @param {String} filename 
+ * @param {Object} filedata 
  * @return {Object} 
  */
-module.exports = async (filename) => {
-  const filedata = await guessit(filename);
+module.exports = async (filedata) => {
   const output = Object.assign({}, filedata);
 
   let results = null;

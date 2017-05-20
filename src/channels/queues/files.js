@@ -19,7 +19,7 @@ async function create() {
   const emitter = new EventEmitter();
   await connection.consume(channel, queue, (msg, channel) => {
     emitter.emit(msg.fields.routingKey, msg, channel);
-    consumer(msg, channel);
+    return consumer(msg, channel);
   });
 
   return { queue, emitter };

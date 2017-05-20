@@ -3,16 +3,16 @@
 const fs        = require('fs');
 const path      = require('path');
 const Sequelize = require('sequelize');
-const winston   = require('winston');
 const basename  = path.basename(module.filename);
 const db        = {};
+const debug     = require('debug')('sequelize');
 
 db.conf = {
   database: process.env.DATABASE, 
   user: process.env.DATABASE_USER,
   password: process.env.DATABASE_PASSWORD,
   dialect: process.env.DATABASE_DIALECT || 'mariadb',
-  logging: !!parseInt(process.env.DATABASE_LOGGING || 0),
+  logging: (parseInt(process.env.DATABASE_LOGGING) > 0 ? debug : null),
   host: process.env.DATABASE_HOST,
   port: process.env.DATABASE_PORT || 3306,
   storage: process.env.DATABASE_STORAGE,

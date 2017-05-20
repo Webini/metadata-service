@@ -8,13 +8,12 @@ const { File } = require('../../src/models/index.js');
 const assert = require('assert');
 const uuid = require('uuid/v4');
 
-describe('Files consumer', () => {
+describe('Tmdb consumer', () => {
   const id = uuid();
   before(() => workers);
 
-  it('should create file and dispatch it to tmdb queue', async () => {
-    const { fast: fastChannel, bindedExchange } = await channel;
-    const filePublish = connection.createPublish(fastChannel, bindedExchange);
+  it.only('should fetch metadata', async () => {
+    const { fast: fastChannel, bindedExchange, publish } = await channel;
     const { emitter: tmdbEmitter } = await tmdbQueue;
 
     const messageIncoming = waitForMessage(events.METADATA.CREATED, tmdbEmitter, 2000);
@@ -25,7 +24,7 @@ describe('Files consumer', () => {
       length: 42
     };
 
-    filePublish(events.FILE.CREATED, initialEvent);
+    filePublish(events.METADATA.CREATED, initialEvent);
 
     const [ message ] = await messageIncoming;
     const content = message.contentData;
@@ -36,21 +35,4 @@ describe('Files consumer', () => {
     assert.strictEqual(message.fields.routingKey, events.METADATA.CREATED, 'invalid routing key');
   });
 
-  it('should delete file', () => {
-    return new Promise(async (resolve, reject) => {
-      const { fast: fastChannel, bindedExchange } = await channel;
-      const filePublish = connection.createPublish(fastChannel, bindedExchange);
-
-      File.addHook('afterDestroy', 'testRemoveHook', (instance) => {
-        File.removeHook('testRemoveHook');
-        if (instance.id === id) {
-          resolve();
-        } else {
-          reject(new Error('Wrong id'));
-        }
-      });
-
-      filePublish(events.FILE.DELETED, { id });
-    });
-  });
 });

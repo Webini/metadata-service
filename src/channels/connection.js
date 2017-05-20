@@ -1,6 +1,7 @@
+const Raven       = require('../raven.js');
 const { connect } = require('amqplib');
-const promise = connect(process.env.RABBITMQ_URL);
-const debug = require('debug')('rabbitmq');
+const promise     = connect(process.env.RABBITMQ_URL);
+const debug       = require('debug')('rabbitmq');
 
 module.exports = {
   /**
@@ -31,6 +32,7 @@ module.exports = {
      * @returns {Boolean}
      */
     return function(routingKey, content, objectId) {
+      debug('Message published on exchange %o with pattern %o', exchangeName, routingKey);
       return channel.publish(exchangeName, routingKey, new Buffer(JSON.stringify({
         date: new Date(),
         objectId: objectId || (content && content.id ? content.id : null),
@@ -123,7 +125,22 @@ module.exports = {
     return await channel.consume(queueName, (msg) => {
       debug('Message received on queue %o with key %o', queueName, msg.fields.routingKey);
       msg.contentData = JSON.parse(msg.content);
-      return callback(msg, channel);
+
+      const result = callback(msg, channel);
+      if (result && result.then && result.catch) {
+        result
+          .then(() => {
+            channel.ack(msg);
+          })
+          .catch((e) => {
+            channel.nack(msg, false, !msg.fields.redelivered);
+            Raven.captureException(e, { extra: { event: msg } }, () => {
+              console.log(e);
+              process.exit(1);
+            });
+          })
+        ;
+      }
     });
   }
 };

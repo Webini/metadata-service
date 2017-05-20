@@ -1,30 +1,21 @@
-const Raven    = require('../raven.js');
 const events   = require('../channels/queues/events.js');
 const { File } = require('../models/index.js');
 const path     = require('path');
 
-module.exports = function(message, channel) {
+module.exports = async (message) => {
   const { contentData: event } = message;
+  const eventName = message.fields.routingKey;
 
-  if (message.fields.routingKey === events.FILE.CREATED) {
+  if (eventName === events.FILE.CREATED) {
     const extension = path.extname(event.data.basename);
-
-    File
-      .create({
-        extension,
-        basename: event.data.basename,
-        length: event.data.length,
-        id: event.objectId,
-        type: File.TYPES.unknown
-      })
-      .then(() => {
-        channel.ack(message);
-      })
-      .catch((e) => {
-        //1 retry
-        channel.nack(message, false, !message.fields.redelivered);
-        //this error is critical
-        Raven.captureException(e, { extra: { event: message } }, () => process.exit(1));
-      });
+    await File.create({
+      extension,
+      basename: event.data.basename,
+      length: event.data.length,
+      id: event.objectId,
+      type: File.TYPES.unknown
+    });
+  } else if (eventName === events.FILE.DELETED) {
+    await File.destroy({ where: { id: event.objectId }, individualHooks: true });
   }
 };
