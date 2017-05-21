@@ -1,8 +1,20 @@
-module.exports = function waitForMessage(eventName, emitter, timeout = 2000) {
+module.exports = function waitForMessage(eventName, emitter, timeout = 2000, isWanted = null) {
   const messagePromise = new Promise((resolve) => {
-    emitter.once(eventName, function() {
-      resolve(arguments);
-    });
+    function bind() {
+      emitter.once(eventName, function() {
+        if (typeof isWanted === 'function'){
+          if (isWanted.apply(isWanted, arguments)) {
+            return resolve(arguments);
+          } else {
+            return bind();
+          }
+        } 
+
+        resolve(arguments);
+      });
+    }
+    
+    bind();
   });
 
   return Promise.race([

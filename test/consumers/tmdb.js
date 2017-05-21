@@ -9,13 +9,20 @@ const uuid = require('uuid/v4');
 describe('Tmdb consumer', () => {
   before(() => workers);
 
-  it.only('should fetch metadata', async () => {
+  it('should fetch metadata', async () => {
     const { emitter: indexerEmitter } = await indexerQueue;
-    const messageIncoming = waitForMessage(events.METADATA.FOUND, indexerEmitter, 10000);
+    const id = uuid();
+
+    const messageIncoming = waitForMessage(
+      events.METADATA.FOUND, 
+      indexerEmitter, 
+      10000, 
+      (message) => (message.contentData.objectId === id)
+    );
 
     const file = await File.create({
       basename: 'Lethal weapon.mkv',
-      id: uuid(),
+      id,
       length: 42
     });
 
