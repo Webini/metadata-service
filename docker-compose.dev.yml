@@ -31,7 +31,7 @@ services:
     command: [
       wait-for-it.sh, "maria.host:3306", -t, "120", -s, --,
       wait-for-it.sh, "rabbitmq.host:5672", -t, "120", -sa, "10", -s, --
-      node, ./node_modules/.bin/nodemon, server.js, --run-with-migrations
+      node, ./node_modules/.bin/nodemon, run.js, migrate, server
     ]
 
   maria:

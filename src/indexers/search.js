@@ -10,9 +10,9 @@ module.exports = {
 
   indexTv: (tv) => {
 
-  }
+  },
 
-  indexAll: () => {
+  indexAll: (progress) => {
 
   }
 };
