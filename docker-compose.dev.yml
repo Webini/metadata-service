@@ -19,8 +19,11 @@ services:
     links:
       - maria:maria.host
       - rabbitmq:rabbitmq.host
+      - elasticsearch:elasticsearch.host
     depends_on:
       - maria
+      - elasticsearch
+      - rabbitmq
     volumes:
       - ./:/home/node/server
     ports:
@@ -32,7 +35,7 @@ services:
     ]
 
   maria:
-    image: mariadb:latest
+    image: mariadb:10.3
     environment:
       MYSQL_USER: dev
       MYSQL_PASSWORD: dev
@@ -50,3 +53,10 @@ services:
       - 5672:5672
     volumes:
       - ./data/rabbitmq:/var/lib/rabbitmq
+
+  elasticsearch:
+    image: elasticsearch:5.4
+    ports: 
+      - 9200:9200
+    volumes:
+      - ./data/es:/usr/share/elasticsearch/data 

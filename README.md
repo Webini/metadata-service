@@ -57,3 +57,5 @@ RABBITMQ_URL            |                | RabbitMQ url (format like `amqp://loc
 FILE_EXCHANGE           | transmission-service | Exchange used for retreiving files to process
 METADATA_EXCHANGE       | metadata       | Exchange name of this service
 SENTRY_URL              |                | Sentry url (`https://<key>@sentry.io/<project>`)
+ELASTICSEARCH_HOST     | localhost:9200  |  Specify the host that this client will connect to. Auto sniffing is activated.
+ELASTICSEARCH_AUTH     |                 | Specifies the default http auth as a String with username and password separated by a colon (eg. user:pass). Applies to any host defined in the original config, and any hosts discovered while sniffing.
