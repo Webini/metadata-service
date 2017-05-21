@@ -27,11 +27,13 @@ argv
   }, Promise.resolve())
   .then(() => {
     if (process.argv.includes('--leave-after')) {
-      process.exit(1);
+      process.exit(0);
     }
   })
   .catch((e) => {
     console.log(e);
-    Raven.captureException(e);
+    Raven.captureException(e, {}, () => {
+      process.exit(1);
+    });
   })
 ;
