@@ -1,38 +1,34 @@
-const connection = require('../../src/channels/connection.js');
-const channel = require('../../src/channels/metadata.js');
 const workers = require('../../src/worker.js');
 const events = require('../../src/channels/queues/events.js');
-const tmdbQueue = require('../../src/channels/queues/tmdb.js');
+const indexerQueue = require('../../src/channels/queues/indexer.js');
 const waitForMessage = require('../tools/waitForMessage.js');
 const { File } = require('../../src/models/index.js');
 const assert = require('assert');
 const uuid = require('uuid/v4');
 
 describe('Tmdb consumer', () => {
-  const id = uuid();
   before(() => workers);
 
   it.only('should fetch metadata', async () => {
-    const { fast: fastChannel, bindedExchange, publish } = await channel;
-    const { emitter: tmdbEmitter } = await tmdbQueue;
+    const { emitter: indexerEmitter } = await indexerQueue;
+    const messageIncoming = waitForMessage(events.METADATA.FOUND, indexerEmitter, 10000);
 
-    const messageIncoming = waitForMessage(events.METADATA.CREATED, tmdbEmitter, 2000);
-
-    const initialEvent = {
-      basename: 'test.mkv',
-      id,
+    const file = await File.create({
+      basename: 'Lethal weapon.mkv',
+      id: uuid(),
       length: 42
-    };
-
-    filePublish(events.METADATA.CREATED, initialEvent);
+    });
 
     const [ message ] = await messageIncoming;
     const content = message.contentData;
     
-    assert.strictEqual(content.data.id, initialEvent.id, 'invalid id');
-    assert.strictEqual(content.data.length, initialEvent.length, 'invalid length');
-    assert.strictEqual(content.objectId, initialEvent.id, 'invalid object id');
-    assert.strictEqual(message.fields.routingKey, events.METADATA.CREATED, 'invalid routing key');
+    assert.strictEqual(content.data.id, file.id, 'invalid id');
+    assert.strictEqual(content.data.type, File.TYPES.movie, 'invalid type');
+    assert.ok(content.data.movie_id, 'invalid movie id');
+    assert.strictEqual(content.data.model, 'File', 'Invalid model type');
+    assert.strictEqual(message.fields.routingKey, events.METADATA.FOUND, 'invalid routing key');
+
+    await file.destroy();
   });
 
 });

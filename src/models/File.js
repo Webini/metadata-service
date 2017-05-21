@@ -2,15 +2,18 @@ const channelPromise = require('../channels/metadata.js');
 const events = require('../channels/queues/events.js');
 
 module.exports = function(sequelize, DataTypes) {
-  const File = sequelize.define('File', {
+  const modelName = 'File';
+  const File = sequelize.define(modelName, {
     basename: DataTypes.STRING(1024),
+    title: DataTypes.STRING(1024),
     extension: DataTypes.STRING(128),
     length: DataTypes.BIGINT.UNSIGNED,
     type: DataTypes.INTEGER.UNSIGNED
   }, {
     classMethods: {
       associate: function(models) {
-        // associations can be defined here
+        File.belongsTo(models.Movie, { foreignKey: 'movie_id' });
+        File.belongsTo(models.Episode, { foreignKey: 'episode_id' });
       }
     },
     hooks: {
@@ -27,6 +30,17 @@ module.exports = function(sequelize, DataTypes) {
             publish(events.METADATA.DELETED, file.toJSON());
           })
         ;
+      },
+      afterUpdate: (file, options) => {
+        if (file.changed('movie_id') || file.changed('episode_id')) {
+          channelPromise
+            .then(({ publish }) => {
+              publish(events.METADATA.FOUND, Object.assign({
+                model: modelName
+              }, file.toJSON()));
+            })
+          ;
+        }
       }
     }
   });

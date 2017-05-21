@@ -1,1 +1,1 @@
---require ./test/common.js --recursive
+--require ./test/common.js --recursive --timeout=60000

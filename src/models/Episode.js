@@ -17,6 +17,7 @@ module.exports = function(sequelize, DataTypes) {
         });
 
         Episode.belongsTo(models.Season, { foreignKey: 'season_id' });
+        Episode.hasMany(models.File, { foreignKey: 'episode_id' });
       }
     }
   });

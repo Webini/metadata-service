@@ -6,6 +6,7 @@ module.exports = {
   METADATA: {
     CREATED: 'metadata.created',
     FOUND: 'metadata.found',
+    INDEXED: 'metadata.indexed',
     DELETED: 'metadata.deleted'
   }
 };

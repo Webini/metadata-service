@@ -17,9 +17,7 @@ function destroyAll(data) {
   }
 }
 
-describe('Updater', function() {
-  this.timeout(60000);
-
+describe('Updater', () => {
   it('should handle basic priorities', async () => {
     const results = await updater(
       {

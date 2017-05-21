@@ -1,6 +1,4 @@
-const normalizr = require('normalizr');
-const schema = normalizr.schema;
-const normalize = normalizr.normalize;
+const { schema, normalize } = require('normalizr');
 const sharedSchema = require('./sharedSchema.js');
 
 const movie = new schema.Entity('movies', { 

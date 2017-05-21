@@ -1,6 +1,5 @@
 const sharedSchema = require('./sharedSchema.js');
-const normalizr = require('normalizr');
-const schema = normalizr.schema;
+const { schema } = require('normalizr');
 
 module.exports = new schema.Entity('episodes', {
   crew: [ sharedSchema.crew ],

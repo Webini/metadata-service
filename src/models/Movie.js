@@ -80,6 +80,8 @@ module.exports = function(sequelize, DataTypes) {
           foreignKey: 'movie_id',
           otherKey: 'keyword_id'
         });
+
+        Movie.hasMany(models.File, { foreignKey: 'movie_id' });
       }
     }
   });

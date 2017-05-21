@@ -8,7 +8,7 @@ const umzug   = new Umzug({
     sequelize: models.sequelize
   },
   migrations: {
-    params:  [  models.sequelize.getQueryInterface(), models.Sequelize ],
+    params:  [ models.sequelize.getQueryInterface(), models.Sequelize ],
     path: path.join(__dirname, './migrations') 
   }
 });

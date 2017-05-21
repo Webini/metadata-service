@@ -11,6 +11,9 @@ module.exports = {
       basename: {
         type: Sequelize.STRING(1024)
       },
+      title: {
+        type: Sequelize.STRING(1024)
+      },
       extension: {
         type: Sequelize.STRING(128)
       },
@@ -19,6 +22,24 @@ module.exports = {
       },
       type: {
         type: Sequelize.INTEGER.UNSIGNED
+      },
+      episode_id: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+        references: {
+          model: 'Episode',
+          key: 'id',
+        },
+        onDelete: 'SET NULL'
+      },
+      movie_id: {
+        type: Sequelize.INTEGER,
+        allowNull: true,
+        references: {
+          model: 'Movie',
+          key: 'id',
+        },
+        onDelete: 'SET NULL'
       },
       created_at: {
         allowNull: false,

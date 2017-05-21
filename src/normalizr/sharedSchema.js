@@ -1,6 +1,5 @@
-const normalizr = require('normalizr');
+const { schema } = require('normalizr');
 const crypto = require('crypto');
-const schema = normalizr.schema;
 
 const processImage = (value) => {
   const hash = crypto.createHash('md5');
