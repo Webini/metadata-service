@@ -1,11 +1,14 @@
-const models = require('../../src/models/index.js');
-const assert = require('assert');
+const models  = require('../../src/models/index.js');
+const assert  = require('assert');
+const emptyDb = require('../tools/emptyDb.js');
 
 describe('Movie schema', () => {
   const { 
     Movie, Genre, ProductionCompany, Video,
     Person, MovieCast, MovieCrew, Image, Keyword
   } = models;
+
+  after(emptyDb);
 
   afterEach(async () => {
     //no trucate cascade available

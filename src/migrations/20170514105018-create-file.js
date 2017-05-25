@@ -49,6 +49,9 @@ module.exports = {
         allowNull: false,
         type: Sequelize.DATE
       }
+    }, {
+      charset: 'utf8',
+      collate: 'utf8_unicode_ci'
     }).then(() => {
       return queryInterface.addIndex('File', ['type'], { indexName: 'file_type_idx' });
     });

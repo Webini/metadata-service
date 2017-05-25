@@ -10,6 +10,11 @@ describe('Identify', () => {
     assert.equal(result.type, db.File.TYPES.tv, 'Invalid media type');
   });
 
+  it('should not retreive tv', async () => {
+    const result = await identify('test.S01.mkv');
+    assert.equal(result.type, db.File.TYPES.unknownMedia, 'Invalid media type');
+  });
+
   it('should retreive movie', async () => {
     const result = await identify('L\'arme fatale.avi');
     assert.ok(result.movie, 'Invalid metadata type');

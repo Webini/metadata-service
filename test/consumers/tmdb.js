@@ -5,10 +5,12 @@ const waitForMessage = require('../tools/waitForMessage.js');
 const { File } = require('../../src/models/index.js');
 const assert = require('assert');
 const uuid = require('uuid/v4');
+const emptyDb = require('../tools/emptyDb.js');
 
 describe('Tmdb consumer', () => {
   before(() => workers);
-
+  after(emptyDb);
+  
   it('should fetch metadata', async () => {
     const { emitter: indexerEmitter } = await indexerQueue;
     const id = uuid();

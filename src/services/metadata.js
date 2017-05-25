@@ -41,12 +41,15 @@ module.exports = {
     try {
       if (movie === null) {
         const movieData = await tmdb.getMovie(movieId);
-        const normalized = movieNormalizr(movieData);
-        await updater(normalized.entities);
-        movie = await Movie.findOne({ where : { id: movieId } });
+        if (movieData) {
+          const normalized = movieNormalizr(movieData);
+          await updater(normalized.entities);
+          movie = await Movie.findOne({ where : { id: movieId } });
+        }
       }
     } catch(e) {
       await new Promise((resolve) => {
+        console.log(e);
         Raven.captureException(e, { 
           extra: { 
             movie_id: movieId, 
@@ -82,11 +85,14 @@ module.exports = {
     try {
       if (!ids || !ids.season_id || !ids.episode_id) {
         const tvData = await tmdb.getTv(tvId);
-        const normalized = tvNormalizr(tvData);
-        await updater(normalized.entities);
-        ids = await findTvEpisodeId(tvId, seasonNumber, episodeNumber);
+        if (tvData) {        
+          const normalized = tvNormalizr(tvData);
+          await updater(normalized.entities);
+          ids = await findTvEpisodeId(tvId, seasonNumber, episodeNumber);
+        }
       }
     } catch(e) {
+      console.log(e);
       await new Promise((resolve) => {
         Raven.captureException(e, { 
           extra: { 
@@ -99,7 +105,7 @@ module.exports = {
         }, () => resolve());
       });
     }
-
+    
     if (ids && ids.season_id && ids.episode_id) {
       file.episode_id = ids.episode_id;
       file.type = File.TYPES.tv;

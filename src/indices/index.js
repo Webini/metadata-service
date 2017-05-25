@@ -11,8 +11,8 @@ fs
     return (file.indexOf('.') !== 0) && (file !== basename) && (file.slice(-3) === '.js');
   })
   .forEach((file) => {
-    const index = require(path.join(__dirname, file));
-    indices[index.index] = index;
+    const data = require(path.join(__dirname, file));
+    indices[data.definition.index] = data;
   })
 ;
 

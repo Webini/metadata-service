@@ -15,7 +15,7 @@ module.exports = async (filedata) => {
   const output = Object.assign({}, filedata);
 
   let results = null;
-  if (filedata.type === 'episode') {
+  if (filedata.type === 'episode' && filedata.episode) {
     output.type = db.File.TYPES.tv; 
     output.season = output.season || 1;
     results = await tmdb.searchTv(output.title);

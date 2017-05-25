@@ -18,7 +18,7 @@
     "moviedb": "^0.2.7",
     "mysql": "^2.13.0",
     "normalizr": "^3.2.3",
-    "progressbar": "^1.1.1",
+    "progress": "^2.0.0",
     "raven": "^2.0.1",
     "sequelize": "^3.30.4",
     "tmdb-graphql": "^1.0.0",
@@ -30,6 +30,7 @@
     "mocha": "^3.2.0",
     "nock": "^9.0.13",
     "nodemon": "^1.11.0",
+    "sequelize-fixtures": "^0.5.6",
     "uuid": "^3.0.1"
   },
   "scripts": {

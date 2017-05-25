@@ -20,6 +20,9 @@ module.exports = {
         },
         onDelete: 'cascade'
       }
+    }, {
+      charset: 'utf8',
+      collate: 'utf8_unicode_ci'
     });
   },
   down: function(queryInterface, Sequelize) {

@@ -7,11 +7,13 @@ const waitForMessage = require('../tools/waitForMessage.js');
 const { File } = require('../../src/models/index.js');
 const assert = require('assert');
 const uuid = require('uuid/v4');
+const emptyDb = require('../tools/emptyDb.js');
 
 describe('Files consumer', () => {
   const id = uuid();
   before(() => workers);
-
+  after(emptyDb);
+  
   it('should create file and dispatch it to tmdb queue', async () => {
     const { fast: fastChannel, bindedExchange } = await channel;
     const filePublish = connection.createPublish(fastChannel, bindedExchange);

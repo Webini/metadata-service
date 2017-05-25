@@ -1,5 +1,5 @@
-const assert = require('assert');
-const models = require('../../src/models/index.js');
+const assert  = require('assert');
+const models  = require('../../src/models/index.js');
 
 describe('Video schema', () => {
   const { Video } = models;

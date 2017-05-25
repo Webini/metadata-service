@@ -25,6 +25,9 @@ module.exports = {
       order: {
         type: Sequelize.INTEGER
       }
+    }, {
+      charset: 'utf8',
+      collate: 'utf8_unicode_ci'
     });
   },
   down: function(queryInterface, Sequelize) {

@@ -2,20 +2,7 @@ const updater = require('../../src/updater/updater.js');
 const assert = require('assert');
 const moviesData = require('../assets/movie_expected.json');
 const tvData = require('../assets/tv_expected.json');
-
-/**
- * Destroy all entities and chain all promises to avoir deadlock
- */
-function destroyAll(data) {
-  if (Array.isArray(data)) {
-    return data.reduce(async (promise, entity) => {
-      await promise;
-      return destroyAll(entity);
-    }, Promise.resolve());
-  } else {
-    return data.destroy();
-  }
-}
+const emptyDb = require('../tools/emptyDb.js');
 
 describe('Updater', () => {
   it('should handle basic priorities', async () => {
@@ -40,7 +27,7 @@ describe('Updater', () => {
       }
     );
     
-    return destroyAll(results);
+    return emptyDb();
   });
 
   it('should handle many to many creation', async () => {
@@ -82,7 +69,7 @@ describe('Updater', () => {
 
     assert.ok(tvVideos.length && tvVideos[0].id === videoId, 'Invalid video');
     
-    return destroyAll(results);
+    return emptyDb();
   });
 
   it('should handle n:m creation', async () => {
@@ -143,26 +130,26 @@ describe('Updater', () => {
     assert.ok(tvCast.length && tvCast[0].id === castId, 'Invalid cast');
     assert.ok(person.id === personId, 'Invalid person');
 
-    return destroyAll(results);
+    return emptyDb();
   });
 
   it('should handle movie creation with sample data', async () => {
-    const results = await updater(moviesData.entities);
-    return destroyAll(results);
+    await updater(moviesData.entities);
+    return emptyDb();
   });
 
   it('should handle tv creation with sample data', async () => {
-    const results = await updater(tvData.entities);
-    return destroyAll(results);
+    await updater(tvData.entities);
+    return emptyDb();
   });
 
   it('should handle concurrent tv creation with sample data', async () => {
     const promA = updater(tvData.entities);
     const promB = updater(tvData.entities);
     
-    return Promise.all([
-      promB.then((results) => destroyAll(results)),
-      promA.then((results) => destroyAll(results))
-    ]);
+    await promA;
+    await promB;
+
+    return emptyDb();
   });
 });

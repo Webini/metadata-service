@@ -2,25 +2,20 @@ const models   = require('../../src/models/index.js');
 const metadata = require('../../src/services/metadata.js');
 const assert   = require('assert');
 const uuid     = require('uuid/v4');
+const emptyDb  = require('../tools/emptyDb.js');
 
 describe('Metadata', () => {
-  const { Movie, Tv, File, Episode } = models;
+  const { File, Episode } = models;
   const tvId = 1;
-  const seasonNumber = 1;
-  const episodeNumber = 2;
 
-  afterEach(async () => {
-    await Tv.destroy({ cascade: true, where: { id: { $gte: 0 } } });
-    await Movie.destroy({ cascade: true, where: { id: { $gte: 0 } } });
-  });
+  afterEach(emptyDb);
 
   it('should retreive and associate episode', async () => {
     const file = File.build({
       id: uuid(),
-      name: 'Test tv.mkv'
+      basename: 'Hannibal s01e01.mkv'
     });
-
-    await metadata.assignTv(file, tvId, seasonNumber, episodeNumber);
+    await metadata.assign(file);
     assert.ok(file.episode_id, 'No episode id');
     assert.strictEqual(file.type, File.TYPES.tv, 'Invalid type');
   });
@@ -28,12 +23,12 @@ describe('Metadata', () => {
   it(`should update tv id ${tvId}`, async () => {
     const file = File.build({
       id: uuid(),
-      name: 'Test update tv.mkv'
+      basename: 'Hannibal s01e01.mkv'
     });
 
-    await metadata.assignTv(file, tvId, seasonNumber, episodeNumber);
+    await metadata.assign(file);
     await Episode.destroy({ where: { id: file.episode_id } });
-    await metadata.assignTv(file, tvId, seasonNumber, episodeNumber);
+    await metadata.assign(file);
     assert.ok(file.episode_id, 'No episode id');
     assert.strictEqual(file.type, File.TYPES.tv, 'Invalid type');
   });
@@ -41,7 +36,7 @@ describe('Metadata', () => {
   it('should not found movie', async () => {
     const file = File.build({
       id: uuid(),
-      name: 'test 404 movie.mkv'
+      basename: 'test 404 movie.mkv'
     });
     await metadata.assignMovie(file, 1);
 
@@ -52,11 +47,22 @@ describe('Metadata', () => {
   it('should found movie', async () => {
     const file = File.build({
       id: uuid(),
-      name: 'test movie.mkv'
+      basename: 'Birdman.mkv'
     });
-    await metadata.assignMovie(file, 2);
+    await metadata.assign(file);
 
     assert.ok(file.movie_id, 'No movie id found');
     assert.strictEqual(file.type, File.TYPES.movie, 'Invalid type');
-  });
+  }); 
+
+  it('should found serie', async () => {
+    const file = File.build({
+      id: uuid(),
+      basename: 'Peaky Blinders.S01.E01.mkv'
+    });
+    await metadata.assign(file);
+
+    assert.ok(file.episode_id, 'No serie id found');
+    assert.strictEqual(file.type, File.TYPES.tv, 'Invalid type');
+  }); 
 });

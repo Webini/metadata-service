@@ -1,5 +1,3 @@
-'use strict';
-
 function setJsonData(model, field, data) {
   model.setDataValue(field, JSON.stringify(data));
 }
