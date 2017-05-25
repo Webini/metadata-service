@@ -24,7 +24,7 @@ module.exports = {
       await this.assignMovie(file, filedata.movie.id);
     }
 
-    file.title = filedata.title;
+    file.title = filedata.title || filedata.basename;
     return file;
   },
 

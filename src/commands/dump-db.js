@@ -20,11 +20,7 @@ module.exports = async () => {
   await Object
     .keys(models)
     .filter((name) => (name !== 'conf' && name.toLowerCase() !== 'sequelize'))
-    .sort((a, b) => {
-      const aWeight = priorities[a] || 999;
-      const bWeight = priorities[b] || 999;
-      return aWeight - bWeight;
-    })
+    .sort((a, b) => (priorities[a] || 999) - (priorities[b] || 999))
     .reduce(async (promise, name) => {
       await promise;
       const model = models[name];
@@ -51,7 +47,6 @@ module.exports = async () => {
     .then(() => {
       fs.writeFileSync(process.argv[3] || 'dump.json', JSON.stringify(output));
       console.log('Finished');
-      process.exit();
     })
   ;
 };
